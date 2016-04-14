@@ -1,0 +1,253 @@
+/* Navigation
+-------------------------------------------------- */
+header{
+  nav{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgba($c-secondary, 0.95);
+    opacity: 1;
+    box-shadow: 0 0 40px rgba(4, 3, 33, .6);
+
+    @include transition(all .2s ease-out 0s);
+
+    @include bp(min-width,$bp-medium){
+      width: 50%;
+      left:50%;
+    }
+
+    .hide-navigation &{
+      opacity: 1;
+      left: 100%;
+      box-shadow: none;
+    }
+
+    ul{
+      padding: 0;
+      text-transform: uppercase;
+    }
+  }
+}
+
+
+/* Effet translation au dessus BP le plus haut */
+@include bp(min-width, $bp-xlarge + 300){
+  header .logo,
+  main,
+  footer{
+    @include transition(all .2s ease-out 0s);
+  }
+
+  .show-navigation{
+    header .logo,
+    main,
+    footer{
+      transform: translateX(-10%);
+    }
+  }
+}
+
+
+.menu{
+  @extend %vertical-align;
+
+  a {
+    display: block;
+    color: $c-white;
+    font-weight: 900;
+    letter-spacing: 3px;
+    @include transition(all .4s ease-out .1s);
+
+
+    &.active{
+      color: $c-white;
+    }
+
+    &:hover,
+    &:focus{
+      &:not(.active){
+        color: $c-white;
+        /*background: rgba($c-white, 0.05);*/
+        text-decoration: none;
+        opacity: .6;
+      }
+    }
+  }
+
+  .active {
+    opacity: .3;
+  }
+
+  li {
+    list-style: none;
+    font-size: em(36,16);
+    text-align: center;
+    line-height: 73px;
+  }
+
+  > li {
+    position: relative;
+
+    > a {
+      margin: 0;
+     /* border: 1px solid transparent;
+      @include transition(all .4s ease-out .1s);*/
+
+      @include bp(min-width,$bp-medium){
+
+        /*&:hover,
+        &:focus{
+          border-color:  shade($c-site, 70%);
+        }*/
+      }
+
+
+
+    }
+  }
+}
+
+/* BTN NAVIGATION */
+#trigger-nav {
+  background: none;
+  border: none;
+  outline: none;
+  width: 48px;
+  height: 48px;
+  display: block;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  z-index: 1001;
+
+  /*transform: translateX(-200%);*/
+  transition: transform .8s cubic-bezier(.8, 0, .2, 1) .4s;
+
+
+  .show-navigation & {
+    @include bp(min-width,$bp-medium) {
+      &::before {
+        content: '';
+        position: fixed;
+        width: 50%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: transparent;
+        cursor: not-allowed;
+      }
+    }
+  }
+}
+
+.trigger-circle {
+  background: transparent;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*border-radius: 24px;
+  box-shadow: 0 0 40px rgba(8, 3, 33, .4);*/
+}
+
+.no-touchevents{
+  .trigger-circle {
+    transition: transform .4s cubic-bezier(.8, 0, .2, 1)
+  }
+
+  #trigger-nav:active,
+  #trigger-nav:hover {
+    .trigger-circle {
+      transform: scale(1.2)
+    }
+  }
+
+  #trigger-nav:hover,
+  &.hide-navigation #trigger-nav:hover{
+    .trigger-container {
+      transform: rotateZ(180deg)
+    }
+  }
+}
+
+
+
+.trigger-container {
+  width: 20px;
+  height: 20px;
+  margin: -10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: transform .4s cubic-bezier(.8, 0, .2, 1)
+}
+
+
+
+.trigger-bar {
+  background: $c-white;
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  left: 0
+}
+
+
+/* bar-first */
+.trigger-bar-first {
+  top: 3px;
+  transform: translateY(6px) rotateZ(-45deg);
+  transition: transform .4s cubic-bezier(.8, 0, .2, 1)
+}
+
+.hide-navigation .trigger-bar-first {
+  transform: translateY(0) rotateZ(0deg)
+}
+
+.no-touchevents{
+  #trigger-nav:hover .trigger-bar-first {
+    transform: translateY(6px) rotateZ(0deg)
+  }
+
+  &.hide-navigation #trigger-nav:hover .trigger-bar-first {
+     transform: translateY(6px) rotateZ(90deg)
+  }
+}
+
+
+/* bar-second */
+.trigger-bar-second {
+  top: 9px;
+  opacity: 0;
+  transition: opacity .4s cubic-bezier(.8, 0, .2, 1)
+}
+
+.hide-navigation .trigger-bar-second {
+  opacity: 1
+}
+
+/* bar-third */
+.trigger-bar-third {
+  top: 15px;
+  transform: translateY(-6px) rotateZ(45deg);
+  transition: transform .4s cubic-bezier(.8, 0, .2, 1)
+}
+
+.hide-navigation .trigger-bar-third {
+  transform: translateY(0) rotateZ(0deg)
+}
+
+.no-touchevents{
+  #trigger-nav:hover .trigger-bar-third {
+    transform: translateY(-6px) rotateZ(0deg)
+  }
+
+  &.hide-navigation #trigger-nav:hover .trigger-bar-third {
+     transform: translateY(-6px) rotateZ(-90deg)
+   }
+}
+

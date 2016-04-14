@@ -1,13 +1,11 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
-
-    <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
+  <main class="main home" role="main">
+    <h1 class="hidden-L"><?php echo $page->title()->html() ?></h1>
+    <div class="overlay">
+      <img src="<?php echo url('assets/images/logo-ssigur.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
       <?php echo $page->text()->kirbytext() ?>
     </div>
-
-    <hr>
 
     <?php snippet('projects') ?>
 

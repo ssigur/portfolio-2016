@@ -1,0 +1,57 @@
+/* All Stuff to hide */
+.hidden-D {
+    display: none; }
+
+.hidden-L {
+    left: -2000px;
+    position: absolute;
+    width: 200px;
+    float: left; }
+
+.hidden-T {text-indent: -200em; }
+
+/* Clearfix
+-------------------------------------------------- */
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+// =============================================
+// Placeholders / mixins
+// =============================================
+
+/* width fix layout */
+%innertube{
+  max-width: $max-content-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* all stuff to hide */
+%hidden-D{ display:none;}
+%hidden-L{ left:-20000px;position: absolute;width: 200px; float: left;}
+%hidden-T{ text-indent:-200em;}
+
+
+/* stuff to align */
+%align-center_middle{
+  top:50%;
+  left:50%;
+  position:relative;
+  @include transform(translateY(-50% -50%));
+}
+
+%vertical-align {
+  top: 50%;
+  position: relative;
+  @include transform(translateY(-50%));
+}
+
+/* Breakpoint between min-with max-width */
+@mixin bp-minmax($min, $max) {
+  @media (min-width: #{$min}) and (max-width: #{$max}) {
+    @content;
+  }
+}

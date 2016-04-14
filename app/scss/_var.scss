@@ -1,0 +1,63 @@
+// =============================================
+// Primary Break Points
+// =============================================
+
+// These should be used with the bp (max-width, xx) mixin
+// where a min-width is used, remember to +1 to break correctly.
+
+$bp-xsmall: 479px;
+$bp-small: 599px;
+$bp-medium: 770px;
+$bp-large: 979px;
+$bp-xlarge: 1024px;
+
+// Dimensions
+$max-content-width: 1150px;
+
+// =============================================
+// Colors
+// =============================================
+
+$c-blue: #00B9FF;
+$c-green: #11B400;
+$c-green2: #53b73c;
+$c-pink: #D85378;
+$c-orange: #F3793B;
+$c-red: #CF5050;
+$c-white: #fff;
+$c-black: #000;
+$c-gray: #666;
+
+/* */
+$c-site: #040118;
+$c-secondary: $c-blue;
+
+// =============================================
+// Typography
+// =============================================
+
+// Font Stacks
+
+$f-stack-sans: 'alegreya_sans','Helvetica Neue', Verdana, Arial, sans-serif;
+$f-stack-serif: 'cardo',Georgia, Times, 'Times New Roman', serif;
+$f-stack-special: 'cardo', 'Helvetica Neue', Verdana, Arial, sans-serif;
+
+$f-stack-default: $f-stack-sans;
+
+// Font Sizes
+
+$f-size-xxl: 18px;
+$f-size-xl: 16px;
+$f-size-l: 15px;
+
+$f-size: 14px;
+
+$f-size-s: 13px;
+$f-size-xs: 12px;
+$f-size-xxs: 11px;
+
+// Base Measures
+
+$b-line-height: 1.5;
+$b-margin-bottom: 1.5em;
+$b-letter-spacing:2px;

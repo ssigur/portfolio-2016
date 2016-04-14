@@ -1,0 +1,129 @@
+/* Works list - projects
+-------------------------------------------------- */
+.projects {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+
+
+
+  @include display(flex);
+  @include flex-direction(column);
+
+  @include bp(min-width, $bp-small) {
+    @include flex-direction(row);
+  }
+
+  article{
+    height: 260px;
+    flex: none;
+    overflow: hidden;
+    padding: 16px 32px;
+    position: relative;
+    width: 100%;
+
+    background: $c-site;
+
+    a{
+      &::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: $c-black;
+        opacity: 0.6;
+
+        @include transition(opacity .4s ease-out 0s);
+      }
+
+      .legend{
+        position: absolute;
+        z-index: 1;
+        bottom: 10%;
+
+        @include transition(all .4s ease-out 0s);
+
+        .title{
+          font-size: em(28,16);
+          font-weight: 900;
+          letter-spacing: 1px;
+
+          &::after{
+            content: "";
+            width: 60px;
+            height: 1px;
+            display: block;
+            background: $c-secondary;
+            margin-top: 14px;
+            margin-bottom: 6px;
+
+            @include transition(margin .3s ease-out 0);
+          }
+        }
+
+        p{
+          text-transform: uppercase;
+          font-weight: 100;
+          font-size: em(11,16);
+          letter-spacing: 4px;
+        }
+
+
+        @include bp(min-width, $bp-small) {
+          bottom: -50px;
+          opacity:0;
+
+          .title{
+            &::after{
+              margin-top: 100px;
+              margin-bottom: 100px;
+            }
+          }
+        }
+      }
+
+      &:hover,
+      &:focus{
+        &::before {
+          opacity: 0;
+        }
+
+        .legend{
+          bottom:10%;
+          opacity:1;
+
+          .title{
+            &::after{
+              margin-top: 14px;
+              margin-bottom: 6px;
+            }
+          }
+        }
+
+      }
+    }
+
+
+
+    @include bp(min-width, $bp-small) {
+      transform: translate3d(0px, 0px, 0px);
+      height: 100%;
+      width: 50%;
+      display: block;
+
+      .legend{
+        bottom: 16%;
+        opacity: .5;
+
+      }
+
+    }
+
+    @include bp(min-width, $bp-medium) {
+      width: 25%;
+    }
+
+  }
+}

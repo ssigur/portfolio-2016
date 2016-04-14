@@ -1,0 +1,21 @@
+/* Hide on classes */
+
+@include bp(max-width, $bp-xlarge - 1) {
+  .hide-below-xlarge { display: none!important; }
+}
+
+@include bp(max-width, $bp-large) {
+  .hide-below-large { display: none!important; }
+}
+
+@include bp(max-width, $bp-medium) {
+  .hide-below-medium { display: none!important; }
+}
+
+@include bp(max-width, $bp-small) {
+  .hide-below-small { display: none!important; }
+}
+
+@include bp(max-width, $bp-xsmall) {
+  .hide-below-xsmall{ display: none!important; }
+}
