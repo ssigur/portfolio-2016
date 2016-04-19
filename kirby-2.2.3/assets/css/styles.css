@@ -1284,80 +1284,181 @@ box-shadow: 0 0 40px rgba(8, 3, 33, .4);*/ }
 /* Home - overlay
 -------------------------------------------------- */
 /* line 4, ../../../app/scss/ssigur/layout/_home.scss */
-.home .overlay { align-items: center; background: rgba(4, 1, 24, 0.9); display: flex; flex-direction: column; height: 100%; justify-content: center; left: 0; opacity: 1; position: fixed; top: 0; visibility: visible; width: 100%; z-index: 3; -webkit-transition-property: all; -moz-transition-property: all; transition-property: all; -webkit-transition-duration: 0.4s; -moz-transition-duration: 0.4s; transition-duration: 0.4s; -webkit-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; -webkit-transition-delay: 0.1s; -moz-transition-delay: 0.1s; transition-delay: 0.1s; }
-/* line 24, ../../../app/scss/ssigur/layout/_home.scss */
+.home { height: 100%; }
+/* line 7, ../../../app/scss/ssigur/layout/_home.scss */
+.home .overlay { align-items: center; background: rgba(4, 1, 24, 0.9); display: flex; flex-direction: column; height: 100%; justify-content: center; left: 0; opacity: .8; position: fixed; top: 0; visibility: visible; width: 100%; z-index: 3; /*display: none;*/ -webkit-transition-property: all; -moz-transition-property: all; transition-property: all; -webkit-transition-duration: 0.4s; -moz-transition-duration: 0.4s; transition-duration: 0.4s; -webkit-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; -webkit-transition-delay: 0.1s; -moz-transition-delay: 0.1s; transition-delay: 0.1s; }
+/* line 30, ../../../app/scss/ssigur/layout/_home.scss */
 .hide-overlay .home .overlay { opacity: 0; z-index: -1; }
-/* line 29, ../../../app/scss/ssigur/layout/_home.scss */
+/* line 35, ../../../app/scss/ssigur/layout/_home.scss */
 .home .overlay img { padding: 1em; }
-/* line 33, ../../../app/scss/ssigur/layout/_home.scss */
+/* line 39, ../../../app/scss/ssigur/layout/_home.scss */
 .home .overlay ul { padding: 20px 0; -webkit-transition-property: all; -moz-transition-property: all; transition-property: all; -webkit-transition-duration: 0.4s; -moz-transition-duration: 0.4s; transition-duration: 0.4s; -webkit-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; -webkit-transition-delay: 0.1s; -moz-transition-delay: 0.1s; transition-delay: 0.1s; }
-/* line 41, ../../../app/scss/ssigur/layout/_home.scss */
+/* line 47, ../../../app/scss/ssigur/layout/_home.scss */
 .hide-overlay .home .overlay ul { margin-top: 50%; }
-/* line 46, ../../../app/scss/ssigur/layout/_home.scss */
+/* line 52, ../../../app/scss/ssigur/layout/_home.scss */
 .home .overlay li { font-size: 0.75em; font-weight: 300; letter-spacing: 3px; line-height: 20px; list-style: none; text-align: center; text-transform: uppercase; }
-/* line 55, ../../../app/scss/ssigur/layout/_home.scss */
+/* line 61, ../../../app/scss/ssigur/layout/_home.scss */
 .home .overlay li + li { opacity: .6; }
-/* line 60, ../../../app/scss/ssigur/layout/_home.scss */
+/* line 66, ../../../app/scss/ssigur/layout/_home.scss */
 .home .overlay button { border: 1px solid #00B9FF; padding: 1em 2em; background-color: transparent; outline: none; font-size: 0.75em; color: white; text-transform: uppercase; margin-top: 60px; letter-spacing: 1px; -webkit-transition-property: background-color; -moz-transition-property: background-color; transition-property: background-color; -webkit-transition-duration: 0.25s; -moz-transition-duration: 0.25s; transition-duration: 0.25s; -webkit-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; -webkit-transition-delay: 0.1s; -moz-transition-delay: 0.1s; transition-delay: 0.1s; }
-/* line 76, ../../../app/scss/ssigur/layout/_home.scss */
+/* line 82, ../../../app/scss/ssigur/layout/_home.scss */
 .home .overlay button:hover, .home .overlay button:focus { background-color: #00B9FF; }
 
-/* Works list - projets
+/* Works list - projects
 -------------------------------------------------- */
 /* line 3, ../../../app/scss/ssigur/layout/_works.scss */
 .projects { height: 100%; width: 100%; overflow-x: hidden; display: -webkit-box; display: -moz-box; display: box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -moz-box-orient: vertical; box-orient: vertical; -webkit-flex-direction: column; -moz-flex-direction: column; flex-direction: column; -ms-flex-direction: column; }
 @media only screen and (min-width: 599px) { /* line 3, ../../../app/scss/ssigur/layout/_works.scss */
   .projects { -webkit-box-orient: horizontal; -moz-box-orient: horizontal; box-orient: horizontal; -webkit-flex-direction: row; -moz-flex-direction: row; flex-direction: row; -ms-flex-direction: row; } }
 /* line 17, ../../../app/scss/ssigur/layout/_works.scss */
-.projects article { height: 260px; overflow: hidden; padding: 16px; position: relative; width: 100%; background: #666; }
-/* line 27, ../../../app/scss/ssigur/layout/_works.scss */
-.projects article a::before { content: ''; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: #000; opacity: 0.6; -webkit-transition: opacity 0.25s ease-out 0s; -moz-transition: opacity 0.25s ease-out 0s; transition: opacity 0.25s ease-out 0s; }
-/* line 40, ../../../app/scss/ssigur/layout/_works.scss */
-.projects article a .legend { position: absolute; z-index: 1; bottom: 16px; }
-/* line 45, ../../../app/scss/ssigur/layout/_works.scss */
+.projects article { height: 260px; flex: none; overflow: hidden; padding: 16px 32px; position: relative; width: 100%; background: #00B9FF; }
+/* line 28, ../../../app/scss/ssigur/layout/_works.scss */
+.projects article a::before { content: ''; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: #000; opacity: 0.8; -webkit-transition: opacity 0.4s ease-out 0s; -moz-transition: opacity 0.4s ease-out 0s; transition: opacity 0.4s ease-out 0s; }
+/* line 41, ../../../app/scss/ssigur/layout/_works.scss */
+.projects article a .legend { position: absolute; z-index: 1; bottom: 10%; -webkit-transition: all 0.4s ease-out 0s; -moz-transition: all 0.4s ease-out 0s; transition: all 0.4s ease-out 0s; }
+/* line 48, ../../../app/scss/ssigur/layout/_works.scss */
 .projects article a .legend .title { font-size: 1.75em; font-weight: 900; letter-spacing: 1px; }
-/* line 50, ../../../app/scss/ssigur/layout/_works.scss */
-.projects article a .legend .title::after { content: ""; width: 60px; height: 1px; display: block; background: #00B9FF; margin-top: 16px; }
-/* line 60, ../../../app/scss/ssigur/layout/_works.scss */
-.projects article a .legend p { text-transform: uppercase; font-weight: 100; font-size: 0.6875em; letter-spacing: 4px; margin-top: 6px; }
-/* line 71, ../../../app/scss/ssigur/layout/_works.scss */
+/* line 53, ../../../app/scss/ssigur/layout/_works.scss */
+.projects article a .legend .title::after { content: ""; width: 60px; height: 1px; display: block; background: #00B9FF; margin-top: 14px; margin-bottom: 6px; -webkit-transition: margin 0.3s ease-out 0; -moz-transition: margin 0.3s ease-out 0; transition: margin 0.3s ease-out 0; }
+/* line 66, ../../../app/scss/ssigur/layout/_works.scss */
+.projects article a .legend p { text-transform: uppercase; font-weight: 100; font-size: 0.6875em; letter-spacing: 4px; }
+@media only screen and (min-width: 599px) { /* line 41, ../../../app/scss/ssigur/layout/_works.scss */
+  .projects article a .legend { bottom: -50px; opacity: 0; }
+  /* line 79, ../../../app/scss/ssigur/layout/_works.scss */
+  .projects article a .legend .title::after { margin-top: 100px; margin-bottom: 100px; } }
+/* line 89, ../../../app/scss/ssigur/layout/_works.scss */
 .projects article a:hover::before, .projects article a:focus::before { opacity: 0; }
+/* line 93, ../../../app/scss/ssigur/layout/_works.scss */
+.projects article a:hover .legend, .projects article a:focus .legend { bottom: 10%; opacity: 1; }
+/* line 98, ../../../app/scss/ssigur/layout/_works.scss */
+.projects article a:hover .legend .title::after, .projects article a:focus .legend .title::after { margin-top: 14px; margin-bottom: 6px; }
 @media only screen and (min-width: 599px) { /* line 17, ../../../app/scss/ssigur/layout/_works.scss */
   .projects article { transform: translate3d(0px, 0px, 0px); height: 100%; width: 50%; display: block; }
-  /* line 85, ../../../app/scss/ssigur/layout/_works.scss */
+  /* line 116, ../../../app/scss/ssigur/layout/_works.scss */
   .projects article .legend { bottom: 16%; opacity: .5; } }
 @media only screen and (min-width: 770px) { /* line 17, ../../../app/scss/ssigur/layout/_works.scss */
   .projects article { width: 25%; } }
 
+/* Transitions page
+-------------------------------------------------- */
+/* line 6, ../../../app/scss/ssigur/_transitions.scss */
+.m-scene .scene_element { animation-duration: 0.28s; transition-timing-function: ease-in; /*animation-fill-mode: both;*/ }
+/* line 12, ../../../app/scss/ssigur/_transitions.scss */
+.m-scene .scene_element--fade-in { animation-name: fadeIn; animation-duration: 1s; animation-fill-mode: both; }
+@keyframes fadeIn { from { opacity: 0; }
+  to { opacity: 1; } }
+/* line 16, ../../../app/scss/ssigur/_transitions.scss */
+.m-scene .scene_element--fade-in-down { animation-name: fadeInDown; animation-duration: 1s; animation-fill-mode: both; }
+@keyframes fadeInDown { from { opacity: 0; transform: translate3d(0, -100%, 0); }
+  to { opacity: 1; transform: none; } }
+/* line 23, ../../../app/scss/ssigur/_transitions.scss */
+.m-scene.is-exiting .scene_element { animation-direction: alternate-reverse; /*animation-delay: 0s !important;*/ }
+
+/*
+.bounce { @include animate-css(bounce);}
+.flash { @include animate-css(flash);}
+.pulse { @include animate-css(pulse);}
+.rubberBand { @include animate-css(rubberBand);}
+.shake { @include animate-css(shake);}
+.headShake { @include animate-css(headShake);}
+.swing { @include animate-css(swing);}
+.tada { @include animate-css(tada);}
+.wobble { @include animate-css(wobble);}
+.jello { @include animate-css(jello);}
+.bounceIn { @include animate-css(bounceIn);}
+.bounceInDown { @include animate-css(bounceInDown);}
+.bounceInLeft { @include animate-css(bounceInLeft);}
+.bounceInRight { @include animate-css(bounceInRight);}
+.bounceInUp { @include animate-css(bounceInUp);}
+.bounceOut { @include animate-css(bounceOut);}
+.bounceOutDown { @include animate-css(bounceOutDown);}
+.bounceOutLeft { @include animate-css(bounceOutLeft);}
+.bounceOutRight { @include animate-css(bounceOutRight);}
+.bounceOutUp { @include animate-css(bounceOutUp);}
+.fadeIn { @include animate-css(fadeIn);}
+.fadeInDown { @include animate-css(fadeInDown);}
+.fadeInDownBig { @include animate-css(fadeInDownBig);}
+.fadeInLeft { @include animate-css(fadeInLeft);}
+.fadeInLeftBig { @include animate-css(fadeInLeftBig);}
+.fadeInRight { @include animate-css(fadeInRight);}
+.fadeInRightBig { @include animate-css(fadeInRightBig);}
+.fadeInUp { @include animate-css(fadeInUp);}
+.fadeInUpBig { @include animate-css(fadeInUpBig);}
+.fadeOut { @include animate-css(fadeOut);}
+.fadeOutDown { @include animate-css(fadeOutDown);}
+.fadeOutDownBig { @include animate-css(fadeOutDownBig);}
+.fadeOutLeft { @include animate-css(fadeOutLeft);}
+.fadeOutLeftBig { @include animate-css(fadeOutLeftBig);}
+.fadeOutRight { @include animate-css(fadeOutRight);}
+.fadeOutRightBig { @include animate-css(fadeOutRightBig);}
+.fadeOutUp { @include animate-css(fadeOutUp);}
+.fadeOutUpBig { @include animate-css(fadeOutUpBig);}
+.flipInX { @include animate-css(flipInX);}
+.flipInY { @include animate-css(flipInY);}
+.flipOutX { @include animate-css(flipOutX);}
+.flipOutY { @include animate-css(flipOutY);}
+.lightSpeedIn { @include animate-css(lightSpeedIn);}
+.lightSpeedOut { @include animate-css(lightSpeedOut);}
+.rotateIn { @include animate-css(rotateIn);}
+.rotateInDownLeft { @include animate-css(rotateInDownLeft);}
+.rotateInDownRight { @include animate-css(rotateInDownRight);}
+.rotateInUpLeft { @include animate-css(rotateInUpLeft);}
+.rotateInUpRight { @include animate-css(rotateInUpRight);}
+.rotateOut { @include animate-css(rotateOut);}
+.rotateOutDownLeft { @include animate-css(rotateOutDownLeft);}
+.rotateOutDownRight { @include animate-css(rotateOutDownRight);}
+.rotateOutUpLeft { @include animate-css(rotateOutUpLeft);}
+.rotateOutUpRight { @include animate-css(rotateOutUpRight);}
+.hinge { @include animate-css(hinge);}
+.rollIn { @include animate-css(rollIn);}
+.rollOut { @include animate-css(rollOut);}
+.zoomIn { @include animate-css(zoomIn);}
+.zoomInDown { @include animate-css(zoomInDown);}
+.zoomInLeft { @include animate-css(zoomInLeft);}
+.zoomInRight { @include animate-css(zoomInRight);}
+.zoomInUp { @include animate-css(zoomInUp);}
+.zoomOut { @include animate-css(zoomOut);}
+.zoomOutDown { @include animate-css(zoomOutDown);}
+.zoomOutLeft { @include animate-css(zoomOutLeft);}
+.zoomOutRight { @include animate-css(zoomOutRight);}
+.zoomOutUp { @include animate-css(zoomOutUp);}
+.slideInDown { @include animate-css(slideInDown);}
+.slideInLeft { @include animate-css(slideInLeft);}
+.slideInRight { @include animate-css(slideInRight);}
+.slideInUp { @include animate-css(slideInUp);}
+.slideOutDown { @include animate-css(slideOutDown);}
+.slideOutLeft { @include animate-css(slideOutLeft);}
+.slideOutRight { @include animate-css(slideOutRight);}
+.slideOutUp { @include animate-css(slideOutRight);}
+*/
 /* Site
 -------------------------------------------------- */
 /* line 6, ../../../app/scss/styles.scss */
 html { height: 101%; font-family: "Roboto", sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
 /* line 12, ../../../app/scss/styles.scss */
-body { background: #040118; color: #fff; height: 100%; margin: 0 auto; }
-/* line 20, ../../../app/scss/styles.scss */
-body::after { border: 4px solid #fff; pointer-events: none; box-sizing: border-box; content: ''; height: 100vh; left: 0; right: 0; top: 0; overflow: hidden; position: fixed; top: 0; width: 100vw; z-index: 100; }
-/* line 36, ../../../app/scss/styles.scss */
+body { background: #040118; color: #fff; height: 100%; margin: 0 auto;  /* &::after{ border: 4px solid $c-white; pointer-events: none; box-sizing: border-box; content: ''; height: 100vh; left: 0;
+ right: 0; top: 0; overflow: hidden; position: fixed; top: 0; width: 100vw; z-index: 100; }*/ }
+/* line 37, ../../../app/scss/styles.scss */
 body * { box-sizing: border-box; }
-/* line 40, ../../../app/scss/styles.scss */
-body main { height: 100%; }
+/* line 41, ../../../app/scss/styles.scss */
+body #main { height: 100%; }
 
 /* IMG
 -------------------------------------------------- */
-/* line 47, ../../../app/scss/styles.scss */
+/* line 49, ../../../app/scss/styles.scss */
 img { display: block; max-width: 100%; image-rendering: optimizeQuality; }
 
 /* Links
 -------------------------------------------------- */
-/* line 55, ../../../app/scss/styles.scss */
+/* line 57, ../../../app/scss/styles.scss */
 a { color: #fff; text-decoration: none; }
 
 /* Main
 -------------------------------------------------- */
-/* line 70, ../../../app/scss/styles.scss */
+/* line 72, ../../../app/scss/styles.scss */
 main .innertube { margin: 0 auto; max-width: 1150px; }
-/* line 75, ../../../app/scss/styles.scss */
+/* line 77, ../../../app/scss/styles.scss */
 main .text { padding: 100px 20px; text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */

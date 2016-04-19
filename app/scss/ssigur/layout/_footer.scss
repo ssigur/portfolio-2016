@@ -5,14 +5,77 @@ footer {
   min-height: 260px;
   display: block;
   background: $c-secondary;
+  padding: 20px 0 40px;
  /* position: fixed;
   z-index: -1;
   bottom: 0;*/
 
   > *{
-    margin:0 auto;
+    margin:0 20px;
     max-width: $max-content-width;
     overflow: hidden;
   }
 
+  .desc{
+    font-size: em(24,16);
+    font-weight: 900;
+  }
+
+  .contact{
+
+    &::before{
+      content: "";
+      display: block;
+      margin: 10px 0;
+      width: 20%;
+      height: 1px;
+      background: $c-white;
+    }
+
+    .title{
+      font-size: em(24,16);
+    }
+
+    a{
+      font-size: em(12,16);
+      display: block;
+      line-height: 1.6em;
+      opacity: .7;
+
+      &:hover,
+      &:focus{
+        opacity: 1;
+      }
+    }
+  }
+
+  @include bp(min-width, $bp-small) {
+    padding: 40px 0;
+
+    .colophon{
+      max-width: $bp-large;
+      margin: 0 auto;
+
+      .desc{
+        width: 68%;
+        padding:0 20px;
+        float: left;
+      }
+
+      .contact{
+        width: 32%;
+        float: left;
+        margin-top: 1.6em;
+
+        &::before{
+          height: 80px;
+          width: 1px;
+          float: left;
+          margin-right: 20px;
+        }
+      }
+    }
+
+
+  }
 }

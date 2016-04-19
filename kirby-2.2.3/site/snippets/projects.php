@@ -14,10 +14,11 @@
 </ul>
  */ ?>
 <h2 class="hidden-L">projets</h2>
-<section class="projects">
-  <?php foreach(page('projects')->children()->visible() as $project): ?>
-  <article>
-    <a href="<?php echo $project->url() ?>">
+
+<section class="projects-list">
+  <?php  $i=1; foreach(page('projects')->children()->visible() as $project): ?>
+  <article class="project-item">
+    <a class="scene_element scene_element--fade-in-down" href="<?php echo $project->url() ?>" style="animation-delay:<?php echo $i / 8  ?>s">
       <section class="legend">
         <h3 class="title"><?php echo $project->title()->html() ?></h3>
         <p><?php echo $project->text()->excerpt(26) ?></p>
@@ -31,5 +32,14 @@
       <?php endif */ ?>
     </a>
   </article>
-  <?php endforeach ?>
+  <?php $i++; endforeach ?>
+
+  <?php // Old portfolio
+  snippet('projects-old') ?>
+
+
+  <ul class="projects-list-nav scene_element scene_element--fade-in-up">
+    <li class="projects-prev"><span>prev</span></li>
+    <li class="projects-next"><span>next</span></li>
+  </ul>
 </section>

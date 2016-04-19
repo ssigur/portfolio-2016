@@ -1,8 +1,8 @@
-<footer class="footer cf" role="contentinfo">
+<footer class="footer cf scene_element scene_element--fade-in-up" role="contentinfo">
 
   <div class="colophon">
     <?php echo $site->copyright()->kirbytext() ?>
-    <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b>♥</b></a>
+    <?php // <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b>♥</b></a> ?>
   </div>
 
 </footer>
@@ -11,5 +11,6 @@
     'assets/js/app.min.js',
 )) ?>
 
+</div>
 </body>
 </html>

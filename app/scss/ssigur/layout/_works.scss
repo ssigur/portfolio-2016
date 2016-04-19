@@ -1,12 +1,13 @@
 /* Works list - projects
 -------------------------------------------------- */
-.projects {
+.projects-list {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
+  position: relative;
+  background: $c-site;
 
-
-
+  /* Articles ----------------*/
   @include display(flex);
   @include flex-direction(column);
 
@@ -18,13 +19,24 @@
     height: 260px;
     flex: none;
     overflow: hidden;
-    padding: 16px 32px;
-    position: relative;
     width: 100%;
 
-    background: $c-site;
+    @include transition(all .4s ease-out 0s);
 
     a{
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      padding: 16px 32px;
+      box-sizing: border-box;
+      overflow-x: hidden;
+      text-decoration: none;
+      background-size: cover;
+      background: $c-secondary;
+      background-repeat: no-repeat;
+      background-position: center center;
+
       &::before{
         content: '';
         width: 100%;
@@ -33,7 +45,7 @@
         top: 0;
         left: 0;
         background-color: $c-black;
-        opacity: 0.6;
+        opacity: 0.8;
 
         @include transition(opacity .4s ease-out 0s);
       }
@@ -108,7 +120,6 @@
 
 
     @include bp(min-width, $bp-small) {
-      transform: translate3d(0px, 0px, 0px);
       height: 100%;
       width: 50%;
       display: block;
@@ -125,5 +136,68 @@
       width: 25%;
     }
 
+    @include bp(min-width, $bp-xlarge + 540) {
+      width: 20%;
+    }
+
+  }
+
+  /* Projects Nav ----------------*/
+  &-nav{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    z-index: 2;
+    line-height: 1.4em;
+    padding: 0;
+
+
+    &::before{
+      content: "";
+      display: block;
+      height: 30px;
+      width: 1px;
+      background: $c-white;
+      transform: rotate(45deg);
+      position: absolute;
+      left: 50%;
+    }
+    
+    li{
+      list-style-type: none;
+      background: url("../images/arrow.svg") no-repeat 14px 0;
+      width: 50px;
+      height: 30px;
+      display: inline-block;
+      float: left;
+      opacity: .6;
+      margin: 0 7px 0 0;
+
+      @include transition(background .1s ease-out 0);
+
+      + li{
+        transform: rotate(180deg);
+        margin: 0 0 0 7px;
+      }
+
+      &:hover,
+      &:focus{
+        opacity: 1;
+        background-position: 2px 0;
+        cursor: pointer;
+      }
+
+      span{
+        @extend %hidden-L;
+      }
+    }
+
+
+    @include bp(max-width, $bp-small) {
+      &::before,
+      li{
+        display: none;
+      }
+    }
   }
 }

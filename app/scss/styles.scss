@@ -24,6 +24,7 @@ body {
     content: '';
     height: 100vh;
     left: 0;
+
     right: 0;
     top: 0;
     overflow: hidden;
@@ -37,9 +38,10 @@ body {
     box-sizing: border-box;
   }
 
-  main{
+  #main{
     height: 100%;
   }
+
 }
 
 /* IMG

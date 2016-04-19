@@ -1,0 +1,113 @@
+/* Transitions page
+-------------------------------------------------- */
+
+.m-scene{
+
+  .scene_element {
+    animation-duration: 0.28s;
+    transition-timing-function: ease-in;
+    /*animation-fill-mode: both;*/
+
+
+    &--fade-in {
+      @include animate-css(fadeIn);
+    }
+
+    &--fade-in-down {
+      @include animate-css(fadeInDown);
+    }
+
+    &--fade-in-up {
+      @include animate-css(fadeInUpBig);
+    }
+
+  }
+
+  &.is-exiting {
+    .scene_element {
+      animation-direction: alternate-reverse;
+      /*animation-delay: 0s !important;*/
+    }
+  }
+}
+
+
+//
+// Test classes
+/*
+.bounce { @include animate-css(bounce);}
+.flash { @include animate-css(flash);}
+.pulse { @include animate-css(pulse);}
+.rubberBand { @include animate-css(rubberBand);}
+.shake { @include animate-css(shake);}
+.headShake { @include animate-css(headShake);}
+.swing { @include animate-css(swing);}
+.tada { @include animate-css(tada);}
+.wobble { @include animate-css(wobble);}
+.jello { @include animate-css(jello);}
+.bounceIn { @include animate-css(bounceIn);}
+.bounceInDown { @include animate-css(bounceInDown);}
+.bounceInLeft { @include animate-css(bounceInLeft);}
+.bounceInRight { @include animate-css(bounceInRight);}
+.bounceInUp { @include animate-css(bounceInUp);}
+.bounceOut { @include animate-css(bounceOut);}
+.bounceOutDown { @include animate-css(bounceOutDown);}
+.bounceOutLeft { @include animate-css(bounceOutLeft);}
+.bounceOutRight { @include animate-css(bounceOutRight);}
+.bounceOutUp { @include animate-css(bounceOutUp);}
+.fadeIn { @include animate-css(fadeIn);}
+.fadeInDown { @include animate-css(fadeInDown);}
+.fadeInDownBig { @include animate-css(fadeInDownBig);}
+.fadeInLeft { @include animate-css(fadeInLeft);}
+.fadeInLeftBig { @include animate-css(fadeInLeftBig);}
+.fadeInRight { @include animate-css(fadeInRight);}
+.fadeInRightBig { @include animate-css(fadeInRightBig);}
+.fadeInUp { @include animate-css(fadeInUp);}
+.fadeInUpBig { @include animate-css(fadeInUpBig);}
+.fadeOut { @include animate-css(fadeOut);}
+.fadeOutDown { @include animate-css(fadeOutDown);}
+.fadeOutDownBig { @include animate-css(fadeOutDownBig);}
+.fadeOutLeft { @include animate-css(fadeOutLeft);}
+.fadeOutLeftBig { @include animate-css(fadeOutLeftBig);}
+.fadeOutRight { @include animate-css(fadeOutRight);}
+.fadeOutRightBig { @include animate-css(fadeOutRightBig);}
+.fadeOutUp { @include animate-css(fadeOutUp);}
+.fadeOutUpBig { @include animate-css(fadeOutUpBig);}
+.flipInX { @include animate-css(flipInX);}
+.flipInY { @include animate-css(flipInY);}
+.flipOutX { @include animate-css(flipOutX);}
+.flipOutY { @include animate-css(flipOutY);}
+.lightSpeedIn { @include animate-css(lightSpeedIn);}
+.lightSpeedOut { @include animate-css(lightSpeedOut);}
+.rotateIn { @include animate-css(rotateIn);}
+.rotateInDownLeft { @include animate-css(rotateInDownLeft);}
+.rotateInDownRight { @include animate-css(rotateInDownRight);}
+.rotateInUpLeft { @include animate-css(rotateInUpLeft);}
+.rotateInUpRight { @include animate-css(rotateInUpRight);}
+.rotateOut { @include animate-css(rotateOut);}
+.rotateOutDownLeft { @include animate-css(rotateOutDownLeft);}
+.rotateOutDownRight { @include animate-css(rotateOutDownRight);}
+.rotateOutUpLeft { @include animate-css(rotateOutUpLeft);}
+.rotateOutUpRight { @include animate-css(rotateOutUpRight);}
+.hinge { @include animate-css(hinge);}
+.rollIn { @include animate-css(rollIn);}
+.rollOut { @include animate-css(rollOut);}
+.zoomIn { @include animate-css(zoomIn);}
+.zoomInDown { @include animate-css(zoomInDown);}
+.zoomInLeft { @include animate-css(zoomInLeft);}
+.zoomInRight { @include animate-css(zoomInRight);}
+.zoomInUp { @include animate-css(zoomInUp);}
+.zoomOut { @include animate-css(zoomOut);}
+.zoomOutDown { @include animate-css(zoomOutDown);}
+.zoomOutLeft { @include animate-css(zoomOutLeft);}
+.zoomOutRight { @include animate-css(zoomOutRight);}
+.zoomOutUp { @include animate-css(zoomOutUp);}
+.slideInDown { @include animate-css(slideInDown);}
+.slideInLeft { @include animate-css(slideInLeft);}
+.slideInRight { @include animate-css(slideInRight);}
+.slideInUp { @include animate-css(slideInUp);}
+.slideOutDown { @include animate-css(slideOutDown);}
+.slideOutLeft { @include animate-css(slideOutLeft);}
+.slideOutRight { @include animate-css(slideOutRight);}
+.slideOutUp { @include animate-css(slideOutRight);}
+*/

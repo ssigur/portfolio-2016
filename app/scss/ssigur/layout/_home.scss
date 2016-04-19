@@ -1,6 +1,9 @@
 /* Home - overlay
 -------------------------------------------------- */
-.home {
+
+.home{
+  height: 100%;
+
   .overlay {
     align-items: center;
     background: rgba($c-site,.9);
@@ -9,17 +12,20 @@
     height: 100%;
     justify-content: center;
     left: 0;
-    opacity: 1;
+    opacity: .8;
     position: fixed;
     top: 0;
     visibility: visible;
     width: 100%;
     z-index: 3;
+    /*display: none;*/
 
     @include transition-property(all);
     @include transition-duration(.4s);
     @include transition-timing-function(ease-in-out);
     @include transition-delay(.1s);
+
+
 
     .hide-overlay &{
       opacity: 0;
