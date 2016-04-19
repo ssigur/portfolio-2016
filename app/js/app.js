@@ -24,29 +24,29 @@ var init = function() {
     $('html').addClass('hide-navigation').removeClass('show-navigation', 'hide-overlay');
 
     // HOME NAVIGATION SLIDE PROJECTS
-    var workContainer  = document.querySelector('.projects-list');
-    var post           = document.querySelectorAll('.project-item');
-    var next           = document.querySelector('.projects-next');
-    var prev           = document.querySelector('.projects-prev');
-    var nav           = document.querySelector('.projects-list-nav');
+    var workList    = document.querySelector('.projects-list');
+    var item        = document.querySelectorAll('.project-item');
+    var nav         = document.querySelector('.projects-list-nav');
+    var next        = document.querySelector('.projects-next');
+    var prev        = document.querySelector('.projects-prev');
 
     function nextSlide() {
-        // Recalculates postCount in case page has resized
-        var postCount = Math.round(workContainer.getBoundingClientRect().width / post[0].getBoundingClientRect().width);
+        // Recalculates itemCount in case page has resized
+        var itemCount = Math.round(workList.getBoundingClientRect().width / item[0].getBoundingClientRect().width);
 
         // Get integer for current value of transform property
         // Uses RegEx to get the right value
-        var current_pull = post[0].style.transform.match(/-?[\d\.]+/g)[1];
+        var current_pull = item[0].style.transform.match(/-?[\d\.]+/g)[1];
 
         // Checks to see if the slider is at the end
-        if(current_pull != (post.length - postCount) * -100) {
+        if(current_pull != (item.length - itemCount) * -100) {
             // Variable for a new value
             // which is the sum of where it
             // is now plus the step variable
             var new_pull = current_pull - 100;
 
             // Applies the new variable and rounds
-            [].forEach.call(post, function(e) {
+            [].forEach.call(item, function(e) {
                 e.style.transform = 'translate3d('+new_pull+'%,0,0)';
             });
         }
@@ -55,7 +55,7 @@ var init = function() {
     function prevSlide() {
         // Get integer for current value of transform property
         // Uses RegEx to get the right value
-        var current_pull = post[0].style.transform.match(/-?[\d\.]+/g)[1];
+        var current_pull = item[0].style.transform.match(/-?[\d\.]+/g)[1];
 
         // Checks if the transform is currently at 0
         // to tell if the slider has moved yet
@@ -66,35 +66,35 @@ var init = function() {
             var new_pull = parseInt(current_pull) + 100;
 
             // Applies the new variable and rounds
-            [].forEach.call(post, function(e) {
+            [].forEach.call(item, function(e) {
                 e.style.transform = 'translate3d('+new_pull+'%,0,0)';
             });
         }
     }
 
-    if(workContainer) {
-        console.log('worKContainer test');
+    if(workList) {
+        console.log('workList test');
         // Hide arrows if unnecessary
-        if(workContainer.getBoundingClientRect().width == post[0].getBoundingClientRect().width * post.length) {
+        if(workList.getBoundingClientRect().width == item[0].getBoundingClientRect().width * item.length) {
             nav.style.display = 'none';
-            console.log('worKContainer display none');
+            console.log('workList display none');
         }
 
-        var postCount = workContainer.getBoundingClientRect().width / post[0].getBoundingClientRect().width;
+        var itemCount = workList.getBoundingClientRect().width / item[0].getBoundingClientRect().width;
 
-        [].forEach.call(post, function(e) {
+        [].forEach.call(item, function(e) {
             e.style.transform = 'translate3d(0,0,0)';
         });
 
         window.onresize = function() {
             // Hide arrows if unnecessary
-            if(workContainer.getBoundingClientRect().width == post[0].getBoundingClientRect().width * post.length) {
+            if(workList.getBoundingClientRect().width == item[0].getBoundingClientRect().width * item.length) {
                 nav.style.display = 'none';
             } else {
                 nav.style.display = 'block';
             }
 
-            [].forEach.call(post, function(e) {
+            [].forEach.call(item, function(e) {
                 e.style.transform = 'translate3d(0%,0,0)';
             });
         }

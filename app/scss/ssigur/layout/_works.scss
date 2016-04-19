@@ -117,8 +117,6 @@
       }
     }
 
-
-
     @include bp(min-width, $bp-small) {
       height: 100%;
       width: 50%;
@@ -140,6 +138,124 @@
       width: 20%;
     }
 
+
+    /* Old portfolio link ----------------*/
+    &.old{
+      a{
+        background-color: $c-pink;
+        @include transition(background .3s ease-out 0);
+
+        &::before {
+          content: none;
+        }
+
+        &::after{
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom:0;
+          left:0;
+
+          border: 10px solid $c-white;
+
+          @include transition(border .15s ease-out 0);
+        }
+
+        &:hover,
+        &:focus{
+          /*background: $c-pink;*/
+        }
+
+        section{
+          text-align: center;
+          font-size: em(16,16);
+          position: relative;
+          top: 30%;
+
+
+          &::before{
+            content: "+";
+            font-size: em(90,16);
+            line-height: 20px;
+            position: relative;
+          }
+
+          p{
+            font-weight: 100;
+
+            button{
+              border: 1px solid $c-white;
+              padding: 1em 2em;
+              background-color: transparent;
+              outline: none;
+              font-size: em(12,16);
+              color: white;
+              display: block;
+              text-transform: uppercase;
+              margin: 60px auto 0;
+              letter-spacing: 1px;
+
+              @include transition-property(background-color);
+              @include transition-duration(.25s);
+              @include transition-timing-function(ease-in-out);
+              @include transition-delay(.1s);
+
+              display: none;
+
+            }
+
+          }
+        }
+
+
+
+        @include bp(min-width, $bp-small) {
+          &::after{
+            border:0 solid $c-white
+          }
+
+          &:hover,
+          &:focus{
+            &::after{
+              border:12px solid $c-white
+            }
+
+            section{
+              &::before{
+                @include animate-css(rotateIn);
+              }
+
+              p{
+                button{
+                  background-color: $c-white;
+                  color: $c-pink;
+
+                }
+              }
+            }
+          }
+          
+          section{
+            top: 40%;
+            font-size: em(18,16);
+
+            &::before{
+              font-size: em(160,16);
+            }
+
+            p{
+              button{
+                display: block;
+              }
+            }
+
+
+          }
+        }
+
+      }
+    }
   }
 
   /* Projects Nav ----------------*/
@@ -173,7 +289,7 @@
       opacity: .6;
       margin: 0 7px 0 0;
 
-      @include transition(background .1s ease-out 0);
+      @include transition(background .15s ease-out 0);
 
       + li{
         transform: rotate(180deg);
