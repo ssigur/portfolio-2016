@@ -1,5 +1,5 @@
 <?php
-$exclude = c::get('sitemap.exclude', array('error', 'projects/old'));
+$exclude = c::get('sitemap.exclude', array('error', 'projets/old', 'projets/feed'));
 $important = c::get('sitemap.important', array('projects'));
 kirby()->routes(array(
     array(
