@@ -1,0 +1,33 @@
+Title: Arthus-Bertrand
+
+----
+
+Year: 2015
+
+----
+
+Tags: Magento,Dev Front-end,responsive
+
+----
+
+Desc: Intégration thème responsive sous Magento Commerce & développement front-end pour le bijoutier parisien **(link: http://www.arthus-bertrand.fr text: Arthus-Bertrand)**.
+
+----
+
+Headerbackground: head.jpg
+
+----
+
+Homebackground: thumb.jpg
+
+----
+
+Text: 
+
+----
+
+Visuels: maquette_home_finale.jpg,maquette-techniques-produit.jpg,5C.png
+
+----
+
+MetaDescription: Intégration thème responsive sous Magento Commerce et développement front-end pour le bijoutier parisien Arthus-Bertrand

@@ -1,0 +1,33 @@
+Title: Adamence
+
+----
+
+Year: 2013
+
+----
+
+Tags: responsive,Dev Front-end,Magento
+
+----
+
+Desc: Intégration Magento pour le site eCommerce (link: http://www.adamence.com text: **Adamence**), premier joailler en ligne de France.
+
+----
+
+Headerbackground: adamence-head.jpg
+
+----
+
+Homebackground: thumb-3.jpg
+
+----
+
+Text: 
+
+----
+
+Visuels: adamence-hp-desktop-graphic.jpg
+
+----
+
+MetaDescription: Intégration Magento du site eCommerce Adamence, premier joailler en ligne de France.

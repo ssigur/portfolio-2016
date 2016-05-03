@@ -1,0 +1,47 @@
+Title: Université Pierre & Marie CURIE
+
+----
+
+Year: 2009
+
+----
+
+Desc: 
+
+Conception graphique du site internet de l'université (link: http://www.upmc.fr text: **UPMC**) qui a reçu le 1er prix des Trophées de la Communication 2009.
+Réalisé avec **Ametys** pour  (link: http://www.anyware-services.com text: **Anyware-services**).
+
+----
+
+Text: 
+
+----
+
+Tags: ui,webdesign,Front-End
+
+----
+
+Habillagesettings: 
+
+----
+
+Homebackground: upmc-thumb0.jpg
+
+----
+
+Headerbackground: UPMC_head3.jpg
+
+----
+
+Pagesettings: 
+
+----
+
+Visuels: UPMC_Accueil_-_Z3_-_1501.jpg,UPMC_Page_- Z3_-_2201.jpg,UPMC PRO - ACC (2404).jpg
+
+----
+
+MetaDescription:
+
+Conception graphique du site internet de l'université Pierre et Marie CURIE (Paris 6) qui a reçu le 1er prix des Trophées de la Communication 2009.
+Réalisé avec le CMS Ametys pour Anyware-services.

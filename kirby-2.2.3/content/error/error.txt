@@ -1,5 +1,10 @@
-Title: Error
+Title: Erreur
 
 ----
 
-Text: The page has not been found.
+Text: 
+
+**La page demandée n'a pas été trouvée**. 
+Vous allez être redirigé dans quelques instants vers la page d'accueil.
+
+*The page has not been found.*

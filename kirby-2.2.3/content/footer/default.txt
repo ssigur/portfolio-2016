@@ -1,0 +1,12 @@
+Title: footer
+
+----
+
+Text: 
+
+<p class="desc">Stéphane SIGUR, webdesigner et développeur web basé à Toulouse. N'hésitez pas à me contacter si vous avez un projet, ou pour simplement discuter de design!</p>
+<div class="contact">
+   <h2 class="title">Me contacter</h2>
+   (link: mailto:stephane@sigur.net text: contact@sigur.net)
+  (link: tel:+33 6 73 95 51 07 text: +33 6 73 95 51 07)
+</div>

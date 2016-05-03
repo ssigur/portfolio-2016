@@ -1,0 +1,41 @@
+Title: Cultura
+
+----
+
+Year: 2015
+
+----
+
+Desc: Intégration du site eCommerce  (link: http://www.cultura.com text: **Cultura**) en version Mobile, pour le compte de la société d'ingénierie spécialiste du eCommerce avec Magento (link: x2i.fr text: **X2i**).
+
+----
+
+Text: 
+
+----
+
+Tags: Front-End,responsive,Magento
+
+----
+
+Habillagesettings: 
+
+----
+
+Homebackground: cultura-thumb3.jpg
+
+----
+
+Headerbackground: cultura-head2.jpg
+
+----
+
+Pagesettings: 
+
+----
+
+Visuels: cultura-head.jpg
+
+----
+
+MetaDescription: Intégration du site eCommerce de l'enseigne  Cultura en version Mobile, pour le compte de la société d'ingénierie X2i, spécialiste du eCommerce sous Magento.

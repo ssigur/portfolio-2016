@@ -6,19 +6,16 @@ Author: Stéphane SIGUR
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Retrouvez sur ce site quelques extrait de mon travail de graphiste multimédia Webdesigner à travers une sélections de projets, design et développement front-end de site Internet, identité et logos, illustration, retouche photo, issue de différents horizons et contextes professionnels
 
 ----
 
-Keywords: Kirby,CMS,file-based
+Keywords: Stephane,Sigur,Graphiste,Webdesigner,Site web,multimedia,identité,logo,Toulouse,communication,css,integration,html,accessibilité,ecommerce,magento,Drupal,cms,illustrateur,adobe,illustrator,photoshop,flash,actionscript,as3,css3,grunt,sass,bootstrap,gulp,brunch,angular,javascript,ergonomie,ui,ux,swift,axure,balsamiq,wireframe,jQuery
 
 ----
 
-Copyright: 
+Copyright: <p class="copyright">© SIGUR 2004-(date: Year) - Tous droits réservés</p>
 
-<p class="desc">Stéphane SIGUR, Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra!</p>
-<div class="contact">
-<h2 class="title">Me contacter</h2>
-(link: mailto:stephane@sigur.net text: contact@sigur.net)
-(link: tel:+33 6 73 95 51 07 text: +33 6 73 95 51 07)
-</div>
+----
+
+Oldurl: http://drupal.sigur.fr/travaux/all
