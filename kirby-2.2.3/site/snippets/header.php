@@ -36,6 +36,8 @@
   <meta name="msapplication-TileImage" content="<?php echo url('assets/images/favicon/ms-icon-144x144.png') ?>">
   <meta name="theme-color" content="#ffffff">
 
+  <link rel="alternate" type="application/rss+xml" href="<?php echo url('projets/feed') ?>" title="<?php echo html($pages->find('projets/feed')->title()) ?>" />
+
   <?php echo js(array(
       'assets/js/libraries.js',
   )) ?>
