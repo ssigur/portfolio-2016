@@ -18,7 +18,18 @@
       <link><?php echo xml($item->url()) ?></link>
       <guid  isPermaLink="false"><?php echo xml($item->id()) ?></guid>
       <pubDate><?php echo $datefield == 'modified' ? $item->modified('r') : $item->date('r', $datefield) ?></pubDate>
-      <description><![CDATA[<?php echo $item->{$textfield}()->kirbytext() ?>]]></description>
+      <description>
+        <![CDATA[
+        <?php foreach($item->images() as $image): ?>
+          <figure>
+            <a href="<?php echo $image->url() ?>">
+              <img src="<?php echo $image->url() ?>">
+            </a>
+          </figure>
+        <?php endforeach ?>
+        <?php echo $item->desc()->kirbytext(); ?>
+        ]]>
+      </description>
     </item>
     <?php endforeach ?>
 
