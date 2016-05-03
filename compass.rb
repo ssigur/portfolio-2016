@@ -11,4 +11,5 @@ preferred_syntax = :scss
 
 output_style = :compact
 environment = :development
+#environment = :production
 sourcemap = (environment == :production) ? false : true

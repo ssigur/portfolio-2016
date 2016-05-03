@@ -7,14 +7,13 @@ exports.config = {
     "paths": {
         "watched": ["app", "vendor"],
         "public": "kirby-2.2.3",
-        "compass": './compass.rb',
+        compass: "./compass.rb"
     },
 
-    "files": {
-        "stylesheets": {
-            "joinTo": "assets/css/styles.min.css",
+    files: {
+        stylesheets: {
+            "joinTo": 'assets/css/styles.min.css',
         },
-
         javascripts: {
             "joinTo": {
                 'assets/js/libraries.js': /^vendor/,
@@ -55,6 +54,14 @@ exports.config = {
             assetsPath: 'kirby-2.2.3/assets',
             minWidth: 0,
             minHeight: 0
+        },
+        uglify: {
+            mangle: {
+                toplevel: true,
+                eval: true,
+                functions: true
+            },
+            compress: true
         }
     },
     "modules": {
