@@ -18,3 +18,7 @@ fields:
   copyright:
     label: Copyright
     type:  textarea
+  oldurl:
+    label: Url de l'ancien portfolio
+    type:  text
+    help:  Lien présent sur la lise des projet en acc & dans la rubrique projets
