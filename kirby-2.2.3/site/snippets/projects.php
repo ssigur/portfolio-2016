@@ -16,12 +16,24 @@
 <h2 class="hidden-L">projets</h2>
 
 <section class="projects-list">
-  <?php  $i=1; foreach(page('projects')->children()->visible() as $project): ?>
+  <?php  $i=1; foreach(page('projets')->children()->visible() as $project): ?>
   <article class="project-item">
-    <a class="scene_element scene_element--fade-in-down" href="<?php echo $project->url() ?>" style="animation-delay:<?php echo $i / 8  ?>s">
+
+    <?php
+    // Convert the filename to a full file object
+    $file = $project->homeBackground()->toFile();
+    // Use the file object
+    //echo $file->url();
+    ?>
+    <a class="scene_element scene_element--fade-in-down" href="<?php echo $project->url() ?>" style="animation-delay:<?php echo $i / 8  ?>s; <?php echo 'background-image: url('.$file->url().')'?>">
       <section class="legend">
         <h3 class="title"><?php echo $project->title()->html() ?></h3>
-        <p><?php echo $project->text()->excerpt(26) ?></p>
+        <?php /*<p><?php echo $project->Desc()->excerpt(26) ?></p> */ ?>
+        <ul class="tags">
+          <?php foreach($project->tags()->split(',') as $tag): ?>
+            <li><?php echo $tag ?></li>
+          <?php endforeach ?>
+        </ul>
       </section>
 
 
@@ -35,7 +47,10 @@
   <?php $i++; endforeach ?>
 
   <?php // Old portfolio
-  snippet('projects-old') ?>
+    if($site->find('projects/old')){
+      snippet('projects-old', array('i'=>$i));
+    }
+  ?>
 
 
   <ul class="projects-list-nav scene_element scene_element--fade-in-up">
