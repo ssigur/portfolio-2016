@@ -1,5 +1,5 @@
 @import "../vendor/bourbon/bourbon";
-@import "../vendor/hover/hover";
+@import "../vendor/susy/susy";
 @import 'mixin/_animate';
 @import 'mixin/_breakpoint';
 @import 'mixin/_utils';
@@ -9,5 +9,8 @@
 @import 'layout/_footer';
 @import 'layout/_navigation';
 @import 'layout/_home';
-@import 'layout/_works';
+@import 'layout/_tags';
+@import 'layout/_projects';
+@import 'layout/_projects-item';
+@import 'layout/_contact';
 @import '_transitions';

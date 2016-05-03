@@ -1,6 +1,7 @@
 @import "var";
 @import "ssigur/_core";
 
+
 /* Site
 -------------------------------------------------- */
 html {
@@ -8,31 +9,34 @@ html {
   font-family: "Roboto", sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  background: $c-site;
+
+  &.no-touchevents{
+    body{
+      &::after{
+        border: 4px solid $c-white;
+        pointer-events: none;
+        box-sizing: border-box;
+        content: '';
+        height: 100vh;
+        left: 0;
+        right: 0;
+        top: 0;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        z-index: 100;
+      }
+    }
+  }
 }
+
 body {
-
-
   background: $c-site;
   color: $c-white;
   height: 100%;
   margin: 0 auto;
-
- /* &::after{
-    border: 4px solid $c-white;
-    pointer-events: none;
-    box-sizing: border-box;
-    content: '';
-    height: 100vh;
-    left: 0;
-
-    right: 0;
-    top: 0;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    z-index: 100;
-  }*/
 
   *{
     box-sizing: border-box;
@@ -60,7 +64,11 @@ a {
 
   &:hover,
   &:focus{
+    cursor: pointer;
 
+    *{
+      cursor: pointer;
+    }
   }
 }
 
@@ -78,4 +86,10 @@ main{
     padding: 100px 20px;
     text-align: center;
   }
+}
+
+/* Clicky analytics
+-------------------------------------------------- */
+#main + a{
+  @extend %hidden-L;
 }

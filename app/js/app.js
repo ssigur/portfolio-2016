@@ -14,10 +14,7 @@ $(document).ready(function(){
 
 
 
-
-
 });
-
 
 var init = function() {
     // hide / display navigation & home overlay
@@ -29,6 +26,7 @@ var init = function() {
     var nav         = document.querySelector('.projects-list-nav');
     var next        = document.querySelector('.projects-next');
     var prev        = document.querySelector('.projects-prev');
+
 
     function nextSlide() {
         // Recalculates itemCount in case page has resized
@@ -49,6 +47,14 @@ var init = function() {
             [].forEach.call(item, function(e) {
                 e.style.transform = 'translate3d('+new_pull+'%,0,0)';
             });
+
+            // Nav arrow show / hide
+            if(new_pull != (item.length - itemCount) * -100){
+                prev.style.visibility = 'visible';
+            }else{
+                next.style.visibility = 'hidden';
+                prev.style.visibility = 'visible';
+            }
         }
     }
 
@@ -69,34 +75,91 @@ var init = function() {
             [].forEach.call(item, function(e) {
                 e.style.transform = 'translate3d('+new_pull+'%,0,0)';
             });
+
+            // Nav arrow show / hide
+            if(new_pull != 0){
+                next.style.visibility = 'visible';
+            }else{
+                next.style.visibility = 'visible';
+                prev.style.visibility = 'hidden';
+            }
         }
     }
 
     if(workList) {
-        console.log('workList test');
-        // Hide arrows if unnecessary
-        if(workList.getBoundingClientRect().width == item[0].getBoundingClientRect().width * item.length) {
-            nav.style.display = 'none';
-            console.log('workList display none');
+
+        // SWIPE
+        $('.touchevents .projects-list').swipe({
+            //Generic swipe handler for all directions
+            swipeLeft: function () {
+                nextSlide();
+            },
+            swipeRight: function () {
+                prevSlide();
+            },
+            swipeUp: function () {
+                $('html, body').animate({scrollTop: $(document).height()}, '100');
+            },
+            swipeDown: function () {
+                $('html, body').animate({scrollTop: 0}, '100');
+            },
+
+
+            threshold: 80,
+            allowPageScroll: "vertical",
+            //By default the value of $.fn.swipe.defaults.excludedElements is "button, input, select, textarea, a, .noSwipe, "
+            //To replace or clear the list, re set the excludedElements array.
+            //To append to it, do the following (dont forget the proceeding comma) ...
+            excludedElements: ""
+        });
+
+        // No swipe if under bp-small breakpoint (599)
+        if(workList.getBoundingClientRect().width < 600){
+            $('.touchevents .projects-list').swipe("disable");
         }
 
-        var itemCount = workList.getBoundingClientRect().width / item[0].getBoundingClientRect().width;
+        // test orientation device
+        window.onorientationchange = function() {
+            if (workList.getBoundingClientRect().width > 599) {
+                $('.touchevents .projects-list').swipe("enable");
+            } else {
+                $('.touchevents .projects-list').swipe("disable");
+            }
+        }
+        // END SWIPE ---
+
+        // Event MouseWheel
+        $('.no-touchevents .projects-list').on('mousewheel', function(event) {
+            if (workList.getBoundingClientRect().width > 599) {
+                //console.log(event.deltaX, event.deltaY, event.deltaFactor);
+                if(event.deltaX < 0){
+                    prevSlide();
+                }else{
+                    nextSlide();
+                }
+            }
+        });
+
+        // Hide arrows if unnecessary
+        if(workList.getBoundingClientRect().width == Math.round(item[0].getBoundingClientRect().width * item.length)) {
+            nav.style.display = 'none';
+        }
 
         [].forEach.call(item, function(e) {
             e.style.transform = 'translate3d(0,0,0)';
         });
 
         window.onresize = function() {
+            [].forEach.call(item, function(e) {
+                e.style.transform = 'translate3d(0%,0,0)';
+            });
+
             // Hide arrows if unnecessary
-            if(workList.getBoundingClientRect().width == item[0].getBoundingClientRect().width * item.length) {
+            if(workList.getBoundingClientRect().width == Math.round(item[0].getBoundingClientRect().width * item.length)) {
                 nav.style.display = 'none';
             } else {
                 nav.style.display = 'block';
             }
-
-            [].forEach.call(item, function(e) {
-                e.style.transform = 'translate3d(0%,0,0)';
-            });
         }
 
         // On NEXT button click
@@ -112,8 +175,24 @@ var init = function() {
     }
     // END : HOME NAVIGATION SLIDE PROJECTS
 
+    window.onscroll = function() {
+        var pageHeight = window.innerHeight;
+        var scrollProject = document.querySelector('.projects-item');
+
+        if(scrollProject != null){
+            if(window.pageYOffset > pageHeight / 4) {
+                scrollProject.classList.add('hidden-scroll');
+            } else {
+                scrollProject.classList.remove('hidden-scroll');
+            }
+        }
+
+    };
 }
 
+
+
+// SMOOTHSTATE
 $(function(){
     'use strict';
     var $body    = $('html, body');
@@ -154,6 +233,7 @@ $(function(){
 
             onAfter: function($container) {
                 $('html').removeClass('hide-overlay');
+                $(window).trigger('resize');
 
                 //ga('set', { 'page': document.location.pathname, 'title': document.title });
                 //ga('send', 'pageview');

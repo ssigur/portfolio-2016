@@ -12,7 +12,7 @@ header{
     opacity: 1;
     box-shadow: 0 0 40px rgba(4, 3, 33, .6);
 
-    @include transition(all .2s ease-out 0s);
+    @include transition(all .4s ease-out 0s);
 
     @include bp(min-width,$bp-medium){
       width: 50%;
@@ -45,7 +45,7 @@ header{
     header .logo,
     main,
     footer{
-      transform: translateX(-10%);
+      //transform: translateX(-10%);
     }
   }
 }
@@ -59,26 +59,22 @@ header{
     color: $c-white;
     font-weight: 900;
     letter-spacing: 3px;
-    @include transition(all .4s ease-out .1s);
+    @include transition(all .2s ease-out .1s);
+    opacity: .7;
 
 
     &.active{
       color: $c-white;
+      opacity: 1;
     }
 
     &:hover,
     &:focus{
-      &:not(.active){
         color: $c-white;
         /*background: rgba($c-white, 0.05);*/
         text-decoration: none;
-        opacity: .6;
-      }
+        opacity: .8;
     }
-  }
-
-  .active {
-    opacity: .3;
   }
 
   li {

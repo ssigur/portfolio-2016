@@ -3,82 +3,22 @@
 // =============================================
 
 
-/*
-%btn-or-phantom{
-  background: none;
-  border: 1px dashed $c-or;
-  padding: 7px 10px;
-  color: $c-or;
+
+%btn-phantom{
+  border: 1px solid $c-white;
+  padding: 1em 2em;
+  background-color: transparent;
+  outline: none;
+  font-size: em(12,16);
+  color: white;
+  display: block;
   text-transform: uppercase;
-  font-weight: bold;
-  font-family: $f-stack-sans;
+  margin: 60px auto 0;
+  letter-spacing: 1px;
 
-
-  &:hover,
-  &:focus{
-    background-color: $c-or;
-    color: $c-black;
-  }
-
-  @include bp(min-width, $bp-medium) {
-    padding: 10px 20px;
-  }
-
-
+  @include transition-property(background-color, border);
+  @include transition-duration(.25s);
+  @include transition-timing-function(ease-in-out);
+  @include transition-delay(.1s);
 }
 
-%btn-or{
-  background: $c-or;
-  padding: 7px 10px;
-  color: $c-black;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: $f-stack-sans;
-  font-size: $f-size-xl;
-
-
-  &:hover,
-  &:focus{
-    background-color: $c-black;
-    color: $c-or;
-  }
-
-  @include bp(min-width, $bp-medium) {
-    padding: 10px 20px;
-  }
-
-}
-
-
-%btn-black{
-  background: $c-black;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: $f-stack-sans;
-
-  &:hover,
-  &:focus{
-    background-color: $c-yellow;
-    color: $c-black;
-  }
-
-  @include bp(min-width, $bp-medium) {
-    padding: 10px 20px;
-  }
-
-}
-
-
-%btn-see-more{
-  border: none;
-  border-top: 1px solid $c-black;
-  border-bottom: 1px solid $c-black;
-  background: none;
-  padding: 7px 10px;
-  color: $c-black;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: $f-stack-sans;
-  font-size: $f-size-xl;
-}*/

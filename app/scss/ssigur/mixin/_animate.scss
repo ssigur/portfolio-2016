@@ -100,7 +100,7 @@
 //     slideOutUp
 //
 // -----------------------------------------------------------------------
-@mixin animate-css($type, $duration:null, $repeat: null){
+@mixin animate-css($type, $duration:null, $repeat: null, $delay: null){
 
   //     Animation name prefix
   $prefix: '';
@@ -115,6 +115,9 @@
 
   //     Repeat
   animation-iteration-count: if($repeat == infinite, infinite, $repeat);
+
+  //     Delay
+  animation-delay: $delay or 0;
 
   //    Fill mode
   animation-fill-mode: both;

@@ -1,0 +1,337 @@
+.projects-item{
+
+  header{
+    background-size: cover;
+    background-repeat: none;
+    background-position: 50% 0;
+
+    height: 100vh;
+
+
+    width: 100%;
+    padding: 20px;
+    @include display(flex);
+    @include box-pack(center);
+    @include justify-content(center);
+    @include align-items(center);
+    @include flex-direction(column);
+    @include box-orient(vertical);
+    @include box-direction(normal);
+    position: relative;
+    box-sizing: border-box;
+
+
+
+
+    /* Layered */
+    &::before{
+      @include linear-gradient(rgba($c-site, .1), rgba($c-site, .4) 20%, $c-site 100%);
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      opacity: 1;
+      top: initial;
+      z-index: 1;
+      transform: translateX(0%);
+    }
+
+    /* Picto Scroll */
+    &::after{
+      content: "";
+      display: block;
+      width: 100%;
+      height: 90px;
+      left:0;
+      bottom: 4px;
+      position: absolute;
+      opacity: .6;
+      z-index: 2;
+
+      background: transparent url(../images/mouse-scroll.svg) no-repeat 50% 50%;
+      /*background-size: 1.8%;*/
+
+      @include animate-css(fadeInDown, $duration: 3s, $repeat: infinite, $delay: 3s);
+    }
+
+
+    .title{
+      font-size: em(42,16);
+      font-weight: 900;
+      line-height: 1.2em;
+      margin: 0;
+      max-width: 400px;
+      padding: 0 20px;
+      text-align: center;
+      z-index: 2;
+
+      &::after {
+        content: '';
+        height: 3px;
+        width: 70px;
+        background-color: $c-white;
+        margin: 14px auto -6px;
+        display: block;
+      }
+    }
+
+    .chapo{
+      color: $c-white;
+      font-size: em(24,16);
+      font-weight: 100;
+      line-height: 1.6em;
+      max-width: 500px;
+      padding: 0 20px;
+      text-align: center;
+      z-index: 2;
+
+      a{
+        border-bottom: 1px dotted rgba($c-secondary, .4);
+        @include transition(color .4s ease-out 0s);
+
+        &:hover,
+        &:focus{
+          color: $c-secondary;
+          cursor: pointer;
+        }
+      }
+
+    }
+  }
+
+  // Hide picto scroll down
+  &.hidden-scroll header::after{
+    display: none;
+  }
+
+  /* Content Images
+  -------------------------------------------------- */
+  .content{
+    margin-bottom: 60px;
+
+    figure{
+      margin: 0 auto 20px;
+      max-width: 880px;
+      padding: 10px;
+
+      figcaption{
+        text-align: center;
+        font-size: em(14,16);
+        font-weight: 500;
+        font-style: italic;
+        letter-spacing: 1px;
+        color: rgba($c-white, .5);
+        padding-top: 8px;
+      }
+    }
+
+    img{
+      margin: 0 auto;
+      box-shadow: 0px 0px 12px $c-gray;
+    }
+
+    @include bp(min-width, $bp-small) {
+      margin-bottom: 120px;
+
+      figure{
+        margin-bottom: 4%;
+        padding: 10px;
+      }
+      img{
+        border: 10px solid $c-white;
+        padding: 1px;
+        background: tint($c-gray, 80%);
+      }
+    }
+  }
+
+
+  /* Navigation
+  -------------------------------------------------- */
+  nav{
+    @include container(100%);
+    margin: 0 auto;
+
+    a{
+      position: relative;
+      padding: 50px 20px;
+      text-align: left;
+      background-position: 100% 50%;
+      background-size: cover;
+      @include span(12 of 12 inside no-gutters);
+
+      @include bp(min-width, $bp-small) {
+        @include span(6 of 12 inside no-gutters);
+      }
+
+      &::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        opacity: 1;
+        top: 0;
+        right: 0;
+        z-index: 1;
+
+        @include linear-gradient( rgba($c-site, .4) 20%, rgba($c-site, .9) 80%);
+        @include transition(all .2s ease-in);
+      }
+
+      &:hover,
+      &:focus{
+        &::before{
+          @include  linear-gradient( rgba($c-site, .3) 0%, rgba($c-site, .6) 50%);
+        }
+
+        .legend{
+          span{
+            padding-top: -6px;
+
+            &::after{
+              transform: translateY(0px);
+              margin: 4px 0 5px;
+              opacity: 1;
+            }
+          }
+
+          em{
+            transform: translateY(2px);
+            opacity: .8;
+          }
+        }
+
+
+      }
+
+      .legend{
+        position: absolute;
+        top : 16px;
+        left: 20px;
+        z-index: 3;
+        padding-left: 40px ;
+        background: transparent url(../images/arrow.svg) no-repeat 0  10px;
+
+        span{
+          position: relative;
+          z-index: 2;
+          font-size: em(32,16);
+          line-height: 1.2em;
+          font-weight: 900;
+          letter-spacing: 1px;
+
+          &::after{
+            content: "";
+            height: 1px;
+            width: 100%;
+            display: block;
+            background-color: $c-secondary;
+            opacity: 0;
+            margin: 0 0 5px;
+            transform: translateY(12px);
+            position: relative;
+            z-index: 2;
+
+            @include transition(all .2s ease-in, opacity .2s ease-in-out .1s);
+          }
+
+        }
+
+        em{
+          color: $c-secondary;
+          font-size: em(10,16);
+          font-style: normal;
+          font-weight: 600;
+          text-transform: uppercase;
+          display: block;
+          position: relative;
+          z-index: 2;
+          opacity: .04;
+          letter-spacing: 2px;
+          transform: translateY(-4px);
+          @include transition(all .2s ease-out 0);
+        }
+      }
+
+
+      &.next{
+        text-align: right;
+        background-position: 0 50%;
+        float: right;
+
+        .legend{
+          right: 20px;
+          left: inherit;
+
+          background-image:url(../images/arrow-r.svg);
+          background-position: 100% 10px;
+          padding-right: 40px;
+        }
+      }
+
+      /* Old Portfolio link */
+      &.old{
+
+        &::before{
+          content: none;
+        }
+
+        &::after{
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom:0;
+          left:0;
+
+          @include transition(border .15s ease-out 0);
+        }
+
+        &:hover,
+        &:focus{
+          &::after{
+            border: 10px solid $c-white;
+          }
+
+          section::before{
+            @include animate-css(headShake);
+          }
+
+        }
+
+        section{
+          position: absolute;
+          background-color: $c-green;
+          top:0;
+          bottom:0;
+          left:0;
+          right:0;
+
+          text-align: right;
+          padding: 10px 80px 10px 10px;
+          font-size: em(16,16);
+
+
+          &::before{
+            content: "+";
+            font-size: em(80,16);
+            line-height: 20px;
+            position: absolute;
+            right: 20px;
+            bottom: calc(50%  - 4px);
+          }
+
+          p{
+            font-weight: 100;
+
+            button{
+              display: none;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}

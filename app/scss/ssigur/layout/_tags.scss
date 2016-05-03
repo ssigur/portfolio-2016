@@ -1,0 +1,51 @@
+/* Tags (Home & projet)
+-------------------------------------------------- */
+
+.tags{
+  max-width: 400px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  z-index: 2;
+  opacity: .4;
+
+  @include transition(opacity .4s ease-out 0s);
+
+
+
+  &:hover,
+  &:focus{
+    opacity: 1;
+  }
+
+  li{
+    display: inline;
+    margin: auto 3px;
+    text-transform: uppercase;
+    font-size: em(12,16);
+    font-weight: 300;
+    white-space: nowrap;
+
+
+    &::before{
+      content: '#';
+      color: $c-secondary;
+      font-weight: 900;
+    }
+  }
+
+  /* Accueil */
+  .home &{
+     text-align: left;
+
+     li{
+       margin-left: 0;
+
+       &::before{
+         /*color: $c-white;*/
+         opacity: .5;
+
+       }
+     }
+   }
+}

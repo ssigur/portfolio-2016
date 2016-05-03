@@ -17,8 +17,14 @@ footer {
   }
 
   .desc{
-    font-size: em(24,16);
-    font-weight: 900;
+    font-size: em(20,16);
+    font-weight: 300;
+  }
+
+  .copyright{
+    text-align: center;
+    font-size: em(10,16);
+    margin:20px 20px 0px;
   }
 
   .contact{
@@ -26,7 +32,7 @@ footer {
     &::before{
       content: "";
       display: block;
-      margin: 10px 0;
+      margin: 0 0 10px;
       width: 20%;
       height: 1px;
       background: $c-white;
@@ -65,7 +71,7 @@ footer {
       .contact{
         width: 32%;
         float: left;
-        margin-top: 1.6em;
+        margin-top: 20px;
 
         &::before{
           height: 80px;

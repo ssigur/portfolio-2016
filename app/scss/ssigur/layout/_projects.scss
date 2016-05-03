@@ -33,7 +33,7 @@
       overflow-x: hidden;
       text-decoration: none;
       background-size: cover;
-      background: $c-secondary;
+      background: $c-site;
       background-repeat: no-repeat;
       background-position: center center;
 
@@ -44,10 +44,9 @@
         position: absolute;
         top: 0;
         left: 0;
-        background-color: $c-black;
-        opacity: 0.8;
-
-        @include transition(opacity .4s ease-out 0s);
+        opacity: 0.4;
+        @include linear-gradient($c-site, $c-site);
+        @include transition(all .6s ease-out 0s);
       }
 
       .legend{
@@ -98,8 +97,11 @@
 
       &:hover,
       &:focus{
+        cursor: pointer;
+
         &::before {
-          opacity: 0;
+          opacity: .6;
+          @include linear-gradient(rgba($c-site, .1) 40%,rgba($c-site, .6) 60%, $c-site 70%);
         }
 
         .legend{
@@ -142,7 +144,7 @@
     /* Old portfolio link ----------------*/
     &.old{
       a{
-        background-color: $c-pink;
+        background-color: $c-green;
         @include transition(background .3s ease-out 0);
 
         &::before {
@@ -160,11 +162,6 @@
           border: 10px solid $c-white;
 
           @include transition(border .15s ease-out 0);
-        }
-
-        &:hover,
-        &:focus{
-          /*background: $c-pink;*/
         }
 
         section{
@@ -185,24 +182,8 @@
             font-weight: 100;
 
             button{
-              border: 1px solid $c-white;
-              padding: 1em 2em;
-              background-color: transparent;
-              outline: none;
-              font-size: em(12,16);
-              color: white;
-              display: block;
-              text-transform: uppercase;
-              margin: 60px auto 0;
-              letter-spacing: 1px;
-
-              @include transition-property(background-color);
-              @include transition-duration(.25s);
-              @include transition-timing-function(ease-in-out);
-              @include transition-delay(.1s);
-
+              @extend %btn-phantom;
               display: none;
-
             }
 
           }
@@ -223,14 +204,13 @@
 
             section{
               &::before{
-                @include animate-css(rotateIn);
+                @include animate-css(headShake);
               }
 
               p{
                 button{
                   background-color: $c-white;
-                  color: $c-pink;
-
+                  color: $c-green;
                 }
               }
             }
@@ -281,7 +261,7 @@
     
     li{
       list-style-type: none;
-      background: url("../images/arrow.svg") no-repeat 14px 0;
+      background:transparent url(../images/arrow.svg) no-repeat 14px 0;
       width: 50px;
       height: 30px;
       display: inline-block;
@@ -289,11 +269,14 @@
       opacity: .6;
       margin: 0 7px 0 0;
 
+      visibility: hidden;
+
       @include transition(background .15s ease-out 0);
 
       + li{
         transform: rotate(180deg);
         margin: 0 0 0 7px;
+        visibility: visible;
       }
 
       &:hover,
