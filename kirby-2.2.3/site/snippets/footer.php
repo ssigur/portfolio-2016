@@ -13,5 +13,7 @@
 
 </div>
 
+<?php snippet('googleanalytics') // ! \\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  ?>
+
 </body>
 </html>
