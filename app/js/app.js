@@ -235,8 +235,8 @@ $(function(){
                 $('html').removeClass('hide-overlay');
                 $(window).trigger('resize');
 
-                //ga('set', { 'page': document.location.pathname, 'title': document.title });
-                //ga('send', 'pageview');
+                ga('set', { 'page': document.location.pathname, 'title': document.title });
+                ga('send', 'pageview');
             }
         },
         smoothState = $('#main').smoothState(options).data('smoothState');
