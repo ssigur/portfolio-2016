@@ -8,8 +8,8 @@ $size: 40px;
   vertical-align: middle;
   position: absolute;
   @include calc(left, "50% - #{$size / 2}");
-  @include calc(top, "50% - #{$size / 2}");
-  z-index: 20;
+  @include calc(top, "100% - 15%");
+  z-index: 2000;
   opacity: 0;
   pointer-events: none;
 
@@ -23,34 +23,11 @@ $size: 40px;
 }
 
 
-.loader-bars{
-  &:before,
-  &:after,
-  span{
-    content:'';
-    display: block;
-    position: absolute;
-    left: 0px;
-    top: 0;
-    width: 10px;
-    height: 40px;
-    background-color: #FFF;
-    @include animation(grow 1s linear infinite);
-  }
 
-  &:after{
-    left: 15px;
-    @include animation-delay(-.66s);
-  }
+@import '../mixin/loader/loader-circles';
 
-  span{
-    left: 30px;
-    @include animation-delay(-.33s);
-  }
-}
-
-@include keyframes(grow) {
-  0% { @include transform(scaleY(0)); opacity:0;}
-  50% { @include transform(scaleY(1)); opacity:1;}
-  100% { @include transform(scaleY(0)); opacity:0;}
-}
+//@import '../mixin/loader/loader-quart';
+//@import '../mixin/loader/loader-double';
+//@import '../mixin/loader/loader-circles';
+//@import '../mixin/loader/loader-bars';
+//@import '../mixin/loader/loader-bubbles';
