@@ -45,7 +45,11 @@
 
 </head>
 <body>
+
   <div id="main" class="m-scene">
+
+    <?php snippet('loader') ?>
+
     <header class="header cf" role="banner">
       <a class="logo" href="<?php echo url() ?>">
         <span class="hidden-L">Stéphane SIGUR</span>
@@ -61,5 +65,7 @@
           <div class="trigger-bar trigger-bar-third"></div>
         </div>
       </button>
+
       <?php snippet('menu') ?>
+
     </header>

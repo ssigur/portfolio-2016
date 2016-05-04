@@ -408,6 +408,28 @@ box-shadow: 0 0 40px rgba(8, 3, 33, .4);*/ }
   /* line 127, ../../../app/scss/ssigur/layout/_contact.scss */
   .contact article .content { width: 66.10169%; float: right; margin-right: 0; } }
 
+/* Variables */
+/* line 4, ../../../app/scss/ssigur/layout/_loader-bars.scss */
+.loader { width: 40px; height: 40px; display: inline-block; vertical-align: middle; position: absolute; left: -webkit-calc(50% - 20px); left: calc(50% - 20px); top: -webkit-calc(50% - 20px); top: calc(50% - 20px); z-index: 20; opacity: 0; pointer-events: none; -webkit-transition: opacity 0.6s ease-out-in; -moz-transition: opacity 0.6s ease-out-in; transition: opacity 0.6s ease-out-in; }
+/* line 19, ../../../app/scss/ssigur/layout/_loader-bars.scss */
+.is-loading .loader { opacity: .6; }
+
+/* line 27, ../../../app/scss/ssigur/layout/_loader-bars.scss */
+.loader-bars:before, .loader-bars:after, .loader-bars span { content: ''; display: block; position: absolute; left: 0px; top: 0; width: 10px; height: 40px; background-color: #FFF; -webkit-animation: grow 1s linear infinite; -moz-animation: grow 1s linear infinite; animation: grow 1s linear infinite; }
+/* line 41, ../../../app/scss/ssigur/layout/_loader-bars.scss */
+.loader-bars:after { left: 15px; -webkit-animation-delay: -0.66s; -moz-animation-delay: -0.66s; animation-delay: -0.66s; }
+/* line 46, ../../../app/scss/ssigur/layout/_loader-bars.scss */
+.loader-bars span { left: 30px; -webkit-animation-delay: -0.33s; -moz-animation-delay: -0.33s; animation-delay: -0.33s; }
+
+@-webkit-keyframes grow { 0% { -webkit-transform: scaleY(0); opacity: 0; }
+  50% { -webkit-transform: scaleY(1); opacity: 1; }
+  100% { -webkit-transform: scaleY(0); opacity: 0; } }
+@-moz-keyframes grow { 0% { -moz-transform: scaleY(0); opacity: 0; }
+  50% { -moz-transform: scaleY(1); opacity: 1; }
+  100% { -moz-transform: scaleY(0); opacity: 0; } }
+@keyframes grow { 0% { -webkit-transform: scaleY(0); -moz-transform: scaleY(0); -ms-transform: scaleY(0); -o-transform: scaleY(0); transform: scaleY(0); opacity: 0; }
+  50% { -webkit-transform: scaleY(1); -moz-transform: scaleY(1); -ms-transform: scaleY(1); -o-transform: scaleY(1); transform: scaleY(1); opacity: 1; }
+  100% { -webkit-transform: scaleY(0); -moz-transform: scaleY(0); -ms-transform: scaleY(0); -o-transform: scaleY(0); transform: scaleY(0); opacity: 0; } }
 /* Transitions page
 -------------------------------------------------- */
 /* line 6, ../../../app/scss/ssigur/_transitions.scss */

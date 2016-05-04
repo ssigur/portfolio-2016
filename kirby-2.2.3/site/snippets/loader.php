@@ -1,0 +1,1 @@
+<span class="loader loader-bars"><span></span></span>

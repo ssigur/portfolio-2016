@@ -1,0 +1,31 @@
+.loader-bars{
+  &:before,
+  &:after,
+  span{
+    content:'';
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 10px;
+    height: 30px;
+    background-color: #FFF;
+    @include animation(grow 1s linear infinite);
+  }
+
+  &:after{
+    left: 15px;
+    @include animation-delay(-.66s);
+  }
+
+  span{
+    left: 30px;
+    @include animation-delay(-.33s);
+  }
+}
+
+@include keyframes(grow) {
+  0% { @include transform(scaleY(0)); opacity:0;}
+  50% { @include transform(scaleY(1)); opacity:1;}
+  100% { @include transform(scaleY(0)); opacity:0;}
+}
