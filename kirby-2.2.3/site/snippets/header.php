@@ -48,8 +48,6 @@
 
   <div id="main" class="m-scene">
 
-    <?php snippet('loader') ?>
-
     <header class="header cf" role="banner">
       <a class="logo" href="<?php echo url() ?>">
         <span class="hidden-L">Stéphane SIGUR</span>

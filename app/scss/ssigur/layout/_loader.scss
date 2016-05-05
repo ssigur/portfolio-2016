@@ -6,7 +6,7 @@ $size: 40px;
   height: $size;
   display: inline-block;
   vertical-align: middle;
-  position: absolute;
+  position: fixed;
   @include calc(left, "50% - #{$size / 2}");
   @include calc(top, "100% - 15%");
   z-index: 2000;

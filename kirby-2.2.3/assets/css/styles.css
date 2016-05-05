@@ -410,14 +410,14 @@ box-shadow: 0 0 40px rgba(8, 3, 33, .4);*/ }
 
 /* Variables */
 /* line 4, ../../../app/scss/ssigur/layout/_loader.scss */
-.loader { width: 40px; height: 40px; display: inline-block; vertical-align: middle; position: absolute; left: -webkit-calc(50% - 20px); left: calc(50% - 20px); top: -webkit-calc(100% - 15%); top: calc(100% - 15%); z-index: 2000; opacity: 0; pointer-events: none; -webkit-transition: opacity 0.6s ease-out-in; -moz-transition: opacity 0.6s ease-out-in; transition: opacity 0.6s ease-out-in; }
+.loader { width: 40px; height: 40px; display: inline-block; vertical-align: middle; position: fixed; left: -webkit-calc(50% - 20px); left: calc(50% - 20px); top: -webkit-calc(100% - 15%); top: calc(100% - 15%); z-index: 2000; opacity: 0; pointer-events: none; -webkit-transition: opacity 0.6s ease-out-in; -moz-transition: opacity 0.6s ease-out-in; transition: opacity 0.6s ease-out-in; }
 /* line 19, ../../../app/scss/ssigur/layout/_loader.scss */
 .is-loading .loader { opacity: .6; }
 
 /* line 1, ../../../app/scss/ssigur/mixin/loader/_loader-circles.scss */
 .loader-circles { border-radius: 40px; border: 3px solid transparent; border-top-color: #FFF; -webkit-animation: spin 1s linear infinite; -moz-animation: spin 1s linear infinite; animation: spin 1s linear infinite; }
 /* line 6, ../../../app/scss/ssigur/mixin/loader/_loader-circles.scss */
-.loader-circles:before, .loader-circles:after { content: ''; position: absolute; top: 5px; left: 5px; bottom: 5px; right: 5px; border-radius: 40px; border: 3px solid transparent; border-top-color: #FFF; opacity: 0.8; -webkit-animation: spin 10s linear infinite; -moz-animation: spin 10s linear infinite; animation: spin 10s linear infinite; }
+.loader-circles:before, .loader-circles:after { content: ''; position: absolute; top: 5px; left: 5px; bottom: 5px; right: 5px; border-radius: 40px; border: 3px solid transparent; border-top-color: #FFF; opacity: 0.8; -webkit-animation: spin 6s linear infinite; -moz-animation: spin 6s linear infinite; animation: spin 6s linear infinite; }
 /* line 19, ../../../app/scss/ssigur/mixin/loader/_loader-circles.scss */
 .loader-circles:before { top: 12px; left: 12px; bottom: 12px; right: 12px; opacity: .5; -webkit-animation: spin 5s linear infinite; -moz-animation: spin 5s linear infinite; animation: spin 5s linear infinite; }
 

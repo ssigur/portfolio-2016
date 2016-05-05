@@ -210,7 +210,7 @@ $(function(){
                     $container.addClass('is-exiting');
 
                     // Add your CSS animation loading
-                    $container.addClass('is-loading');
+                    $body.addClass('is-loading');
 
                     $body.animate({
                         scrollTop: 0
@@ -237,7 +237,7 @@ $(function(){
             onAfter: function($container) {
 
                 // Remove your CSS animation reversing class
-                $container.removeClass('is-loading');
+                $body.removeClass('is-loading');
 
                 $('html').removeClass('hide-overlay');
                 $(window).trigger('resize');

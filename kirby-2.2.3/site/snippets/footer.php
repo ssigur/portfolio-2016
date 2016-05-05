@@ -12,6 +12,7 @@
 )) ?>
 
 </div>
+<?php snippet('loader') ?>
 
 <?php snippet('googleanalytics') // ! \\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  ?>
 
