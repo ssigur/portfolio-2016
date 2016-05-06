@@ -54,16 +54,6 @@
         <img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
       </a>
 
-      <?php /* BTN Menu */ ?>
-      <button id="trigger-nav">
-        <div class="trigger-circle"></div>
-        <div class="trigger-container">
-          <div class="trigger-bar trigger-bar-first"></div>
-          <div class="trigger-bar trigger-bar-second"></div>
-          <div class="trigger-bar trigger-bar-third"></div>
-        </div>
-      </button>
-
       <?php snippet('menu') ?>
 
     </header>

@@ -118,6 +118,27 @@ header{
   top: 30px;
   right: 30px;
   z-index: 1001;
+  overflow: visible;
+
+  .label{
+    color: $c-white;
+    text-transform: uppercase;
+    margin-left: -86px;
+    font-size: em(12,16);
+    letter-spacing: 2px;
+    font-weight: 500;
+    opacity: .5;
+    @include transition(opacity .4s ease-out .1s);
+  }
+
+  &:hover,
+  &:focus,
+  .show-navigation &{
+    .label{
+      opacity: .8;
+    }
+
+  }
 
   /*transform: translateX(-200%);*/
   transition: transform .8s cubic-bezier(.8, 0, .2, 1) .4s;
