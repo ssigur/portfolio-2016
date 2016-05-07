@@ -47,7 +47,7 @@
   <?php $i++; endforeach ?>
 
   <?php // Old portfolio
-    if($site->find('projects/old')){
+    if($site->find('projets/old')){
       snippet('projects-old', array('i'=>$i));
     }
   ?>
