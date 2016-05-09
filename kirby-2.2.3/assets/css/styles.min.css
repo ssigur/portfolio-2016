@@ -1,1 +1,2173 @@
-small,sub,sup{font-size:75%}figure,form,h1,h2,h3,h4,h5,h6{margin:0}.menu li,nav ol,nav ul{list-style:none}.home .overlay li,.menu li,.tags,footer .copyright{text-align:center}.home .overlay,.projects-list{-webkit-box-orient:vertical;-moz-box-orient:vertical}.contact article,.projects-item header{-moz-box-direction:normal;box-direction:normal;box-orient:vertical;-webkit-box-direction:normal}.loader-circles,.loader-circles:after,.loader-circles:before{border:3px solid transparent;border-radius:40px;border-top-color:#FFF}article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block}.hidden-D,[hidden],audio:not([controls]){display:none}html{font-size:100%}button,html,input,select,textarea{font-family:sans-serif}a:focus{outline:dotted thin}a:active,a:hover{outline:0}h1{font-size:2em}h2{font-size:1.5em}h3{font-size:1.17em}h4{font-size:1em}h5{font-size:.83em}h6{font-size:.75em}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}dl,menu,ol,p,pre,ul{margin:1em 0}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:after,q:before{content:'';content:none}sub,sup{line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline}button,input{line-height:normal}button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}button[disabled],input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}.hidden-L{left:-2000px;position:absolute;width:200px;float:left}.hidden-T{text-indent:-200em}.cf:after{content:"";display:table;clear:both}#main+a,.contact article section h1,.projects-list-nav li span{left:-20000px;position:absolute;width:200px;float:left}.menu{top:50%;position:relative;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%)}.home .overlay button,.projects-list article.old a section p button{border:1px solid #fff;padding:1em 2em;background-color:transparent;outline:0;font-size:.75em;color:#fff;display:block;text-transform:uppercase;margin:60px auto 0;letter-spacing:1px;-webkit-transition-property:background-color,border;-moz-transition-property:background-color,border;transition-property:background-color,border;-webkit-transition-duration:.25s;-moz-transition-duration:.25s;transition-duration:.25s;-webkit-transition-timing-function:ease-in-out;-moz-transition-timing-function:ease-in-out;transition-timing-function:ease-in-out;-webkit-transition-delay:.1s;-moz-transition-delay:.1s;transition-delay:.1s}@media only screen and (max-width:1023px){.hide-below-xlarge{display:none!important}}@media only screen and (max-width:979px){.hide-below-large{display:none!important}}@media only screen and (max-width:770px){.hide-below-medium{display:none!important}}@media only screen and (max-width:599px){.hide-below-small{display:none!important}}@media only screen and (max-width:479px){.hide-below-xsmall{display:none!important}}header .logo{display:block;position:fixed;left:30px;top:30px;z-index:4}header::before{content:'';width:100%;height:200px;opacity:.1;position:absolute;left:50%;top:-10px;transform:translateX(-50%);pointer-events:none}footer{width:100%;min-height:260px;display:block;background:#00B9FF;padding:20px 0 40px}footer>*{margin:0 20px;max-width:1150px;overflow:hidden}footer .desc{font-size:1.25em;font-weight:300}footer .copyright{font-size:.625em;margin:20px 20px 0}footer .contact::before{content:"";display:block;margin:0 0 10px;width:20%;height:1px;background:#fff}footer .contact .title{font-size:1.5em}footer .contact a{font-size:.75em;display:block;line-height:1.6em;opacity:.7}footer .contact a:focus,footer .contact a:hover{opacity:1}@media only screen and (min-width:599px){footer{padding:40px 0}footer .colophon{max-width:979px;margin:0 auto}footer .colophon .desc{width:68%;padding:0 20px;float:left}footer .colophon .contact{width:32%;float:left;margin-top:20px}footer .colophon .contact::before{height:80px;width:1px;float:left;margin-right:20px}}header nav{position:fixed;width:100%;height:100%;top:0;left:0;z-index:1000;background:rgba(0,185,255,.95);opacity:1;box-shadow:0 0 40px rgba(4,3,33,.6);-webkit-transition:all .4s ease-out 0s;-moz-transition:all .4s ease-out 0s;transition:all .4s ease-out 0s}@media only screen and (min-width:770px){header nav{width:50%;left:50%}}.hide-navigation header nav{opacity:1;left:100%;box-shadow:none}header nav ul{padding:0;text-transform:uppercase}@media only screen and (min-width:1324px){footer,header .logo,main{-webkit-transition:all .2s ease-out 0s;-moz-transition:all .2s ease-out 0s;transition:all .2s ease-out 0s}}.menu a{display:block;color:#fff;font-weight:900;letter-spacing:3px;-webkit-transition:all .2s ease-out .1s;-moz-transition:all .2s ease-out .1s;transition:all .2s ease-out .1s;opacity:.7}.menu a.active{color:#fff;opacity:1}.menu a:focus,.menu a:hover{color:#fff;text-decoration:none;opacity:.8}.menu li{font-size:2.25em;line-height:73px}.menu>li{position:relative}.menu>li>a{margin:0}#trigger-nav{background:0 0;border:none;outline:0;width:48px;height:48px;display:block;position:fixed;top:30px;right:30px;z-index:1001;overflow:visible;transition:transform .8s cubic-bezier(.8,0,.2,1).4s}#trigger-nav .label{color:#fff;text-transform:uppercase;margin-left:-86px;font-size:.75em;letter-spacing:2px;font-weight:500;opacity:.5;-webkit-transition:opacity .4s ease-out .1s;-moz-transition:opacity .4s ease-out .1s;transition:opacity .4s ease-out .1s}.no-touchevents .trigger-circle,.trigger-bar-first,.trigger-container{transition:transform .4s cubic-bezier(.8,0,.2,1)}#trigger-nav:focus .label,#trigger-nav:hover .label,.show-navigation #trigger-nav .label{opacity:.8}@media only screen and (min-width:770px){.show-navigation #trigger-nav::before{content:'';position:fixed;width:50%;height:100%;top:0;left:0;background:0 0;cursor:not-allowed}}.trigger-circle{background:0 0;width:48px;height:48px;position:absolute;top:0;left:0}.no-touchevents #trigger-nav:active .trigger-circle,.no-touchevents #trigger-nav:hover .trigger-circle{transform:scale(1.2)}.no-touchevents #trigger-nav:hover .trigger-container,.no-touchevents.hide-navigation #trigger-nav:hover .trigger-container{transform:rotateZ(180deg)}.trigger-container{width:20px;height:20px;margin:-10px;position:absolute;top:50%;left:50%}.trigger-bar{background:#fff;width:20px;height:2px;position:absolute;left:0}.trigger-bar-first{top:3px;transform:translateY(6px)rotateZ(-45deg)}.hide-navigation .trigger-bar-first{transform:translateY(0)rotateZ(0)}.no-touchevents #trigger-nav:hover .trigger-bar-first{transform:translateY(6px)rotateZ(0)}.no-touchevents.hide-navigation #trigger-nav:hover .trigger-bar-first{transform:translateY(6px)rotateZ(90deg)}.trigger-bar-second{top:9px;opacity:0;transition:opacity .4s cubic-bezier(.8,0,.2,1)}.hide-navigation .trigger-bar-second{opacity:1}.trigger-bar-third{top:15px;transform:translateY(-6px)rotateZ(45deg);transition:transform .4s cubic-bezier(.8,0,.2,1)}.home .overlay,.home .overlay ul{-webkit-transition-delay:.1s;-moz-transition-delay:.1s;transition-timing-function:ease-in-out;-moz-transition-timing-function:ease-in-out;-webkit-transition-timing-function:ease-in-out;-moz-transition-duration:.4s;transition-duration:.4s;transition-property:all;-webkit-transition-duration:.4s;-webkit-transition-property:all;-moz-transition-property:all}.hide-navigation .trigger-bar-third{transform:translateY(0)rotateZ(0)}.no-touchevents #trigger-nav:hover .trigger-bar-third{transform:translateY(-6px)rotateZ(0)}.no-touchevents.hide-navigation #trigger-nav:hover .trigger-bar-third{transform:translateY(-6px)rotateZ(-90deg)}@media only screen and (min-width:599px){.home{height:100vh}}.home .overlay{align-items:center;background:rgba(4,1,24,.9);display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;box-orient:vertical;-webkit-flex-direction:column;-moz-flex-direction:column;flex-direction:column;-ms-flex-direction:column;-webkit-box-pack:center;-moz-box-pack:center;box-pack:center;-webkit-justify-content:center;-moz-justify-content:center;-ms-justify-content:center;-o-justify-content:center;justify-content:center;-ms-flex-pack:center;height:100vh;left:0;opacity:.8;position:fixed;top:0;width:100%;z-index:3;visibility:visible;transition-delay:.1s}.home .overlay::before{content:'';width:100%;height:500px;opacity:.2;position:absolute;left:50%;transform:translateX(-50%);pointer-events:none}.hide-overlay .home .overlay{opacity:0;z-index:-1;visibility:hidden}.home .overlay img{padding:1em}.home .overlay ul{padding:20px 0;transition-delay:.1s}.hide-overlay .home .overlay ul{margin-top:50%}.home .overlay li{font-size:.75em;font-weight:300;letter-spacing:3px;line-height:20px;list-style:none;text-transform:uppercase}.home .overlay li+li{opacity:.6}.home .overlay button:focus,.home .overlay button:hover{background-color:#00B9FF;border-color:#00B9FF}.tags{max-width:400px;width:90%;margin:0;padding:0;z-index:2;opacity:.4;-webkit-transition:opacity .4s ease-out 0s;-moz-transition:opacity .4s ease-out 0s;transition:opacity .4s ease-out 0s}.tags:focus,.tags:hover{opacity:1}.tags li{display:inline-block;margin:auto 3px;text-transform:uppercase;font-size:.75em;font-weight:500;white-space:nowrap}.tags li::before{content:'#';color:#00B9FF;font-weight:900}.home .tags{text-align:left}.home .tags li{margin-left:0;float:left}.home .tags li::before{opacity:.5}.projects-list{height:100%;width:100%;overflow-x:hidden;position:relative;background:#040118;display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;box-orient:vertical;-webkit-flex-direction:column;-moz-flex-direction:column;flex-direction:column;-ms-flex-direction:column}@media only screen and (min-width:599px){.projects-list{-webkit-box-orient:horizontal;-moz-box-orient:horizontal;box-orient:horizontal;-webkit-flex-direction:row;-moz-flex-direction:row;flex-direction:row;-ms-flex-direction:row}}.contact article,.projects-item header{-webkit-box-orient:vertical;-moz-box-orient:vertical}.projects-list article{height:260px;flex:none;overflow:hidden;width:100%;-webkit-transition:all .4s ease-out 0s;-moz-transition:all .4s ease-out 0s;transition:all .4s ease-out 0s}.projects-list article a{display:block;width:100%;height:100%;position:relative;padding:16px 32px;box-sizing:border-box;overflow-x:hidden;text-decoration:none;background:center center no-repeat #040118;overflow:-moz-scrollbars-none}.projects-list article a::before{content:'';width:100%;height:100%;position:absolute;top:0;left:0;opacity:.6;background-color:#040118;background-image:-webkit-linear-gradient(#040118,#040118);background-image:linear-gradient(#040118,#040118);-webkit-transition:all .6s ease-out 0s;-moz-transition:all .6s ease-out 0s;transition:all .6s ease-out 0s}.projects-list article a .legend{position:absolute;z-index:1;bottom:10%;-webkit-transition:all .4s ease-out 0s;-moz-transition:all .4s ease-out 0s;transition:all .4s ease-out 0s}.projects-list article a .legend .title{font-size:1.75em;font-weight:900;letter-spacing:1px}.projects-list article a .legend .title::after{content:"";width:60px;height:1px;display:block;background:#00B9FF;margin-top:14px;margin-bottom:6px;-webkit-transition:margin .3s ease-out 0;-moz-transition:margin .3s ease-out 0;transition:margin .3s ease-out 0}.projects-list article a .legend p{text-transform:uppercase;font-weight:100;font-size:.6875em;letter-spacing:4px}@media only screen and (min-width:599px){.projects-list article a .legend{bottom:-50px;opacity:0}.projects-list article a .legend .title::after{margin-top:100px;margin-bottom:100px}}.projects-list article a:focus,.projects-list article a:hover{cursor:pointer}.projects-list article a:focus::before,.projects-list article a:hover::before{opacity:.6;background-color:rgba(4,1,24,.1);background-image:-webkit-linear-gradient(rgba(4,1,24,.1)40%,rgba(4,1,24,.6)60%,#040118 70%);background-image:linear-gradient(rgba(4,1,24,.1)40%,rgba(4,1,24,.6)60%,#040118 70%)}.projects-list article a:focus .legend,.projects-list article a:hover .legend{bottom:10%;opacity:1}.projects-list article a:focus .legend .title::after,.projects-list article a:hover .legend .title::after{margin-top:14px;margin-bottom:6px}@media only screen and (min-width:599px){.projects-list article{height:100%;width:50%;display:block}.projects-list article .legend{bottom:16%;opacity:.5}}@media only screen and (min-width:770px){.projects-list article{width:25%}}@media only screen and (min-width:1564px){.projects-list article{width:20%}}.projects-list article.old a{background-color:#53b73c;-webkit-transition:background .3s ease-out 0;-moz-transition:background .3s ease-out 0;transition:background .3s ease-out 0}.projects-list article.old a::before{content:none}.projects-list article.old a::after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;border:10px solid #fff;-webkit-transition:border .15s ease-out 0;-moz-transition:border .15s ease-out 0;transition:border .15s ease-out 0}.projects-list article.old a section{text-align:center;font-size:1em;position:relative;top:30%}.projects-list article.old a section::before{content:"+";font-size:5.625em;line-height:20px;position:relative}.projects-list article.old a section p{font-weight:100}.projects-list article.old a section p button{display:none}@media only screen and (min-width:599px){.projects-list article.old a::after{border:0 solid #fff}.projects-list article.old a:focus::after,.projects-list article.old a:hover::after{border:12px solid #fff}.projects-list article.old a:focus section::before,.projects-list article.old a:hover section::before{animation-name:headShake;animation-duration:1s;animation-delay:0;animation-fill-mode:both;animation-timing-function:ease-in-out}@keyframes headShake{0%{transform:translateX(0)}6.5%{transform:translateX(-6px)rotateY(-9deg)}18.5%{transform:translateX(5px)rotateY(7deg)}31.5%{transform:translateX(-3px)rotateY(-5deg)}43.5%{transform:translateX(2px)rotateY(3deg)}50%{transform:translateX(0)}}.projects-list article.old a:focus section p button,.projects-list article.old a:hover section p button{background-color:#fff;color:#53b73c}.projects-list article.old a section{top:40%;font-size:1.125em}.projects-list article.old a section::before{font-size:10em}.projects-list article.old a section p button{display:block}}.projects-list-nav{position:absolute;bottom:10px;right:30px;z-index:2;line-height:1.4em;padding:0}.projects-list-nav::before{content:"";display:block;height:30px;width:1px;background:#fff;transform:rotate(45deg);position:absolute;left:50%}.projects-list-nav li{list-style-type:none;background:url(../images/arrow.svg)14px 0 no-repeat;width:50px;height:30px;display:inline-block;float:left;opacity:.6;margin:0 7px 0 0;visibility:hidden;-webkit-transition:background .15s ease-out 0;-moz-transition:background .15s ease-out 0;transition:background .15s ease-out 0}.projects-list-nav li+li{transform:rotate(180deg);margin:0 0 0 7px;visibility:visible}.projects-list-nav li:focus,.projects-list-nav li:hover{opacity:1;background-position:2px 0;cursor:pointer}@media only screen and (max-width:599px){.projects-list-nav li,.projects-list-nav::before{display:none}}.projects-item header{background-size:cover;background-repeat:none;background-position:50% 0;height:100vh;width:100%;padding:20px;display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-moz-box-pack:center;box-pack:center;-webkit-justify-content:center;-moz-justify-content:center;-ms-justify-content:center;-o-justify-content:center;justify-content:center;-ms-flex-pack:center;-webkit-box-align:center;-moz-box-align:center;box-align:center;-webkit-align-items:center;-moz-align-items:center;-ms-align-items:center;-o-align-items:center;align-items:center;-ms-flex-align:center;-webkit-flex-direction:column;-moz-flex-direction:column;flex-direction:column;-ms-flex-direction:normal;position:relative;box-sizing:border-box}.projects-item header::before{background-color:rgba(4,1,24,.1);background-image:-webkit-linear-gradient(rgba(4,1,24,.1),rgba(4,1,24,.4)20%,#040118 100%);background-image:linear-gradient(rgba(4,1,24,.1),rgba(4,1,24,.4)20%,#040118 100%);height:100%;width:100%;position:absolute;bottom:0;left:0;opacity:1;top:initial;z-index:1;transform:translateX(0)}.projects-item header::after{content:"";display:block;width:100%;height:90px;left:0;bottom:4px;position:absolute;opacity:.6;z-index:2;background:url(../images/mouse-scroll.svg)50% 50% no-repeat;animation-name:fadeInDown;animation-duration:3s;animation-iteration-count:infinite;animation-delay:3s;animation-fill-mode:both}@keyframes fadeInDown{from{opacity:0;transform:translate3d(0,-100%,0)}to{opacity:1;transform:none}}.projects-item header .title{font-size:2.625em;font-weight:900;line-height:1.2em;margin:0;max-width:400px;padding:0 20px;text-align:center;z-index:2}.projects-item header .title::after{content:'';height:3px;width:70px;background-color:#fff;margin:14px auto -6px;display:block}.projects-item header .chapo{color:#fff;font-size:1.5em;font-weight:100;line-height:1.6em;max-width:500px;padding:0 20px;text-align:center;z-index:2}.projects-item header .chapo a{border-bottom:1px dotted rgba(0,185,255,.4);-webkit-transition:color .4s ease-out 0s;-moz-transition:color .4s ease-out 0s;transition:color .4s ease-out 0s}.projects-item header .chapo a:focus,.projects-item header .chapo a:hover{color:#00B9FF;cursor:pointer}.projects-item.hidden-scroll header::after{display:none}.projects-item .content{margin-bottom:60px}.projects-item .content figure{margin:0 auto 20px;max-width:880px;padding:10px}.projects-item .content figure figcaption{text-align:center;font-size:.875em;font-weight:500;font-style:italic;letter-spacing:1px;color:rgba(255,255,255,.5);padding-top:8px}.projects-item .content img{margin:0 auto;box-shadow:0 0 12px #666}@media only screen and (min-width:599px){.projects-item .content{margin-bottom:120px}.projects-item .content figure{margin-bottom:4%;padding:10px}.projects-item .content img{border:10px solid #fff;padding:1px;background:#e0e0e0}}.projects-item nav{max-width:100%;margin:0 auto}.projects-item nav:after{content:" ";display:block;clear:both}.projects-item nav a{position:relative;padding:50px 20px;text-align:left;background-position:100% 50%;background-size:cover;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:100%;float:left}@media only screen and (min-width:599px){.projects-item nav a{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:50%;float:left}}.projects-item nav a::before{content:"";position:absolute;bottom:0;left:0;opacity:1;top:0;right:0;z-index:1;background-color:rgba(4,1,24,.4);background-image:-webkit-linear-gradient(rgba(4,1,24,.4)20%,rgba(4,1,24,.9)80%);background-image:linear-gradient(rgba(4,1,24,.4)20%,rgba(4,1,24,.9)80%);-webkit-transition:all .2s ease-in;-moz-transition:all .2s ease-in;transition:all .2s ease-in}.projects-item nav a:focus::before,.projects-item nav a:hover::before{background-color:rgba(4,1,24,.3);background-image:-webkit-linear-gradient(rgba(4,1,24,.3)0,rgba(4,1,24,.6)50%);background-image:linear-gradient(rgba(4,1,24,.3)0,rgba(4,1,24,.6)50%)}.projects-item nav a:focus .legend span::after,.projects-item nav a:hover .legend span::after{transform:translateY(0);margin:4px 0 5px;opacity:1}.projects-item nav a:focus .legend em,.projects-item nav a:hover .legend em{transform:translateY(2px);opacity:.8}.projects-item nav a .legend{position:absolute;top:16px;left:20px;z-index:3;padding-left:40px;background:url(../images/arrow.svg)0 10px no-repeat}.projects-item nav a .legend span{position:relative;z-index:2;font-size:2em;line-height:1.2em;font-weight:900;letter-spacing:1px}.projects-item nav a .legend span::after{content:"";height:1px;width:100%;display:block;background-color:#00B9FF;opacity:0;margin:0 0 5px;transform:translateY(12px);position:relative;z-index:2;-webkit-transition:all .2s ease-in,opacity .2s ease-in-out .1s;-moz-transition:all .2s ease-in,opacity .2s ease-in-out .1s;transition:all .2s ease-in,opacity .2s ease-in-out .1s}.projects-item nav a .legend em{color:#00B9FF;font-size:.625em;font-style:normal;font-weight:600;text-transform:uppercase;display:block;position:relative;z-index:2;opacity:.04;letter-spacing:2px;transform:translateY(-4px);-webkit-transition:all .2s ease-out 0;-moz-transition:all .2s ease-out 0;transition:all .2s ease-out 0}.projects-item nav a.next{text-align:right;background-position:0 50%;float:right}.projects-item nav a.next .legend{right:20px;left:inherit;background-image:url(../images/arrow-r.svg);background-position:100% 10px;padding-right:40px}.projects-item nav a.old::before{content:none}.projects-item nav a.old::after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;-webkit-transition:border .15s ease-out 0;-moz-transition:border .15s ease-out 0;transition:border .15s ease-out 0}.projects-item nav a.old:focus::after,.projects-item nav a.old:hover::after{border:10px solid #fff}.projects-item nav a.old:focus section::before,.projects-item nav a.old:hover section::before{animation-name:headShake;animation-duration:1s;animation-delay:0;animation-fill-mode:both;animation-timing-function:ease-in-out}.projects-item nav a.old section{position:absolute;background-color:#53b73c;top:0;bottom:0;left:0;right:0;text-align:right;padding:10px 80px 10px 10px;font-size:1em}.projects-item nav a.old section::before{content:"+";font-size:5em;line-height:20px;position:absolute;right:20px;bottom:calc(50% - 4px)}.projects-item nav a.old section p{font-weight:100}.projects-item nav a.old section p button{display:none}.contact article{background-position:50% 50%;background-size:cover;background-repeat:no-repeat;height:100vh;width:100%;padding:50px 20px 20px;display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-moz-box-pack:center;box-pack:center;-webkit-justify-content:center;-moz-justify-content:center;-ms-justify-content:center;-o-justify-content:center;justify-content:center;-ms-flex-pack:center;-webkit-box-align:center;-moz-box-align:center;box-align:center;-webkit-align-items:center;-moz-align-items:center;-ms-align-items:center;-o-align-items:center;align-items:center;-ms-flex-align:center;-webkit-flex-direction:column;-moz-flex-direction:column;flex-direction:column;-ms-flex-direction:normal;position:relative}.contact article::before{content:"";background-color:rgba(4,1,24,.5);background-image:-webkit-linear-gradient(rgba(4,1,24,.5),#040118 100%);background-image:linear-gradient(rgba(4,1,24,.5),#040118 100%);height:100%;width:100%;position:absolute;bottom:0;left:0;opacity:1;top:initial;z-index:1;transform:translateX(0)}body,html{background:#040118}.contact article section{position:relative;z-index:2;overflow:hidden;max-width:900px;margin-left:auto;margin-right:auto}.contact article section:after{content:" ";display:block;clear:both}.contact article section .title{display:inline-block;font-size:2.625em;font-weight:900;margin-bottom:20px;line-height:1.2em;text-align:center;letter-spacing:4px}.contact article section .content{display:inline-block;color:#fff;font-size:1.5em;font-weight:100;line-height:1.6em}.contact article section .content a{-webkit-transition:color .4s ease-out 0s;-moz-transition:color .4s ease-out 0s;transition:color .4s ease-out 0s}.contact article section .content a.cv{border-bottom:1px dotted #00B9FF}.contact article section .content a:focus,.contact article section .content a:hover{color:#00B9FF}a,body{color:#fff}.contact article section .content p{margin:0 0 10px}.contact article section dl{line-height:1em;margin-top:50px}.contact article section dl dt{text-transform:uppercase;font-size:.5em;display:inline-block;opacity:.6;width:49.15254%;float:left;margin-right:1.69492%}.contact article section dl dt~dt{position:absolute;width:49.15254%;float:right;margin-right:0}.contact article section dl dd{margin:0 1.69492% 0 0;font-size:.75em;width:49.15254%;float:left}.contact article section dl dd~dd{display:inline-block;width:49.15254%;float:right;margin-right:0}@media only screen and (min-width:599px){.contact article .title{width:32.20339%;float:left;margin-right:1.69492%}.contact article .content{width:66.10169%;float:right;margin-right:0}}.loader{width:40px;height:40px;display:inline-block;vertical-align:middle;position:fixed;left:-webkit-calc(50% - 20px);left:calc(50% - 20px);top:-webkit-calc(100% - 15%);top:calc(100% - 15%);z-index:2000;opacity:0;pointer-events:none;-webkit-transition:opacity .6s ease-out-in;-moz-transition:opacity .6s ease-out-in;transition:opacity .6s ease-out-in}.is-loading .loader{opacity:.6}.loader-circles{-webkit-animation:spin 1s linear infinite;-moz-animation:spin 1s linear infinite;animation:spin 1s linear infinite}.loader-circles:after,.loader-circles:before{content:'';position:absolute;top:5px;left:5px;bottom:5px;right:5px;opacity:.8;-webkit-animation:spin 6s linear infinite;-moz-animation:spin 6s linear infinite;animation:spin 6s linear infinite}.loader-circles:before{top:12px;left:12px;bottom:12px;right:12px;opacity:.5;-webkit-animation:spin 5s linear infinite;-moz-animation:spin 5s linear infinite;animation:spin 5s linear infinite}.m-scene .scene_element--fade-in,.m-scene .scene_element--fade-in-down,.m-scene .scene_element--fade-in-up{animation-duration:1s;animation-delay:0;animation-fill-mode:both}@-webkit-keyframes spin{from{-webkit-transform:rotate(0)}to{-webkit-transform:rotate(360deg)}}@-moz-keyframes spin{from{-moz-transform:rotate(0)}to{-moz-transform:rotate(360deg)}}@keyframes spin{from{-webkit-transform:rotate(0);-moz-transform:rotate(0);-ms-transform:rotate(0);-o-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-ms-transform:rotate(360deg);-o-transform:rotate(360deg);transform:rotate(360deg)}}.m-scene .scene_element{animation-duration:.28s;transition-timing-function:ease-in}.m-scene .scene_element--fade-in{animation-name:fadeIn}@keyframes fadeIn{from{opacity:0}to{opacity:1}}.m-scene .scene_element--fade-in-down{animation-name:fadeInDown}.m-scene .scene_element--fade-in-up{animation-name:fadeInUpBig}@keyframes fadeInUpBig{from{opacity:0;transform:translate3d(0,2000px,0)}to{opacity:1;transform:none}}.m-scene.is-exiting .scene_element{animation-direction:alternate-reverse}html{height:101%;font-family:Roboto,sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html.no-touchevents body::after{border:4px solid #fff;pointer-events:none;box-sizing:border-box;content:'';height:100vh;left:0;right:0;overflow:hidden;position:fixed;top:0;width:100vw;z-index:100}body,body #main{height:100%}body{margin:0 auto}body *{box-sizing:border-box}img{display:block;max-width:100%;image-rendering:optimizeQuality}a{text-decoration:none}a:focus,a:focus *,a:hover,a:hover *{cursor:pointer}main .innertube{margin:0 auto;max-width:1150px}main .text{padding:100px 20px;text-align:center}
+/*! normalize.css http://github.com/necolas/normalize.css */
+
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects block display not defined in IE6/7/8/9 & FF3
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/*
+ * Corrects inline-block display not defined in IE6/7/8/9 & FF3
+ */
+
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/*
+ * Prevents modern browsers from displaying 'audio' without controls
+ */
+
+audio:not([controls]) {
+  display: none;
+}
+
+/*
+ * Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
+ * Known issue: no IE6 support
+ */
+
+[hidden] {
+  display: none;
+}
+
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
+ *  http://clagnut.com/blog/348/#c790
+ * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
+ *  www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+ */
+
+html {
+  font-size: 100%; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -ms-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+ * Addresses font-family inconsistency between 'textarea' and other form elements.
+ */
+
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/*
+ * Addresses margins handled incorrectly in IE6/7
+ */
+
+body {
+  margin: 0;
+}
+
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses outline displayed oddly in Chrome
+ */
+
+a:focus {
+  outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers
+ * people.opera.com/patrickl/experiments/keyboard/test
+ */
+
+a:hover,
+a:active {
+  outline: 0;
+}
+
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses font sizes and margins set differently in IE6/7
+ * Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.17em;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1em;
+  margin: 0;
+}
+
+h5 {
+  font-size: 0.83em;
+  margin: 0;
+}
+
+h6 {
+  font-size: 0.75em;
+  margin: 0;
+}
+
+/*
+ * Addresses styling not present in IE7/8/9, S5, Chrome
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to 'bolder' in FF3+, S4/5, Chrome
+*/
+
+b,
+strong {
+  font-weight: bold;
+}
+
+blockquote {
+  margin: 1em 40px;
+}
+
+/*
+ * Addresses styling not present in S5, Chrome
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE6/7/8/9
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/*
+ * Addresses margins set differently in IE6/7
+ */
+
+p,
+pre {
+  margin: 1em 0;
+}
+
+/*
+ * Corrects font family set oddly in IE6, S4/5, Chrome
+ * en.wikipedia.org/wiki/User:Davidgothberg/Test59
+ */
+
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers
+ */
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/*
+ * 1. Addresses CSS quotes not supported in IE6/7
+ * 2. Addresses quote property not supported in S4
+ */
+
+/* 1 */
+
+q {
+  quotes: none;
+}
+
+/* 2 */
+
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+small {
+  font-size: 75%;
+}
+
+/*
+ * Prevents sub and sup affecting line-height in all browsers
+ * gist.github.com/413930
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+
+/*
+ * Addresses margins set differently in IE6/7
+ */
+
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+dd {
+  margin: 0 0 0 40px;
+}
+
+/*
+ * Addresses paddings set differently in IE6/7
+ */
+
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+/*
+ * Corrects list images handled incorrectly in IE7
+ */
+
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * 1. Removes border when inside 'a' element in IE6/7/8/9, FF3
+ * 2. Improves image quality when scaled in IE7
+ *  code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
+ */
+
+img {
+  border: 0; /* 1 */
+  -ms-interpolation-mode: bicubic; /* 2 */
+}
+
+/*
+ * Corrects overflow displayed oddly in IE9
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+
+/* =============================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Addresses margin not present in IE6/7/8/9, S5, O11
+ */
+
+figure {
+  margin: 0;
+}
+
+
+/* =============================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Corrects margin displayed oddly in IE6/7
+ */
+
+form {
+  margin: 0;
+}
+
+/*
+ * Define consistent border, margin, and padding
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE6/7/8/9
+ * 2. Corrects text not wrapping in FF3 
+ * 3. Corrects alignment displayed oddly in IE6/7
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0;
+  white-space: normal; /* 2 */
+  *margin-left: -7px; /* 3 */
+}
+
+/*
+ * 1. Corrects font size not being inherited in all browsers
+ * 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome
+ * 3. Improves appearance and consistency in all browsers
+ */
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%; /* 1 */
+  margin: 0; /* 2 */
+  vertical-align: baseline; /* 3 */
+  *vertical-align: middle; /* 3 */
+}
+
+/*
+ * Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
+ */
+
+button,
+input {
+  line-height: normal; /* 1 */
+}
+
+/*
+ * 1. Improves usability and consistency of cursor style between image-type 'input' and others
+ * 2. Corrects inability to style clickable 'input' types in iOS
+ * 3. Removes inner spacing in IE7 without affecting normal text inputs
+ *  Known issue: inner spacing remains in IE6
+ */
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer; /* 1 */
+  -webkit-appearance: button; /* 2 */
+  *overflow: visible;  /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements
+ */
+
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to content-box in IE8/9
+ * 2. Removes excess padding in IE8/9
+ * 3. Removes excess padding in IE7
+    Known issue: excess padding remains in IE6
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+  *height: 13px; /* 3 */
+  *width: 13px; /* 3 */
+}
+
+/*
+ * 1. Addresses appearance set to searchfield in S5, Chrome
+ * 2. Addresses box-sizing set to border-box in S5, Chrome (include -moz to future-proof)
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in S5, Chrome on OS X
+ */
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in FF3+
+ * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE6/7/8/9
+ * 2. Improves readability and alignment in all browsers
+ */
+
+textarea {
+  overflow: auto; /* 1 */
+  vertical-align: top; /* 2 */
+}
+
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* */
+/* All Stuff to hide */
+/* line 2, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/mixin/_utils.scss */
+.hidden-D {
+  display: none; }
+
+/* line 5, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/mixin/_utils.scss */
+.hidden-L {
+  left: -2000px;
+  position: absolute;
+  width: 200px;
+  float: left; }
+
+/* line 11, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/mixin/_utils.scss */
+.hidden-T {
+  text-indent: -200em; }
+
+/* Clearfix
+-------------------------------------------------- */
+/* line 15, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/mixin/_utils.scss */
+.cf:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* width fix layout */
+/* all stuff to hide */
+/* line 34, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/mixin/_utils.scss */
+.projects-list-nav li span, .contact article section h1, #main + a {
+  left: -20000px;
+  position: absolute;
+  width: 200px;
+  float: left; }
+
+/* stuff to align */
+/* line 46, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/mixin/_utils.scss */
+.menu {
+  top: 50%;
+  position: relative;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+/* Breakpoint between min-with max-width */
+/* line 7, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/mixin/_buttons.scss */
+.home .overlay button, .projects-list article.old a section p button {
+  border: 1px solid #fff;
+  padding: 1em 2em;
+  background-color: transparent;
+  outline: none;
+  font-size: 0.75em;
+  color: white;
+  display: block;
+  text-transform: uppercase;
+  margin: 60px auto 0;
+  letter-spacing: 1px;
+  -webkit-transition-property: background-color, border;
+  -moz-transition-property: background-color, border;
+  transition-property: background-color, border;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0.1s;
+  -moz-transition-delay: 0.1s;
+  transition-delay: 0.1s; }
+
+/* Hide on classes */
+@media only screen and (max-width: 1023px) {
+  /* line 4, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/mixin/_hide-on.scss */
+  .hide-below-xlarge {
+    display: none !important; } }
+
+@media only screen and (max-width: 979px) {
+  /* line 8, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/mixin/_hide-on.scss */
+  .hide-below-large {
+    display: none !important; } }
+
+@media only screen and (max-width: 770px) {
+  /* line 12, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/mixin/_hide-on.scss */
+  .hide-below-medium {
+    display: none !important; } }
+
+@media only screen and (max-width: 599px) {
+  /* line 16, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/mixin/_hide-on.scss */
+  .hide-below-small {
+    display: none !important; } }
+
+@media only screen and (max-width: 479px) {
+  /* line 20, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/mixin/_hide-on.scss */
+  .hide-below-xsmall {
+    display: none !important; } }
+
+/* Header
+-------------------------------------------------- */
+/* line 5, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_header.scss */
+header .logo {
+  display: block;
+  position: fixed;
+  left: 30px;
+  top: 30px;
+  z-index: 4; }
+
+/* line 14, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_header.scss */
+header::before {
+  content: '';
+  width: 100%;
+  height: 200px;
+  opacity: 0.1;
+  position: absolute;
+  left: 50%;
+  top: -10px;
+  transform: translateX(-50%);
+  pointer-events: none; }
+
+/* Footer
+-------------------------------------------------- */
+/* line 3, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_footer.scss */
+footer {
+  width: 100%;
+  min-height: 260px;
+  display: block;
+  background: #00B9FF;
+  padding: 20px 0 40px;
+  /* position: fixed;
+  z-index: -1;
+  bottom: 0;*/ }
+  /* line 13, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_footer.scss */
+  footer > * {
+    margin: 0 20px;
+    max-width: 1150px;
+    overflow: hidden; }
+  /* line 19, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_footer.scss */
+  footer .desc {
+    font-size: 1.25em;
+    font-weight: 300; }
+  /* line 24, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_footer.scss */
+  footer .copyright {
+    text-align: center;
+    font-size: 0.625em;
+    margin: 20px 20px 0px; }
+  /* line 32, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_footer.scss */
+  footer .contact::before {
+    content: "";
+    display: block;
+    margin: 0 0 10px;
+    width: 20%;
+    height: 1px;
+    background: #fff; }
+  /* line 41, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_footer.scss */
+  footer .contact .title {
+    font-size: 1.5em; }
+  /* line 45, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_footer.scss */
+  footer .contact a {
+    font-size: 0.75em;
+    display: block;
+    line-height: 1.6em;
+    opacity: .7; }
+    /* line 51, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_footer.scss */
+    footer .contact a:hover, footer .contact a:focus {
+      opacity: 1; }
+  @media only screen and (min-width: 599px) {
+    /* line 3, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_footer.scss */
+    footer {
+      padding: 40px 0; }
+      /* line 61, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_footer.scss */
+      footer .colophon {
+        max-width: 979px;
+        margin: 0 auto; }
+        /* line 65, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_footer.scss */
+        footer .colophon .desc {
+          width: 68%;
+          padding: 0 20px;
+          float: left; }
+        /* line 71, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_footer.scss */
+        footer .colophon .contact {
+          width: 32%;
+          float: left;
+          margin-top: 20px; }
+          /* line 76, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_footer.scss */
+          footer .colophon .contact::before {
+            height: 80px;
+            width: 1px;
+            float: left;
+            margin-right: 20px; } }
+
+/* Navigation
+-------------------------------------------------- */
+/* line 4, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+header nav {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: rgba(0, 185, 255, 0.95);
+  opacity: 1;
+  box-shadow: 0 0 40px rgba(4, 3, 33, 0.6);
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s; }
+  @media only screen and (min-width: 770px) {
+    /* line 4, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+    header nav {
+      width: 50%;
+      left: 50%; } }
+  /* line 22, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+  .hide-navigation header nav {
+    opacity: 1;
+    left: 100%;
+    box-shadow: none; }
+  /* line 28, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+  header nav ul {
+    padding: 0;
+    text-transform: uppercase; }
+
+/* Effet translation au dessus BP le plus haut */
+@media only screen and (min-width: 1324px) {
+  /* line 38, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+  header .logo,
+  main,
+  footer {
+    -webkit-transition: all 0.2s ease-out 0s;
+    -moz-transition: all 0.2s ease-out 0s;
+    transition: all 0.2s ease-out 0s; } }
+
+/* line 57, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.menu a {
+  display: block;
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 3px;
+  -webkit-transition: all 0.2s ease-out 0.1s;
+  -moz-transition: all 0.2s ease-out 0.1s;
+  transition: all 0.2s ease-out 0.1s;
+  opacity: .7; }
+  /* line 66, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+  .menu a.active {
+    color: #fff;
+    opacity: 1; }
+  /* line 71, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+  .menu a:hover, .menu a:focus {
+    color: #fff;
+    /*background: rgba($c-white, 0.05);*/
+    text-decoration: none;
+    opacity: .8; }
+
+/* line 80, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.menu li {
+  list-style: none;
+  font-size: 2.25em;
+  text-align: center;
+  line-height: 73px; }
+
+/* line 87, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.menu > li {
+  position: relative; }
+  /* line 90, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+  .menu > li > a {
+    margin: 0;
+    /* border: 1px solid transparent;
+      @include transition(all .4s ease-out .1s);*/ }
+    @media only screen and (min-width: 770px) {
+      /* line 90, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+      .menu > li > a {
+        /*&:hover,
+        &:focus{
+          border-color:  shade($c-site, 70%);
+        }*/ } }
+
+/* BTN NAVIGATION */
+/* line 110, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+#trigger-nav {
+  background: none;
+  border: none;
+  outline: none;
+  width: 48px;
+  height: 48px;
+  display: block;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  z-index: 1001;
+  overflow: visible;
+  /*transform: translateX(-200%);*/
+  transition: transform 0.8s cubic-bezier(0.8, 0, 0.2, 1) 0.4s; }
+  /* line 123, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+  #trigger-nav .label {
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: -86px;
+    font-size: 0.75em;
+    letter-spacing: 2px;
+    font-weight: 500;
+    opacity: .5;
+    -webkit-transition: opacity 0.4s ease-out 0.1s;
+    -moz-transition: opacity 0.4s ease-out 0.1s;
+    transition: opacity 0.4s ease-out 0.1s; }
+  /* line 137, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+  #trigger-nav:hover .label, #trigger-nav:focus .label,
+  .show-navigation #trigger-nav .label {
+    opacity: .8; }
+  @media only screen and (min-width: 770px) {
+    /* line 149, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+    .show-navigation #trigger-nav::before {
+      content: '';
+      position: fixed;
+      width: 50%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: transparent;
+      cursor: not-allowed; } }
+
+/* line 163, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.trigger-circle {
+  background: transparent;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*border-radius: 24px;
+  box-shadow: 0 0 40px rgba(8, 3, 33, .4);*/ }
+
+/* line 175, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.no-touchevents .trigger-circle {
+  transition: transform 0.4s cubic-bezier(0.8, 0, 0.2, 1); }
+
+/* line 181, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.no-touchevents #trigger-nav:active .trigger-circle,
+.no-touchevents #trigger-nav:hover .trigger-circle {
+  transform: scale(1.2); }
+
+/* line 188, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.no-touchevents #trigger-nav:hover .trigger-container,
+.no-touchevents.hide-navigation #trigger-nav:hover .trigger-container {
+  transform: rotateZ(180deg); }
+
+/* line 196, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.trigger-container {
+  width: 20px;
+  height: 20px;
+  margin: -10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: transform 0.4s cubic-bezier(0.8, 0, 0.2, 1); }
+
+/* line 208, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.trigger-bar {
+  background: #fff;
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  left: 0; }
+
+/* bar-first */
+/* line 218, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.trigger-bar-first {
+  top: 3px;
+  transform: translateY(6px) rotateZ(-45deg);
+  transition: transform 0.4s cubic-bezier(0.8, 0, 0.2, 1); }
+
+/* line 224, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.hide-navigation .trigger-bar-first {
+  transform: translateY(0) rotateZ(0deg); }
+
+/* line 229, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.no-touchevents #trigger-nav:hover .trigger-bar-first {
+  transform: translateY(6px) rotateZ(0deg); }
+
+/* line 233, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.no-touchevents.hide-navigation #trigger-nav:hover .trigger-bar-first {
+  transform: translateY(6px) rotateZ(90deg); }
+
+/* bar-second */
+/* line 240, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.trigger-bar-second {
+  top: 9px;
+  opacity: 0;
+  transition: opacity 0.4s cubic-bezier(0.8, 0, 0.2, 1); }
+
+/* line 246, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.hide-navigation .trigger-bar-second {
+  opacity: 1; }
+
+/* bar-third */
+/* line 251, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.trigger-bar-third {
+  top: 15px;
+  transform: translateY(-6px) rotateZ(45deg);
+  transition: transform 0.4s cubic-bezier(0.8, 0, 0.2, 1); }
+
+/* line 257, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.hide-navigation .trigger-bar-third {
+  transform: translateY(0) rotateZ(0deg); }
+
+/* line 262, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.no-touchevents #trigger-nav:hover .trigger-bar-third {
+  transform: translateY(-6px) rotateZ(0deg); }
+
+/* line 266, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_navigation.scss */
+.no-touchevents.hide-navigation #trigger-nav:hover .trigger-bar-third {
+  transform: translateY(-6px) rotateZ(-90deg); }
+
+/* Home - overlay
+-------------------------------------------------- */
+@media only screen and (min-width: 599px) {
+  /* line 4, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_home.scss */
+  .home {
+    height: 100vh; } }
+
+/* line 10, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_home.scss */
+.home .overlay {
+  align-items: center;
+  background: rgba(4, 1, 24, 0.9);
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  height: 100vh;
+  left: 0;
+  opacity: .8;
+  position: fixed;
+  top: 0;
+  visibility: visible;
+  width: 100%;
+  z-index: 3;
+  visibility: visible;
+  /*display: none;*/
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0.1s;
+  -moz-transition-delay: 0.1s;
+  transition-delay: 0.1s; }
+  /* line 33, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_home.scss */
+  .home .overlay::before {
+    content: '';
+    width: 100%;
+    height: 500px;
+    opacity: 0.2;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+    /*
+      bottom: 10px;
+      background: url("../images/illus.svg") no-repeat 50% 100%;
+
+      background-size: auto;
+
+      @include bp(min-width, $bp-medium) {
+        opacity: 0.1;
+        background-size: 104% auto;
+      }
+      */ }
+  /* line 57, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_home.scss */
+  .hide-overlay .home .overlay {
+    opacity: 0;
+    z-index: -1;
+    visibility: hidden; }
+  /* line 63, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_home.scss */
+  .home .overlay img {
+    padding: 1em; }
+  /* line 67, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_home.scss */
+  .home .overlay ul {
+    padding: 20px 0;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    transition-delay: 0.1s; }
+    /* line 75, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_home.scss */
+    .hide-overlay .home .overlay ul {
+      margin-top: 50%; }
+  /* line 80, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_home.scss */
+  .home .overlay li {
+    font-size: 0.75em;
+    font-weight: 300;
+    letter-spacing: 3px;
+    line-height: 20px;
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase; }
+    /* line 89, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_home.scss */
+    .home .overlay li + li {
+      opacity: .6; }
+  /* line 97, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_home.scss */
+  .home .overlay button:hover, .home .overlay button:focus {
+    background-color: #00B9FF;
+    border-color: #00B9FF; }
+
+/* Tags (Home & projet)
+-------------------------------------------------- */
+/* line 4, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_tags.scss */
+.tags {
+  max-width: 400px;
+  width: 90%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  z-index: 2;
+  opacity: .4;
+  -webkit-transition: opacity 0.4s ease-out 0s;
+  -moz-transition: opacity 0.4s ease-out 0s;
+  transition: opacity 0.4s ease-out 0s;
+  /* Accueil */ }
+  /* line 17, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_tags.scss */
+  .tags:hover, .tags:focus {
+    opacity: 1; }
+  /* line 22, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_tags.scss */
+  .tags li {
+    display: inline-block;
+    margin: auto 3px;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-weight: 500;
+    white-space: nowrap; }
+    /* line 31, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_tags.scss */
+    .tags li::before {
+      content: '#';
+      color: #00B9FF;
+      font-weight: 900; }
+  /* line 39, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_tags.scss */
+  .home .tags {
+    text-align: left; }
+    /* line 42, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_tags.scss */
+    .home .tags li {
+      margin-left: 0;
+      float: left; }
+      /* line 46, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_tags.scss */
+      .home .tags li::before {
+        /*color: $c-white;*/
+        opacity: .5; }
+
+/* Works list - projects
+-------------------------------------------------- */
+/* line 3, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+.projects-list {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  background: #040118;
+  /* Articles ----------------*/
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  /* Projects Nav ----------------*/ }
+  @media only screen and (min-width: 599px) {
+    /* line 3, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+    .projects-list {
+      -webkit-box-orient: horizontal;
+      -moz-box-orient: horizontal;
+      box-orient: horizontal;
+      -webkit-flex-direction: row;
+      -moz-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-direction: row; } }
+  /* line 18, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+  .projects-list article {
+    height: 260px;
+    flex: none;
+    overflow: hidden;
+    width: 100%;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+    /* Old portfolio link ----------------*/ }
+    /* line 28, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+    .projects-list article a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      padding: 16px 32px;
+      box-sizing: border-box;
+      overflow-x: hidden;
+      text-decoration: none;
+      background-size: cover;
+      background: #040118;
+      background-repeat: no-repeat;
+      background-position: center center;
+      overflow: -moz-scrollbars-none; }
+      /* line 44, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+      .projects-list article a::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.6;
+        background-color: #040118;
+        background-image: -webkit-linear-gradient(#040118, #040118);
+        background-image: linear-gradient(#040118, #040118);
+        -webkit-transition: all 0.6s ease-out 0s;
+        -moz-transition: all 0.6s ease-out 0s;
+        transition: all 0.6s ease-out 0s; }
+      /* line 56, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+      .projects-list article a .legend {
+        position: absolute;
+        z-index: 1;
+        bottom: 10%;
+        -webkit-transition: all 0.4s ease-out 0s;
+        -moz-transition: all 0.4s ease-out 0s;
+        transition: all 0.4s ease-out 0s; }
+        /* line 63, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+        .projects-list article a .legend .title {
+          font-size: 1.75em;
+          font-weight: 900;
+          letter-spacing: 1px; }
+          /* line 68, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+          .projects-list article a .legend .title::after {
+            content: "";
+            width: 60px;
+            height: 1px;
+            display: block;
+            background: #00B9FF;
+            margin-top: 14px;
+            margin-bottom: 6px;
+            -webkit-transition: margin 0.3s ease-out 0;
+            -moz-transition: margin 0.3s ease-out 0;
+            transition: margin 0.3s ease-out 0; }
+        /* line 81, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+        .projects-list article a .legend p {
+          text-transform: uppercase;
+          font-weight: 100;
+          font-size: 0.6875em;
+          letter-spacing: 4px; }
+        @media only screen and (min-width: 599px) {
+          /* line 56, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+          .projects-list article a .legend {
+            bottom: -50px;
+            opacity: 0; }
+            /* line 94, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+            .projects-list article a .legend .title::after {
+              margin-top: 100px;
+              margin-bottom: 100px; } }
+      /* line 102, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+      .projects-list article a:hover, .projects-list article a:focus {
+        cursor: pointer; }
+        /* line 106, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+        .projects-list article a:hover::before, .projects-list article a:focus::before {
+          opacity: .6;
+          background-color: rgba(4, 1, 24, 0.1);
+          background-image: -webkit-linear-gradient(rgba(4, 1, 24, 0.1) 40%, rgba(4, 1, 24, 0.6) 60%, #040118 70%);
+          background-image: linear-gradient(rgba(4, 1, 24, 0.1) 40%, rgba(4, 1, 24, 0.6) 60%, #040118 70%); }
+        /* line 111, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+        .projects-list article a:hover .legend, .projects-list article a:focus .legend {
+          bottom: 10%;
+          opacity: 1; }
+          /* line 116, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+          .projects-list article a:hover .legend .title::after, .projects-list article a:focus .legend .title::after {
+            margin-top: 14px;
+            margin-bottom: 6px; }
+    @media only screen and (min-width: 599px) {
+      /* line 18, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+      .projects-list article {
+        height: 100%;
+        width: 50%;
+        display: block; }
+        /* line 131, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+        .projects-list article .legend {
+          bottom: 16%;
+          opacity: .5; } }
+    @media only screen and (min-width: 770px) {
+      /* line 18, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+      .projects-list article {
+        width: 25%; } }
+    @media only screen and (min-width: 1564px) {
+      /* line 18, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+      .projects-list article {
+        width: 20%; } }
+    /* line 150, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+    .projects-list article.old a {
+      background-color: #53b73c;
+      -webkit-transition: background 0.3s ease-out 0;
+      -moz-transition: background 0.3s ease-out 0;
+      transition: background 0.3s ease-out 0; }
+      /* line 154, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+      .projects-list article.old a::before {
+        content: none; }
+      /* line 158, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+      .projects-list article.old a::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border: 10px solid #fff;
+        -webkit-transition: border 0.15s ease-out 0;
+        -moz-transition: border 0.15s ease-out 0;
+        transition: border 0.15s ease-out 0; }
+      /* line 171, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+      .projects-list article.old a section {
+        text-align: center;
+        font-size: 1em;
+        position: relative;
+        top: 30%; }
+        /* line 178, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+        .projects-list article.old a section::before {
+          content: "+";
+          font-size: 5.625em;
+          line-height: 20px;
+          position: relative; }
+        /* line 185, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+        .projects-list article.old a section p {
+          font-weight: 100; }
+          /* line 188, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+          .projects-list article.old a section p button {
+            display: none; }
+      @media only screen and (min-width: 599px) {
+        /* line 199, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+        .projects-list article.old a::after {
+          border: 0 solid #fff; }
+        /* line 205, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+        .projects-list article.old a:hover::after, .projects-list article.old a:focus::after {
+          border: 12px solid #fff; }
+        /* line 210, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+        .projects-list article.old a:hover section::before, .projects-list article.old a:focus section::before {
+          animation-name: headShake;
+          animation-duration: 1s;
+          animation-delay: 0;
+          animation-fill-mode: both;
+          animation-timing-function: ease-in-out; }
+        @keyframes headShake {
+          0% {
+            transform: translateX(0); }
+          6.5% {
+            transform: translateX(-6px) rotateY(-9deg); }
+          18.5% {
+            transform: translateX(5px) rotateY(7deg); }
+          31.5% {
+            transform: translateX(-3px) rotateY(-5deg); }
+          43.5% {
+            transform: translateX(2px) rotateY(3deg); }
+          50% {
+            transform: translateX(0); } }
+        /* line 215, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+        .projects-list article.old a:hover section p button, .projects-list article.old a:focus section p button {
+          background-color: #fff;
+          color: #53b73c; }
+        /* line 223, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+        .projects-list article.old a section {
+          top: 40%;
+          font-size: 1.125em; }
+          /* line 227, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+          .projects-list article.old a section::before {
+            font-size: 10em; }
+          /* line 232, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+          .projects-list article.old a section p button {
+            display: block; } }
+  /* line 246, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+  .projects-list-nav {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    z-index: 2;
+    line-height: 1.4em;
+    padding: 0; }
+    /* line 255, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+    .projects-list-nav::before {
+      content: "";
+      display: block;
+      height: 30px;
+      width: 1px;
+      background: #fff;
+      transform: rotate(45deg);
+      position: absolute;
+      left: 50%; }
+    /* line 266, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+    .projects-list-nav li {
+      list-style-type: none;
+      background: transparent url(../images/arrow.svg) no-repeat 14px 0;
+      width: 50px;
+      height: 30px;
+      display: inline-block;
+      float: left;
+      opacity: .6;
+      margin: 0 7px 0 0;
+      visibility: hidden;
+      -webkit-transition: background 0.15s ease-out 0;
+      -moz-transition: background 0.15s ease-out 0;
+      transition: background 0.15s ease-out 0; }
+      /* line 280, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+      .projects-list-nav li + li {
+        transform: rotate(180deg);
+        margin: 0 0 0 7px;
+        visibility: visible; }
+      /* line 286, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+      .projects-list-nav li:hover, .projects-list-nav li:focus {
+        opacity: 1;
+        background-position: 2px 0;
+        cursor: pointer; }
+    @media only screen and (max-width: 599px) {
+      /* line 300, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects.scss */
+      .projects-list-nav::before,
+      .projects-list-nav li {
+        display: none; } }
+
+/* line 1, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+.projects-item {
+  /* Content Images
+  -------------------------------------------------- */
+  /* Navigation
+  -------------------------------------------------- */ }
+  /* line 3, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+  .projects-item header {
+    background-size: cover;
+    background-repeat: none;
+    background-position: 50% 0;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -ms-flex-direction: normal;
+    position: relative;
+    box-sizing: border-box;
+    /* Layered */
+    /* Picto Scroll */ }
+    /* line 27, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+    .projects-item header::before {
+      background-color: rgba(4, 1, 24, 0.1);
+      background-image: -webkit-linear-gradient(rgba(4, 1, 24, 0.1), rgba(4, 1, 24, 0.4) 20%, #040118 100%);
+      background-image: linear-gradient(rgba(4, 1, 24, 0.1), rgba(4, 1, 24, 0.4) 20%, #040118 100%);
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      opacity: 1;
+      top: initial;
+      z-index: 1;
+      transform: translateX(0%); }
+    /* line 41, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+    .projects-item header::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 90px;
+      left: 0;
+      bottom: 4px;
+      position: absolute;
+      opacity: .6;
+      z-index: 2;
+      background: transparent url(../images/mouse-scroll.svg) no-repeat 50% 50%;
+      /*background-size: 1.8%;*/
+      animation-name: fadeInDown;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-delay: 3s;
+      animation-fill-mode: both; }
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0); }
+  to {
+    opacity: 1;
+    transform: none; } }
+    /* line 59, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+    .projects-item header .title {
+      font-size: 2.625em;
+      font-weight: 900;
+      line-height: 1.2em;
+      margin: 0;
+      max-width: 400px;
+      padding: 0 20px;
+      text-align: center;
+      z-index: 2; }
+      /* line 69, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+      .projects-item header .title::after {
+        content: '';
+        height: 3px;
+        width: 70px;
+        background-color: #fff;
+        margin: 14px auto -6px;
+        display: block; }
+    /* line 79, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+    .projects-item header .chapo {
+      color: #fff;
+      font-size: 1.5em;
+      font-weight: 100;
+      line-height: 1.6em;
+      max-width: 500px;
+      padding: 0 20px;
+      text-align: center;
+      z-index: 2; }
+      /* line 89, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+      .projects-item header .chapo a {
+        border-bottom: 1px dotted rgba(0, 185, 255, 0.4);
+        -webkit-transition: color 0.4s ease-out 0s;
+        -moz-transition: color 0.4s ease-out 0s;
+        transition: color 0.4s ease-out 0s; }
+        /* line 93, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+        .projects-item header .chapo a:hover, .projects-item header .chapo a:focus {
+          color: #00B9FF;
+          cursor: pointer; }
+  /* line 104, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+  .projects-item.hidden-scroll header::after {
+    display: none; }
+  /* line 110, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+  .projects-item .content {
+    margin-bottom: 60px; }
+    /* line 113, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+    .projects-item .content figure {
+      margin: 0 auto 20px;
+      max-width: 880px;
+      padding: 10px; }
+      /* line 118, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+      .projects-item .content figure figcaption {
+        text-align: center;
+        font-size: 0.875em;
+        font-weight: 500;
+        font-style: italic;
+        letter-spacing: 1px;
+        color: rgba(255, 255, 255, 0.5);
+        padding-top: 8px; }
+    /* line 129, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+    .projects-item .content img {
+      margin: 0 auto;
+      box-shadow: 0px 0px 12px #666; }
+    @media only screen and (min-width: 599px) {
+      /* line 110, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+      .projects-item .content {
+        margin-bottom: 120px; }
+        /* line 137, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+        .projects-item .content figure {
+          margin-bottom: 4%;
+          padding: 10px; }
+        /* line 141, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+        .projects-item .content img {
+          border: 10px solid #fff;
+          padding: 1px;
+          background: #e0e0e0; } }
+  /* line 152, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+  .projects-item nav {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto; }
+    /* line 12, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/vendor/susy/susy/output/support/_clearfix.scss */
+    .projects-item nav:after {
+      content: " ";
+      display: block;
+      clear: both; }
+    /* line 156, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+    .projects-item nav a {
+      position: relative;
+      padding: 50px 20px;
+      text-align: left;
+      background-position: 100% 50%;
+      background-size: cover;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      float: left;
+      /* Old Portfolio link */ }
+      @media only screen and (min-width: 599px) {
+        /* line 156, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+        .projects-item nav a {
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          width: 50%;
+          float: left; } }
+      /* line 168, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+      .projects-item nav a::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        opacity: 1;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        background-color: rgba(4, 1, 24, 0.4);
+        background-image: -webkit-linear-gradient(rgba(4, 1, 24, 0.4) 20%, rgba(4, 1, 24, 0.9) 80%);
+        background-image: linear-gradient(rgba(4, 1, 24, 0.4) 20%, rgba(4, 1, 24, 0.9) 80%);
+        -webkit-transition: all 0.2s ease-in;
+        -moz-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in; }
+      /* line 184, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+      .projects-item nav a:hover::before, .projects-item nav a:focus::before {
+        background-color: rgba(4, 1, 24, 0.3);
+        background-image: -webkit-linear-gradient(rgba(4, 1, 24, 0.3) 0%, rgba(4, 1, 24, 0.6) 50%);
+        background-image: linear-gradient(rgba(4, 1, 24, 0.3) 0%, rgba(4, 1, 24, 0.6) 50%); }
+      /* line 189, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+      .projects-item nav a:hover .legend span, .projects-item nav a:focus .legend span {
+        padding-top: -6px; }
+        /* line 192, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+        .projects-item nav a:hover .legend span::after, .projects-item nav a:focus .legend span::after {
+          transform: translateY(0px);
+          margin: 4px 0 5px;
+          opacity: 1; }
+      /* line 199, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+      .projects-item nav a:hover .legend em, .projects-item nav a:focus .legend em {
+        transform: translateY(2px);
+        opacity: .8; }
+      /* line 208, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+      .projects-item nav a .legend {
+        position: absolute;
+        top: 16px;
+        left: 20px;
+        z-index: 3;
+        padding-left: 40px;
+        background: transparent url(../images/arrow.svg) no-repeat 0 10px; }
+        /* line 216, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+        .projects-item nav a .legend span {
+          position: relative;
+          z-index: 2;
+          font-size: 2em;
+          line-height: 1.2em;
+          font-weight: 900;
+          letter-spacing: 1px; }
+          /* line 224, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+          .projects-item nav a .legend span::after {
+            content: "";
+            height: 1px;
+            width: 100%;
+            display: block;
+            background-color: #00B9FF;
+            opacity: 0;
+            margin: 0 0 5px;
+            transform: translateY(12px);
+            position: relative;
+            z-index: 2;
+            -webkit-transition: all 0.2s ease-in, opacity 0.2s ease-in-out 0.1s;
+            -moz-transition: all 0.2s ease-in, opacity 0.2s ease-in-out 0.1s;
+            transition: all 0.2s ease-in, opacity 0.2s ease-in-out 0.1s; }
+        /* line 241, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+        .projects-item nav a .legend em {
+          color: #00B9FF;
+          font-size: 0.625em;
+          font-style: normal;
+          font-weight: 600;
+          text-transform: uppercase;
+          display: block;
+          position: relative;
+          z-index: 2;
+          opacity: .04;
+          letter-spacing: 2px;
+          transform: translateY(-4px);
+          -webkit-transition: all 0.2s ease-out 0;
+          -moz-transition: all 0.2s ease-out 0;
+          transition: all 0.2s ease-out 0; }
+      /* line 258, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+      .projects-item nav a.next {
+        text-align: right;
+        background-position: 0 50%;
+        float: right; }
+        /* line 263, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+        .projects-item nav a.next .legend {
+          right: 20px;
+          left: inherit;
+          background-image: url(../images/arrow-r.svg);
+          background-position: 100% 10px;
+          padding-right: 40px; }
+      /* line 276, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+      .projects-item nav a.old::before {
+        content: none; }
+      /* line 280, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+      .projects-item nav a.old::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        -webkit-transition: border 0.15s ease-out 0;
+        -moz-transition: border 0.15s ease-out 0;
+        transition: border 0.15s ease-out 0; }
+      /* line 293, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+      .projects-item nav a.old:hover::after, .projects-item nav a.old:focus::after {
+        border: 10px solid #fff; }
+      /* line 297, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+      .projects-item nav a.old:hover section::before, .projects-item nav a.old:focus section::before {
+        animation-name: headShake;
+        animation-duration: 1s;
+        animation-delay: 0;
+        animation-fill-mode: both;
+        animation-timing-function: ease-in-out; }
+      /* line 303, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+      .projects-item nav a.old section {
+        position: absolute;
+        background-color: #53b73c;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: right;
+        padding: 10px 80px 10px 10px;
+        font-size: 1em; }
+        /* line 316, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+        .projects-item nav a.old section::before {
+          content: "+";
+          font-size: 5em;
+          line-height: 20px;
+          position: absolute;
+          right: 20px;
+          bottom: calc(50%  - 4px); }
+        /* line 325, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+        .projects-item nav a.old section p {
+          font-weight: 100; }
+          /* line 328, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_projects-item.scss */
+          .projects-item nav a.old section p button {
+            display: none; }
+
+/* line 3, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_contact.scss */
+.contact article {
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  box-direction: normal;
+  -ms-flex-direction: normal;
+  position: relative;
+  padding-top: 50px;
+  /* Layered */
+  /* Content */ }
+  /* line 24, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_contact.scss */
+  .contact article::before {
+    content: "";
+    background-color: rgba(4, 1, 24, 0.5);
+    background-image: -webkit-linear-gradient(rgba(4, 1, 24, 0.5), #040118 100%);
+    background-image: linear-gradient(rgba(4, 1, 24, 0.5), #040118 100%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    top: initial;
+    z-index: 1;
+    transform: translateX(0%); }
+  /* line 39, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_contact.scss */
+  .contact article section {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 12, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/vendor/susy/susy/output/support/_clearfix.scss */
+    .contact article section:after {
+      content: " ";
+      display: block;
+      clear: both; }
+    /* line 50, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_contact.scss */
+    .contact article section .title {
+      display: inline-block;
+      font-size: 2.625em;
+      font-weight: 900;
+      margin-bottom: 20px;
+      line-height: 1.2em;
+      text-align: center;
+      letter-spacing: 4px; }
+    /* line 60, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_contact.scss */
+    .contact article section .content {
+      display: inline-block;
+      color: #fff;
+      font-size: 1.5em;
+      font-weight: 100;
+      line-height: 1.6em; }
+      /* line 67, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_contact.scss */
+      .contact article section .content a {
+        -webkit-transition: color 0.4s ease-out 0s;
+        -moz-transition: color 0.4s ease-out 0s;
+        transition: color 0.4s ease-out 0s; }
+        /* line 69, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_contact.scss */
+        .contact article section .content a.cv {
+          border-bottom: 1px dotted #00B9FF; }
+        /* line 75, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_contact.scss */
+        .contact article section .content a:hover, .contact article section .content a:focus {
+          color: #00B9FF; }
+      /* line 81, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_contact.scss */
+      .contact article section .content p {
+        margin: 0 0 10px; }
+    /* line 86, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_contact.scss */
+    .contact article section dl {
+      line-height: 1em;
+      margin-top: 50px; }
+      /* line 90, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_contact.scss */
+      .contact article section dl dt {
+        text-transform: uppercase;
+        font-size: 0.5em;
+        display: inline-block;
+        opacity: .6;
+        width: 49.15254%;
+        float: left;
+        margin-right: 1.69492%; }
+        /* line 98, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_contact.scss */
+        .contact article section dl dt ~ dt {
+          position: absolute;
+          width: 49.15254%;
+          float: right;
+          margin-right: 0; }
+      /* line 104, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_contact.scss */
+      .contact article section dl dd {
+        margin: 0;
+        font-size: 0.75em;
+        width: 49.15254%;
+        float: left;
+        margin-right: 1.69492%; }
+        /* line 110, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_contact.scss */
+        .contact article section dl dd ~ dd {
+          display: inline-block;
+          width: 49.15254%;
+          float: right;
+          margin-right: 0; }
+  @media only screen and (min-width: 599px) {
+    /* line 123, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_contact.scss */
+    .contact article .title {
+      width: 32.20339%;
+      float: left;
+      margin-right: 1.69492%; }
+    /* line 127, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_contact.scss */
+    .contact article .content {
+      width: 66.10169%;
+      float: right;
+      margin-right: 0; } }
+
+/* Variables */
+/* line 4, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_loader.scss */
+.loader {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  position: fixed;
+  left: -webkit-calc(50% - 20px);
+  left: calc(50% - 20px);
+  top: -webkit-calc(100% - 15%);
+  top: calc(100% - 15%);
+  z-index: 2000;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: opacity 0.6s ease-out-in;
+  -moz-transition: opacity 0.6s ease-out-in;
+  transition: opacity 0.6s ease-out-in; }
+  /* line 19, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_loader.scss */
+  .is-loading .loader {
+    opacity: .6; }
+
+/* line 1, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/mixin/loader/_loader-circles.scss */
+.loader-circles {
+  border-radius: 40px;
+  border: 3px solid transparent;
+  border-top-color: #FFF;
+  -webkit-animation: spin 1s linear infinite;
+  -moz-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite; }
+  /* line 6, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/mixin/loader/_loader-circles.scss */
+  .loader-circles:before, .loader-circles:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 40px;
+    border: 3px solid transparent;
+    border-top-color: #FFF;
+    opacity: 0.8;
+    -webkit-animation: spin 6s linear infinite;
+    -moz-animation: spin 6s linear infinite;
+    animation: spin 6s linear infinite; }
+  /* line 19, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/mixin/loader/_loader-circles.scss */
+  .loader-circles:before {
+    top: 12px;
+    left: 12px;
+    bottom: 12px;
+    right: 12px;
+    opacity: .5;
+    -webkit-animation: spin 5s linear infinite;
+    -moz-animation: spin 5s linear infinite;
+    animation: spin 5s linear infinite; }
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg); } }
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg); }
+  to {
+    -moz-transform: rotate(360deg); } }
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+/* line 3, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_error.scss */
+.error .text {
+  padding-bottom: 150px; }
+  /* line 5, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_error.scss */
+  .error .text::before {
+    content: "";
+    height: 360px;
+    width: auto;
+    display: block;
+    background: transparent url(../images/error.svg) no-repeat 50% 50%;
+    opacity: 1;
+    animation-name: shake;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: both; }
+
+@keyframes shake {
+  from, to {
+    transform: translate3d(0, 0, 0); }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(-10px, 0, 0); }
+  20%, 40%, 60%, 80% {
+    transform: translate3d(10px, 0, 0); } }
+
+/* line 17, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_error.scss */
+.error p {
+  opacity: .6; }
+  /* line 20, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/layout/_error.scss */
+  .error p + p {
+    opacity: .6; }
+
+/* Transitions page
+-------------------------------------------------- */
+/* line 6, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/_transitions.scss */
+.m-scene .scene_element {
+  animation-duration: 0.28s;
+  transition-timing-function: ease-in;
+  /*animation-fill-mode: both;*/ }
+  /* line 12, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/_transitions.scss */
+  .m-scene .scene_element--fade-in {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0;
+    animation-fill-mode: both; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+  /* line 16, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/_transitions.scss */
+  .m-scene .scene_element--fade-in-down {
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    animation-delay: 0;
+    animation-fill-mode: both; }
+  /* line 20, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/_transitions.scss */
+  .m-scene .scene_element--fade-in-up {
+    animation-name: fadeInUpBig;
+    animation-duration: 1s;
+    animation-delay: 0;
+    animation-fill-mode: both; }
+
+@keyframes fadeInUpBig {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 2000px, 0); }
+  to {
+    opacity: 1;
+    transform: none; } }
+
+/* line 27, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/ssigur/_transitions.scss */
+.m-scene.is-exiting .scene_element {
+  animation-direction: alternate-reverse;
+  /*animation-delay: 0s !important;*/ }
+
+/*
+.bounce { @include animate-css(bounce);}
+.flash { @include animate-css(flash);}
+.pulse { @include animate-css(pulse);}
+.rubberBand { @include animate-css(rubberBand);}
+.shake { @include animate-css(shake);}
+.headShake { @include animate-css(headShake);}
+.swing { @include animate-css(swing);}
+.tada { @include animate-css(tada);}
+.wobble { @include animate-css(wobble);}
+.jello { @include animate-css(jello);}
+.bounceIn { @include animate-css(bounceIn);}
+.bounceInDown { @include animate-css(bounceInDown);}
+.bounceInLeft { @include animate-css(bounceInLeft);}
+.bounceInRight { @include animate-css(bounceInRight);}
+.bounceInUp { @include animate-css(bounceInUp);}
+.bounceOut { @include animate-css(bounceOut);}
+.bounceOutDown { @include animate-css(bounceOutDown);}
+.bounceOutLeft { @include animate-css(bounceOutLeft);}
+.bounceOutRight { @include animate-css(bounceOutRight);}
+.bounceOutUp { @include animate-css(bounceOutUp);}
+.fadeIn { @include animate-css(fadeIn);}
+.fadeInDown { @include animate-css(fadeInDown);}
+.fadeInDownBig { @include animate-css(fadeInDownBig);}
+.fadeInLeft { @include animate-css(fadeInLeft);}
+.fadeInLeftBig { @include animate-css(fadeInLeftBig);}
+.fadeInRight { @include animate-css(fadeInRight);}
+.fadeInRightBig { @include animate-css(fadeInRightBig);}
+.fadeInUp { @include animate-css(fadeInUp);}
+.fadeInUpBig { @include animate-css(fadeInUpBig);}
+.fadeOut { @include animate-css(fadeOut);}
+.fadeOutDown { @include animate-css(fadeOutDown);}
+.fadeOutDownBig { @include animate-css(fadeOutDownBig);}
+.fadeOutLeft { @include animate-css(fadeOutLeft);}
+.fadeOutLeftBig { @include animate-css(fadeOutLeftBig);}
+.fadeOutRight { @include animate-css(fadeOutRight);}
+.fadeOutRightBig { @include animate-css(fadeOutRightBig);}
+.fadeOutUp { @include animate-css(fadeOutUp);}
+.fadeOutUpBig { @include animate-css(fadeOutUpBig);}
+.flipInX { @include animate-css(flipInX);}
+.flipInY { @include animate-css(flipInY);}
+.flipOutX { @include animate-css(flipOutX);}
+.flipOutY { @include animate-css(flipOutY);}
+.lightSpeedIn { @include animate-css(lightSpeedIn);}
+.lightSpeedOut { @include animate-css(lightSpeedOut);}
+.rotateIn { @include animate-css(rotateIn);}
+.rotateInDownLeft { @include animate-css(rotateInDownLeft);}
+.rotateInDownRight { @include animate-css(rotateInDownRight);}
+.rotateInUpLeft { @include animate-css(rotateInUpLeft);}
+.rotateInUpRight { @include animate-css(rotateInUpRight);}
+.rotateOut { @include animate-css(rotateOut);}
+.rotateOutDownLeft { @include animate-css(rotateOutDownLeft);}
+.rotateOutDownRight { @include animate-css(rotateOutDownRight);}
+.rotateOutUpLeft { @include animate-css(rotateOutUpLeft);}
+.rotateOutUpRight { @include animate-css(rotateOutUpRight);}
+.hinge { @include animate-css(hinge);}
+.rollIn { @include animate-css(rollIn);}
+.rollOut { @include animate-css(rollOut);}
+.zoomIn { @include animate-css(zoomIn);}
+.zoomInDown { @include animate-css(zoomInDown);}
+.zoomInLeft { @include animate-css(zoomInLeft);}
+.zoomInRight { @include animate-css(zoomInRight);}
+.zoomInUp { @include animate-css(zoomInUp);}
+.zoomOut { @include animate-css(zoomOut);}
+.zoomOutDown { @include animate-css(zoomOutDown);}
+.zoomOutLeft { @include animate-css(zoomOutLeft);}
+.zoomOutRight { @include animate-css(zoomOutRight);}
+.zoomOutUp { @include animate-css(zoomOutUp);}
+.slideInDown { @include animate-css(slideInDown);}
+.slideInLeft { @include animate-css(slideInLeft);}
+.slideInRight { @include animate-css(slideInRight);}
+.slideInUp { @include animate-css(slideInUp);}
+.slideOutDown { @include animate-css(slideOutDown);}
+.slideOutLeft { @include animate-css(slideOutLeft);}
+.slideOutRight { @include animate-css(slideOutRight);}
+.slideOutUp { @include animate-css(slideOutRight);}
+*/
+/* Site
+-------------------------------------------------- */
+/* line 7, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/styles.scss */
+html {
+  height: 101%;
+  font-family: "Roboto", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  background: #040118; }
+  /* line 16, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/styles.scss */
+  html.no-touchevents body::after {
+    border: 4px solid #fff;
+    pointer-events: none;
+    box-sizing: border-box;
+    content: '';
+    height: 100vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 100; }
+
+/* line 35, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/styles.scss */
+body {
+  background: #040118;
+  color: #fff;
+  height: 100%;
+  margin: 0 auto; }
+  /* line 41, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/styles.scss */
+  body * {
+    box-sizing: border-box; }
+  /* line 45, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/styles.scss */
+  body #main {
+    height: 100%; }
+
+/* IMG
+-------------------------------------------------- */
+/* line 53, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/styles.scss */
+img {
+  display: block;
+  max-width: 100%;
+  image-rendering: optimizeQuality; }
+
+/* Links
+-------------------------------------------------- */
+/* line 61, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/styles.scss */
+a {
+  color: #fff;
+  text-decoration: none; }
+  /* line 65, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/styles.scss */
+  a:hover, a:focus {
+    cursor: pointer; }
+    /* line 69, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/styles.scss */
+    a:hover *, a:focus * {
+      cursor: pointer; }
+
+/* Main
+-------------------------------------------------- */
+/* line 80, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/styles.scss */
+main .innertube {
+  margin: 0 auto;
+  max-width: 1150px; }
+
+/* line 85, /Users/ssigur/Travaux/_Divers/Web-2016/04-PROD/www/portfolio-2016/app/scss/styles.scss */
+main .text {
+  padding: 100px 20px;
+  text-align: center; }
+
+/* Clicky analytics
+-------------------------------------------------- */
+
+
+/*# sourceMappingURL=styles.min.css.map*/
