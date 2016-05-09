@@ -21,6 +21,8 @@
     overflow: hidden;
     width: 100%;
 
+
+
     @include transition(all .4s ease-out 0s);
 
     a{
@@ -37,6 +39,8 @@
       background-repeat: no-repeat;
       background-position: center center;
 
+      overflow: -moz-scrollbars-none;
+
       &::before{
         content: '';
         width: 100%;
@@ -44,7 +48,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        opacity: 0.4;
+        opacity: 0.6;
         @include linear-gradient($c-site, $c-site);
         @include transition(all .6s ease-out 0s);
       }

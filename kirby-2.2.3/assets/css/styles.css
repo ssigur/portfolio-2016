@@ -191,18 +191,18 @@ box-shadow: 0 0 40px rgba(8, 3, 33, .4);*/ }
 /* Tags (Home & projet)
 -------------------------------------------------- */
 /* line 4, ../../../app/scss/ssigur/layout/_tags.scss */
-.tags { max-width: 400px; margin: 0; padding: 0; text-align: center; z-index: 2; opacity: .4; -webkit-transition: opacity 0.4s ease-out 0s; -moz-transition: opacity 0.4s ease-out 0s; transition: opacity 0.4s ease-out 0s; /* Accueil */ }
-/* line 16, ../../../app/scss/ssigur/layout/_tags.scss */
+.tags { max-width: 400px; width: 90%; margin: 0; padding: 0; text-align: center; z-index: 2; opacity: .4; -webkit-transition: opacity 0.4s ease-out 0s; -moz-transition: opacity 0.4s ease-out 0s; transition: opacity 0.4s ease-out 0s; /* Accueil */ }
+/* line 17, ../../../app/scss/ssigur/layout/_tags.scss */
 .tags:hover, .tags:focus { opacity: 1; }
-/* line 21, ../../../app/scss/ssigur/layout/_tags.scss */
-.tags li { display: inline; margin: auto 3px; text-transform: uppercase; font-size: 0.75em; font-weight: 300; white-space: nowrap; }
-/* line 30, ../../../app/scss/ssigur/layout/_tags.scss */
+/* line 22, ../../../app/scss/ssigur/layout/_tags.scss */
+.tags li { display: inline-block; margin: auto 3px; text-transform: uppercase; font-size: 0.75em; font-weight: 500; white-space: nowrap; }
+/* line 31, ../../../app/scss/ssigur/layout/_tags.scss */
 .tags li::before { content: '#'; color: #00B9FF; font-weight: 900; }
-/* line 38, ../../../app/scss/ssigur/layout/_tags.scss */
+/* line 39, ../../../app/scss/ssigur/layout/_tags.scss */
 .home .tags { text-align: left; }
-/* line 41, ../../../app/scss/ssigur/layout/_tags.scss */
-.home .tags li { margin-left: 0; }
-/* line 44, ../../../app/scss/ssigur/layout/_tags.scss */
+/* line 42, ../../../app/scss/ssigur/layout/_tags.scss */
+.home .tags li { margin-left: 0; float: left; }
+/* line 46, ../../../app/scss/ssigur/layout/_tags.scss */
 .home .tags li::before { /*color: $c-white;*/ opacity: .5; }
 
 /* Works list - projects
@@ -213,57 +213,57 @@ box-shadow: 0 0 40px rgba(8, 3, 33, .4);*/ }
   .projects-list { -webkit-box-orient: horizontal; -moz-box-orient: horizontal; box-orient: horizontal; -webkit-flex-direction: row; -moz-flex-direction: row; flex-direction: row; -ms-flex-direction: row; } }
 /* line 18, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list article { height: 260px; flex: none; overflow: hidden; width: 100%; -webkit-transition: all 0.4s ease-out 0s; -moz-transition: all 0.4s ease-out 0s; transition: all 0.4s ease-out 0s; /* Old portfolio link ----------------*/ }
-/* line 26, ../../../app/scss/ssigur/layout/_projects.scss */
-.projects-list article a { display: block; width: 100%; height: 100%; position: relative; padding: 16px 32px; box-sizing: border-box; overflow-x: hidden; text-decoration: none; background-size: cover; background: #040118; background-repeat: no-repeat; background-position: center center; }
-/* line 40, ../../../app/scss/ssigur/layout/_projects.scss */
-.projects-list article a::before { content: ''; width: 100%; height: 100%; position: absolute; top: 0; left: 0; opacity: 0.4; background-color: #040118; background-image: -webkit-linear-gradient(#040118, #040118); background-image: linear-gradient(#040118, #040118); -webkit-transition: all 0.6s ease-out 0s; -moz-transition: all 0.6s ease-out 0s; transition: all 0.6s ease-out 0s; }
-/* line 52, ../../../app/scss/ssigur/layout/_projects.scss */
+/* line 28, ../../../app/scss/ssigur/layout/_projects.scss */
+.projects-list article a { display: block; width: 100%; height: 100%; position: relative; padding: 16px 32px; box-sizing: border-box; overflow-x: hidden; text-decoration: none; background-size: cover; background: #040118; background-repeat: no-repeat; background-position: center center; overflow: -moz-scrollbars-none; }
+/* line 44, ../../../app/scss/ssigur/layout/_projects.scss */
+.projects-list article a::before { content: ''; width: 100%; height: 100%; position: absolute; top: 0; left: 0; opacity: 0.6; background-color: #040118; background-image: -webkit-linear-gradient(#040118, #040118); background-image: linear-gradient(#040118, #040118); -webkit-transition: all 0.6s ease-out 0s; -moz-transition: all 0.6s ease-out 0s; transition: all 0.6s ease-out 0s; }
+/* line 56, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list article a .legend { position: absolute; z-index: 1; bottom: 10%; -webkit-transition: all 0.4s ease-out 0s; -moz-transition: all 0.4s ease-out 0s; transition: all 0.4s ease-out 0s; }
-/* line 59, ../../../app/scss/ssigur/layout/_projects.scss */
+/* line 63, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list article a .legend .title { font-size: 1.75em; font-weight: 900; letter-spacing: 1px; }
-/* line 64, ../../../app/scss/ssigur/layout/_projects.scss */
+/* line 68, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list article a .legend .title::after { content: ""; width: 60px; height: 1px; display: block; background: #00B9FF; margin-top: 14px; margin-bottom: 6px; -webkit-transition: margin 0.3s ease-out 0; -moz-transition: margin 0.3s ease-out 0; transition: margin 0.3s ease-out 0; }
-/* line 77, ../../../app/scss/ssigur/layout/_projects.scss */
+/* line 81, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list article a .legend p { text-transform: uppercase; font-weight: 100; font-size: 0.6875em; letter-spacing: 4px; }
-@media only screen and (min-width: 599px) { /* line 52, ../../../app/scss/ssigur/layout/_projects.scss */
+@media only screen and (min-width: 599px) { /* line 56, ../../../app/scss/ssigur/layout/_projects.scss */
   .projects-list article a .legend { bottom: -50px; opacity: 0; }
-  /* line 90, ../../../app/scss/ssigur/layout/_projects.scss */
+  /* line 94, ../../../app/scss/ssigur/layout/_projects.scss */
   .projects-list article a .legend .title::after { margin-top: 100px; margin-bottom: 100px; } }
-/* line 98, ../../../app/scss/ssigur/layout/_projects.scss */
-.projects-list article a:hover, .projects-list article a:focus { cursor: pointer; }
 /* line 102, ../../../app/scss/ssigur/layout/_projects.scss */
+.projects-list article a:hover, .projects-list article a:focus { cursor: pointer; }
+/* line 106, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list article a:hover::before, .projects-list article a:focus::before { opacity: .6; background-color: rgba(4, 1, 24, 0.1); background-image: -webkit-linear-gradient(rgba(4, 1, 24, 0.1) 40%, rgba(4, 1, 24, 0.6) 60%, #040118 70%); background-image: linear-gradient(rgba(4, 1, 24, 0.1) 40%, rgba(4, 1, 24, 0.6) 60%, #040118 70%); }
-/* line 107, ../../../app/scss/ssigur/layout/_projects.scss */
+/* line 111, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list article a:hover .legend, .projects-list article a:focus .legend { bottom: 10%; opacity: 1; }
-/* line 112, ../../../app/scss/ssigur/layout/_projects.scss */
+/* line 116, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list article a:hover .legend .title::after, .projects-list article a:focus .legend .title::after { margin-top: 14px; margin-bottom: 6px; }
 @media only screen and (min-width: 599px) { /* line 18, ../../../app/scss/ssigur/layout/_projects.scss */
   .projects-list article { height: 100%; width: 50%; display: block; }
-  /* line 127, ../../../app/scss/ssigur/layout/_projects.scss */
+  /* line 131, ../../../app/scss/ssigur/layout/_projects.scss */
   .projects-list article .legend { bottom: 16%; opacity: .5; } }
 @media only screen and (min-width: 770px) { /* line 18, ../../../app/scss/ssigur/layout/_projects.scss */
   .projects-list article { width: 25%; } }
 @media only screen and (min-width: 1564px) { /* line 18, ../../../app/scss/ssigur/layout/_projects.scss */
   .projects-list article { width: 20%; } }
-/* line 146, ../../../app/scss/ssigur/layout/_projects.scss */
-.projects-list article.old a { background-color: #53b73c; -webkit-transition: background 0.3s ease-out 0; -moz-transition: background 0.3s ease-out 0; transition: background 0.3s ease-out 0; }
 /* line 150, ../../../app/scss/ssigur/layout/_projects.scss */
-.projects-list article.old a::before { content: none; }
+.projects-list article.old a { background-color: #53b73c; -webkit-transition: background 0.3s ease-out 0; -moz-transition: background 0.3s ease-out 0; transition: background 0.3s ease-out 0; }
 /* line 154, ../../../app/scss/ssigur/layout/_projects.scss */
+.projects-list article.old a::before { content: none; }
+/* line 158, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list article.old a::after { content: ""; position: absolute; top: 0; right: 0; bottom: 0; left: 0; border: 10px solid #fff; -webkit-transition: border 0.15s ease-out 0; -moz-transition: border 0.15s ease-out 0; transition: border 0.15s ease-out 0; }
-/* line 167, ../../../app/scss/ssigur/layout/_projects.scss */
+/* line 171, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list article.old a section { text-align: center; font-size: 1em; position: relative; top: 30%; }
-/* line 174, ../../../app/scss/ssigur/layout/_projects.scss */
+/* line 178, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list article.old a section::before { content: "+"; font-size: 5.625em; line-height: 20px; position: relative; }
-/* line 181, ../../../app/scss/ssigur/layout/_projects.scss */
+/* line 185, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list article.old a section p { font-weight: 100; }
-/* line 184, ../../../app/scss/ssigur/layout/_projects.scss */
+/* line 188, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list article.old a section p button { display: none; }
-@media only screen and (min-width: 599px) { /* line 195, ../../../app/scss/ssigur/layout/_projects.scss */
+@media only screen and (min-width: 599px) { /* line 199, ../../../app/scss/ssigur/layout/_projects.scss */
   .projects-list article.old a::after { border: 0 solid #fff; }
-  /* line 201, ../../../app/scss/ssigur/layout/_projects.scss */
+  /* line 205, ../../../app/scss/ssigur/layout/_projects.scss */
   .projects-list article.old a:hover::after, .projects-list article.old a:focus::after { border: 12px solid #fff; }
-  /* line 206, ../../../app/scss/ssigur/layout/_projects.scss */
+  /* line 210, ../../../app/scss/ssigur/layout/_projects.scss */
   .projects-list article.old a:hover section::before, .projects-list article.old a:focus section::before { animation-name: headShake; animation-duration: 1s; animation-delay: 0; animation-fill-mode: both; animation-timing-function: ease-in-out; }
   @keyframes headShake { 0% { transform: translateX(0); }
     6.5% { transform: translateX(-6px) rotateY(-9deg); }
@@ -271,25 +271,25 @@ box-shadow: 0 0 40px rgba(8, 3, 33, .4);*/ }
     31.5% { transform: translateX(-3px) rotateY(-5deg); }
     43.5% { transform: translateX(2px) rotateY(3deg); }
     50% { transform: translateX(0); } }
-  /* line 211, ../../../app/scss/ssigur/layout/_projects.scss */
+  /* line 215, ../../../app/scss/ssigur/layout/_projects.scss */
   .projects-list article.old a:hover section p button, .projects-list article.old a:focus section p button { background-color: #fff; color: #53b73c; }
-  /* line 219, ../../../app/scss/ssigur/layout/_projects.scss */
-  .projects-list article.old a section { top: 40%; font-size: 1.125em; }
   /* line 223, ../../../app/scss/ssigur/layout/_projects.scss */
+  .projects-list article.old a section { top: 40%; font-size: 1.125em; }
+  /* line 227, ../../../app/scss/ssigur/layout/_projects.scss */
   .projects-list article.old a section::before { font-size: 10em; }
-  /* line 228, ../../../app/scss/ssigur/layout/_projects.scss */
+  /* line 232, ../../../app/scss/ssigur/layout/_projects.scss */
   .projects-list article.old a section p button { display: block; } }
-/* line 242, ../../../app/scss/ssigur/layout/_projects.scss */
+/* line 246, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list-nav { position: absolute; bottom: 10px; right: 30px; z-index: 2; line-height: 1.4em; padding: 0; }
-/* line 251, ../../../app/scss/ssigur/layout/_projects.scss */
+/* line 255, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list-nav::before { content: ""; display: block; height: 30px; width: 1px; background: #fff; transform: rotate(45deg); position: absolute; left: 50%; }
-/* line 262, ../../../app/scss/ssigur/layout/_projects.scss */
+/* line 266, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list-nav li { list-style-type: none; background: transparent url(../images/arrow.svg) no-repeat 14px 0; width: 50px; height: 30px; display: inline-block; float: left; opacity: .6; margin: 0 7px 0 0; visibility: hidden; -webkit-transition: background 0.15s ease-out 0; -moz-transition: background 0.15s ease-out 0; transition: background 0.15s ease-out 0; }
-/* line 276, ../../../app/scss/ssigur/layout/_projects.scss */
+/* line 280, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list-nav li + li { transform: rotate(180deg); margin: 0 0 0 7px; visibility: visible; }
-/* line 282, ../../../app/scss/ssigur/layout/_projects.scss */
+/* line 286, ../../../app/scss/ssigur/layout/_projects.scss */
 .projects-list-nav li:hover, .projects-list-nav li:focus { opacity: 1; background-position: 2px 0; cursor: pointer; }
-@media only screen and (max-width: 599px) { /* line 296, ../../../app/scss/ssigur/layout/_projects.scss */
+@media only screen and (max-width: 599px) { /* line 300, ../../../app/scss/ssigur/layout/_projects.scss */
   .projects-list-nav::before, .projects-list-nav li { display: none; } }
 
 /* line 1, ../../../app/scss/ssigur/layout/_projects-item.scss */
