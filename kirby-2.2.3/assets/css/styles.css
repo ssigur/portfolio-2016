@@ -431,6 +431,18 @@ box-shadow: 0 0 40px rgba(8, 3, 33, .4);*/ }
   to { -moz-transform: rotate(360deg); } }
 @keyframes spin { from { -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); }
   to { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg); } }
+/* line 3, ../../../app/scss/ssigur/layout/_error.scss */
+.error .text { padding-bottom: 150px; }
+/* line 5, ../../../app/scss/ssigur/layout/_error.scss */
+.error .text::before { content: ""; height: 360px; width: auto; display: block; background: transparent url(../images/error.svg) no-repeat 50% 50%; opacity: 1; animation-name: shake; animation-duration: 1s; animation-delay: 2s; animation-fill-mode: both; }
+@keyframes shake { from, to { transform: translate3d(0, 0, 0); }
+  10%, 30%, 50%, 70%, 90% { transform: translate3d(-10px, 0, 0); }
+  20%, 40%, 60%, 80% { transform: translate3d(10px, 0, 0); } }
+/* line 17, ../../../app/scss/ssigur/layout/_error.scss */
+.error p { opacity: .6; }
+/* line 20, ../../../app/scss/ssigur/layout/_error.scss */
+.error p + p { opacity: .6; }
+
 /* Transitions page
 -------------------------------------------------- */
 /* line 6, ../../../app/scss/ssigur/_transitions.scss */

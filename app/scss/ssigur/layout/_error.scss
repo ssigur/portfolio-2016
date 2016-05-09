@@ -1,135 +1,27 @@
-.contact{
+.error{
 
-  article{
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: block;
-    height: 100vh;
-    width: 100%;
-    padding: 20px;
-    @include display(flex);
-    @include box-pack(center);
-    @include justify-content(center);
-    @include align-items(center);
-    @include flex-direction(column);
-    @include box-orient(vertical);
-    @include box-direction(normal);
-    position: relative;
-
-    padding-top: 50px;
-
-
-    /* Layered */
+  .text{
+    padding-bottom: 150px;
     &::before{
       content: "";
-      @include linear-gradient(rgba($c-site, .5), $c-site 100%);
-      height: 100%;
-      width: 100%;
-      position: absolute;
-      bottom: 0;
-      left: 0;
+      height: 360px;
+      width: auto;
+      display: block;
+      background: transparent url(../images/error.svg) no-repeat 50% 50%;
       opacity: 1;
-      top: initial;
-      z-index: 1;
-      transform: translateX(0%);
+
+      @include animate-css(shake, $delay:2s);
     }
-
-    /* Content */
-    section{
-      position: relative;
-      z-index: 2;
-      overflow: hidden;
-
-      @include container(900px);
-
-      h1{
-        @extend %hidden-L;
-      }
-
-      .title{
-        display: inline-block;
-        font-size: em(42,16);
-        font-weight: 900;
-        margin-bottom: 20px;
-        line-height: 1.2em;
-        text-align: center;
-        letter-spacing: 4px;
-      }
-
-      .content{
-        display: inline-block;
-        color: $c-white;
-        font-size: em(24,16);
-        font-weight: 100;
-        line-height: 1.6em;
-
-        a{
-
-          &.cv{
-            border-bottom: 1px dotted $c-secondary;
-          }
-
-          @include transition(color .4s ease-out 0s);
-
-          &:hover,
-          &:focus{
-            color: $c-secondary;
-          }
-        }
-
-        p{
-          margin: 0 0 10px;
-        }
-      }
-
-      dl{
-        line-height: 1em;
-        margin-top: 50px;
-
-        dt{
-          text-transform: uppercase;
-          font-size: em(8,16);
-          display: inline-block;
-          opacity: .6;
-          @include span(6 of 12 first);
-
-
-          ~ dt{
-            position: absolute;
-            @include span(6 of 12 last);
-          }
-        }
-
-        dd{
-
-          margin: 0;
-          font-size: em(12,16);
-          @include span(6 of 12 first);
-
-          ~ dd{
-            display: inline-block;
-            @include span(6 of 12 last);
-          }
-
-        }
-
-
-      }
-    }
-
-
-    @include bp(min-width, $bp-small) {
-      .title{
-        @include span(4 of 12 first);
-      }
-
-      .content{
-        @include span(8 of 12 last);
-      }
-    }
-
   }
+
+  p{
+    opacity: .6;
+
+    +p{
+      opacity: .6;
+    }
+  }
+
 
 
 }
