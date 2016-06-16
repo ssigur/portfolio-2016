@@ -5,7 +5,7 @@ Title: Accueil
 Text: 
 
 <ul>
-<li>UX Designer</li>
+<li>UI/UX Designer</li>
 <li>Développeur Front-end</li>
 </ul>
 

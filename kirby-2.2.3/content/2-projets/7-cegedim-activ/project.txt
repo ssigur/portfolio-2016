@@ -18,7 +18,7 @@ Headerbackground: head.jpg
 
 ----
 
-Homebackground: thumb.jpg
+Homebackground: thumb-2.jpg
 
 ----
 
@@ -30,4 +30,4 @@ Visuels: MIDIWAY APPTABL_01 - Login.jpg,MIDIWAY-APPTABL_00---WIRF.jpg,MIDIWAY AP
 
 ----
 
-metaDescription: Conception, ergonomie, UI et UX d'une application destinée aux tablettes pour le compte de Cegedim Active, premier intervenant sur le marché français des solutions logicielles pour l’Assurance de Personnes.
+Metadescription: Conception, ergonomie, UI et UX d'une application destinée aux tablettes pour le compte de Cegedim Active, premier intervenant sur le marché français des solutions logicielles pour l’Assurance de Personnes.

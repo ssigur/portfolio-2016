@@ -22,7 +22,7 @@ Habillagesettings:
 
 ----
 
-Homebackground: cultura-thumb3.jpg
+Homebackground: cultura-thumb4.jpg
 
 ----
 
@@ -38,4 +38,4 @@ Visuels: cultura-head.jpg
 
 ----
 
-MetaDescription: Intégration du site eCommerce de l'enseigne  Cultura en version Mobile, pour le compte de la société d'ingénierie X2i, spécialiste du eCommerce sous Magento.
+Metadescription: Intégration du site eCommerce de l'enseigne  Cultura en version Mobile, pour le compte de la société d'ingénierie X2i, spécialiste du eCommerce sous Magento.

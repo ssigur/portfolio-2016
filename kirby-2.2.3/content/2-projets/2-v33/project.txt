@@ -6,7 +6,7 @@ Year: 2015
 
 ----
 
-Desc: Intégration du site de présentation de la gamme (link:http://www.v33.fr text: **V33**) pour le compte de la société d'ingénierie spécialiste du eCommerce avec Magento (link:http://www.x2i.fr text: **X2i**).
+Desc: Contribution à l'intégration du site (link:http://www.v33.fr text: **V33**) pour le compte de la société d'ingénierie spécialiste du eCommerce avec Magento (link:http://www.x2i.fr text: **X2i**).
 
 ----
 
@@ -22,7 +22,7 @@ Habillagesettings:
 
 ----
 
-Homebackground: v33-thumb5.jpg
+Homebackground: v33-thumb6.jpg
 
 ----
 
@@ -38,4 +38,4 @@ Visuels: V33-Home.jpg
 
 ----
 
-MetaDescription: Intégration du site de présentation des produits de la gamme V33 pour le compte de la société d'ingénierie spécialiste du eCommerce avec Magento, X2i.
+Metadescription: Intégration du site de présentation des produits de la gamme V33 pour le compte de la société d'ingénierie spécialiste du eCommerce avec Magento, X2i.
