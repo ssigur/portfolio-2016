@@ -74,9 +74,9 @@
               </a>
               <?php else: ?>
 
-              <?php if($site->find('projects/old')): // Old portfolio ?>
+              <?php if($site->find('projets/old')): // Old portfolio ?>
                 <a class="old" href="<?php  echo $site->oldurl()->text() ?>" target="_blank">
-                      <section><?php echo page('projects/old')->Desc()->kirbytext(); ?></section>
+                      <section><?php echo page('projets/old')->Desc()->kirbytext(); ?></section>
                 </a>
               <?php endif ?>
           <?php endif ?>
