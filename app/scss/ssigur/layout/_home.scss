@@ -94,6 +94,11 @@
     button{
       @extend %btn-phantom;
 
+      @include bp(max-width, $bp-small) {
+        padding: 1.5em 2.5em;
+        margin-top:50px;
+      }
+
       &:hover,
       &:focus{
         background-color: $c-secondary;
