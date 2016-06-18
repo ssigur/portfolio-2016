@@ -107,7 +107,7 @@ header nav ul { padding: 0; text-transform: uppercase; }
 
 /* BTN NAVIGATION */
 /* line 110, ../../../app/scss/ssigur/layout/_navigation.scss */
-#trigger-nav { background: none; border: none; outline: none; width: 88px; height: 48px; display: block; position: fixed; top: 30px; right: 30px; z-index: 1001; overflow: visible; /*transform: translateX(-200%);*/ transition: transform 0.8s cubic-bezier(0.8, 0, 0.2, 1) 0.4s; }
+#trigger-nav { background: none; border: none; outline: none; width: 88px; height: 48px; display: block; position: fixed; top: 30px; right: 40px; z-index: 1001; overflow: visible; /*transform: translateX(-200%);*/ transition: transform 0.8s cubic-bezier(0.8, 0, 0.2, 1) 0.4s; }
 /* line 123, ../../../app/scss/ssigur/layout/_navigation.scss */
 #trigger-nav .label { color: #fff; text-transform: uppercase; margin-left: -20px; font-size: 0.75em; letter-spacing: 2px; font-weight: 500; opacity: .5; padding: 20px; -webkit-transition: opacity 0.4s ease-out 0.1s; -moz-transition: opacity 0.4s ease-out 0.1s; transition: opacity 0.4s ease-out 0.1s; }
 /* line 138, ../../../app/scss/ssigur/layout/_navigation.scss */
