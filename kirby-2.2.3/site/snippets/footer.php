@@ -7,12 +7,13 @@
     <?php // echo $site->copyright()->kirbytext() ?>
 </footer>
 
-<?php echo js(array(
-    'assets/js/app.min.js',
-)) ?>
+
 
 </div>
 <?php snippet('loader') ?>
+
+<?php echo js(array('assets/js/libraries.js', 'assets/js/app.min.js')) ?>
+<link href='https://fonts.googleapis.com/css?family=Roboto:300,500,900' rel='stylesheet' type='text/css'>
 
 <?php snippet('googleanalytics') // ! \\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  ?>
 
