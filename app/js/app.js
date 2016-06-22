@@ -5,6 +5,7 @@ $(document).ready(function(){
     // Menu Navigation
     $('#trigger-nav').on('click', function () {
         $('html').toggleClass('hide-navigation').toggleClass('show-navigation');
+        //console.log("test menu");
     });
 
     // home Overlay
