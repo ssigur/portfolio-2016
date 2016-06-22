@@ -77,13 +77,13 @@ footer .contact a:hover, footer .contact a:focus { opacity: 1; }
 /* Navigation
 -------------------------------------------------- */
 /* line 4, ../../../app/scss/ssigur/layout/_navigation.scss */
-header nav { position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: 1000; background: rgba(0, 185, 255, 0.95); opacity: 1; box-shadow: 0 0 40px rgba(4, 3, 33, 0.6); -webkit-transition: all 0.4s ease-out 0s; -moz-transition: all 0.4s ease-out 0s; transition: all 0.4s ease-out 0s; }
+#main > nav { position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: 1000; background: rgba(0, 185, 255, 0.95); opacity: 1; box-shadow: 0 0 40px rgba(4, 3, 33, 0.6); -webkit-transition: all 0.4s ease-out 0s; -moz-transition: all 0.4s ease-out 0s; transition: all 0.4s ease-out 0s; }
 @media only screen and (min-width: 770px) { /* line 4, ../../../app/scss/ssigur/layout/_navigation.scss */
-  header nav { width: 50%; left: 50%; } }
+  #main > nav { width: 50%; left: 50%; } }
 /* line 22, ../../../app/scss/ssigur/layout/_navigation.scss */
-.hide-navigation header nav { opacity: 1; left: 100%; box-shadow: none; }
+.hide-navigation #main > nav { opacity: 1; left: 100%; box-shadow: none; }
 /* line 28, ../../../app/scss/ssigur/layout/_navigation.scss */
-header nav ul { padding: 0; text-transform: uppercase; }
+#main > nav ul { padding: 0; text-transform: uppercase; }
 
 /* Effet translation au dessus BP le plus haut */
 @media only screen and (min-width: 1324px) { /* line 38, ../../../app/scss/ssigur/layout/_navigation.scss */

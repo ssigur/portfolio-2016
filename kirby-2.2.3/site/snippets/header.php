@@ -15,7 +15,7 @@
 
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300,500,900' rel='stylesheet' type='text/css'>
+
 
 
   <link rel="apple-touch-icon" sizes="57x57" href="<?php echo url('assets/images/favicon/apple-icon-57x57.png') ?>">
@@ -38,23 +38,22 @@
 
   <link rel="alternate" type="application/rss+xml" href="<?php echo url('projets/feed') ?>" title="<?php echo html($pages->find('projets/feed')->title()) ?>" />
 
-  <?php echo js(array(
+  <?php /* echo js(array(
       'assets/js/libraries.js',
-  )) ?>
+  )) */ ?>
 
   <?php echo css('assets/css/styles.min.css') ?>
 
 </head>
 <body>
+<header class="header cf" role="banner">
+  <a class="logo" href="<?php echo url() ?>">
+    <span class="hidden-L">Stéphane SIGUR</span>
+    <img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
+  </a>
 
+  <?php snippet('menu-btn') ?>
+
+</header>
   <div id="main" class="m-scene">
-
-    <header class="header cf" role="banner">
-      <a class="logo" href="<?php echo url() ?>">
-        <span class="hidden-L">Stéphane SIGUR</span>
-        <img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
-      </a>
-
-      <?php snippet('menu') ?>
-
-    </header>
+    <?php snippet('menu') ?>

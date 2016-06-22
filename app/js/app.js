@@ -5,11 +5,10 @@ $(document).ready(function(){
     // Menu Navigation
     $('#trigger-nav').on('click', function () {
         $('html').toggleClass('hide-navigation').toggleClass('show-navigation');
-        //console.log("test menu");
     });
 
     // home Overlay
-    $('.home .overlay button').on('click', function () {
+    $('.overlay button').on('click', function () {
         $('html').addClass('hide-overlay');
     });
 
@@ -239,6 +238,11 @@ $(function(){
 
                 // Remove your CSS animation reversing class
                 $body.removeClass('is-loading');
+
+                // home Overlay
+                $('.overlay button').on('click', function () {
+                    $('html').addClass('hide-overlay');
+                });
 
                 $('html').removeClass('hide-overlay');
                 $(window).trigger('resize');
