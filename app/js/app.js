@@ -204,7 +204,6 @@ $(function(){
                 duration: 650, // Duration of our animation
                 render: function ($container) {
 
-                    init();
 
                     // Add your CSS animation reversing class
                     $container.addClass('is-exiting');
@@ -235,6 +234,8 @@ $(function(){
             },
 
             onAfter: function($container) {
+
+                init(); // projects nav
 
                 // Remove your CSS animation reversing class
                 $body.removeClass('is-loading');
