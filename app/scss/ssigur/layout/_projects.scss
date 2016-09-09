@@ -40,6 +40,11 @@
       background-position: center center;
 
       overflow: -moz-scrollbars-none;
+      -ms-overflow-style: none;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
 
       &::before{
         content: '';
