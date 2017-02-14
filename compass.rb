@@ -3,7 +3,7 @@
 
 #Folder settings
 relative_assets = true      #because we're not working from the root
-css_dir = "kirby-2.2.3/assets/css"          #where the CSS will saved
+css_dir = "kirby-2/assets/css"          #where the CSS will saved
 sass_dir = "app/scss"           #where our .scss files are
 images_dir = "app/images"    #the folder with your images
 

@@ -6,7 +6,7 @@ exports.config = {
 
     "paths": {
         "watched": ["app", "vendor"],
-        "public": "kirby-2.2.3",
+        "public": "kirby-2",
         compass: "./compass.rb"
     },
 
@@ -51,7 +51,7 @@ exports.config = {
         "retina":{
             regexp: /(@2[xX])\.(?:gif|jpeg|jpg|png)$/,
             path: 'images',
-            assetsPath: 'kirby-2.2.3/assets',
+            assetsPath: 'kirby-2/assets',
             minWidth: 0,
             minHeight: 0
         },
