@@ -16,12 +16,10 @@
   }
 
   article{
-    height: 160px;
+    height: 170px;
     flex: none;
     overflow: hidden;
     width: 100%;
-
-
 
     @include transition(all .4s ease-out 0s);
 
@@ -256,49 +254,58 @@
   /* Projects Nav ----------------*/
   &-nav{
     position: absolute;
-    bottom: 10px;
-    right: 30px;
+    bottom: calc(50% - 50px);
     z-index: 2;
     line-height: 1.4em;
     padding: 0;
-
-
-    &::before{
-      content: "";
-      display: block;
-      height: 30px;
-      width: 1px;
-      background: $c-white;
-      transform: rotate(45deg);
-      position: absolute;
-      left: 50%;
-    }
+    width: 100%;
+    left:0;
+    pointer-events: none;
     
     li{
       list-style-type: none;
-      background:transparent url(../images/arrow.svg) no-repeat 14px 0;
-      width: 50px;
-      height: 30px;
+      background: rgba($c-white,.35) url(../images/arrow.svg) no-repeat 50% 50%;
+      width: 80px;
+      height: 80px;
       display: inline-block;
       float: left;
       opacity: .6;
-      margin: 0 7px 0 0;
-
+      margin: 0 0 0 20px;
+      border-radius:50%;
+      pointer-events: auto;
       visibility: hidden;
 
-      @include transition(background .15s ease-out 0);
+      @include transition-property(all);
+      @include transition-duration(.4s);
+      @include transition-timing-function(ease-in-out);
+
+
 
       + li{
-        transform: rotate(180deg);
-        margin: 0 0 0 7px;
+        float: right;
+        background-image:  url(../images/arrow-r.svg);
+        margin: 0 20px 0 0;
         visibility: visible;
+
+        &.turn-up{
+          @include animate-css(pulse, $duration: 2s, $repeat: infinite, $delay: 0s);
+        }
       }
 
       &:hover,
       &:focus{
         opacity: 1;
-        background-position: 2px 0;
         cursor: pointer;
+        background-color: rgba($c-blue, .65);
+        @include animate-css(pulse, $duration: .8s, $repeat: infinite, $delay: .3s);
+      }
+
+      &:active{
+        opacity: 1;
+        cursor: pointer;
+        background-color: rgba($c-pink,.95);
+        @include transition-duration(.01s);
+
       }
 
       span{

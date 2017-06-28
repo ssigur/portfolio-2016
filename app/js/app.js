@@ -40,6 +40,8 @@ var init = function() {
 
 
     function nextSlide() {
+        $('li.turn-up').removeClass('turn-up'); // Remove TurnUp animation
+
         // Recalculates itemCount in case page has resized
         var itemCount = Math.round(workList.getBoundingClientRect().width / item[0].getBoundingClientRect().width);
 
@@ -70,6 +72,8 @@ var init = function() {
     }
 
     function prevSlide() {
+        $('li.turn-up').removeClass('turn-up'); // Remove TurnUp animation
+
         // Get integer for current value of transform property
         // Uses RegEx to get the right value
         var current_pull = item[0].style.transform.match(/-?[\d\.]+/g)[1];
