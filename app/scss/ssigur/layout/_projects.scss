@@ -269,7 +269,7 @@
       height: 80px;
       display: inline-block;
       float: left;
-      opacity: .6;
+      opacity: .56;
       margin: 0 0 0 20px;
       border-radius:50%;
       pointer-events: auto;
@@ -283,7 +283,7 @@
 
       + li{
         float: right;
-        background-image:  url(../images/arrow-r.svg);
+        background-image: url(../images/arrow-r.svg);
         margin: 0 20px 0 0;
         visibility: visible;
 
@@ -296,16 +296,15 @@
       &:focus{
         opacity: 1;
         cursor: pointer;
-        background-color: rgba($c-blue, .65);
-        @include animate-css(pulse, $duration: .8s, $repeat: infinite, $delay: .3s);
+        background-color: rgba($c-blue, .75);
+        @include animate-css(pulse, $duration: .8s, $repeat: infinite, $delay: 0s);
       }
 
       &:active{
         opacity: 1;
         cursor: pointer;
-        background-color: rgba($c-pink,.95);
-        @include transition-duration(.01s);
-
+        background-color: rgba($c-blue,.25);
+        @include transition-duration(.1s);
       }
 
       span{

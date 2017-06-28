@@ -26,12 +26,12 @@
 
       @include bp(max-width, $bp-small) {
         transform: scale(.5);
-        margin-bottom: -25px;
+        margin-bottom: -30px;
       }
     }
 
     ul{
-      padding: 0 0 40px;
+      padding: 0 0 35px;
       margin: 0;
 
       @include transition-property(all);
