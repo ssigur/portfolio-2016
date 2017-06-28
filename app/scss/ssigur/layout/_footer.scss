@@ -5,8 +5,8 @@ footer {
   min-height: 260px;
   display: block;
   background: $c-secondary;
-  padding: 20px 0 40px;
- /* position: fixed;
+  padding: 20px 0;
+  /* position: fixed;
   z-index: -1;
   bottom: 0;*/
 
@@ -22,9 +22,11 @@ footer {
   }
 
   .copyright{
+    font-size: em(12,16);
+    font-weight: 100;
+    margin:50px auto 0;
+    padding: 0 20px;
     text-align: center;
-    font-size: em(10,16);
-    margin:20px 20px 0px;
   }
 
   .contact{
@@ -57,6 +59,12 @@ footer {
 
   @include bp(min-width, $bp-small) {
     padding: 40px 0;
+
+    .copyright{
+      a:hover{
+        text-decoration: underline;
+      }
+    }
 
     .colophon{
       max-width: $bp-large;
