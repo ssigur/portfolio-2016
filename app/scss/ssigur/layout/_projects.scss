@@ -16,7 +16,7 @@
   }
 
   article{
-    height: 260px;
+    height: 160px;
     flex: none;
     overflow: hidden;
     width: 100%;
@@ -66,7 +66,7 @@
         @include transition(all .4s ease-out 0s);
 
         .title{
-          font-size: em(28,16);
+          font-size: em(24,16);
           font-weight: 900;
           letter-spacing: 1px;
 
@@ -77,7 +77,7 @@
             display: block;
             background: $c-secondary;
             opacity: .7;
-            margin-top: 14px;
+            margin-top: 6px;
             margin-bottom: 6px;
 
             @include transition(margin .3s ease-out 0);
@@ -153,6 +153,11 @@
 
     /* Old portfolio link ----------------*/
     &.old{
+
+      @include bp(max-width, $bp-small) {
+        height: 200px;
+      }
+
       a{
         background-color: $c-green;
         @include transition(background .3s ease-out 0);
@@ -178,7 +183,7 @@
           text-align: center;
           font-size: em(16,16);
           position: relative;
-          top: 30%;
+          top: 20%;
 
 
           &::before{
@@ -193,7 +198,7 @@
 
             button{
               @extend %btn-phantom;
-              display: none;
+              @extend %hidden-D;
             }
 
           }

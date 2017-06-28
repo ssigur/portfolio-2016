@@ -115,10 +115,15 @@
   height: 48px;
   display: block;
   position: fixed;
-  top: 30px;
-  right: 40px;
+  top: 20px;
+  right: 30px;
   z-index: 1001;
   overflow: visible;
+
+  @include bp(min-width, $bp-small) {
+    right: 40px;
+    top:30px;
+  }
 
   .label{
     color: $c-white;

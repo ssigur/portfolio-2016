@@ -6,11 +6,15 @@ header {
     display: block;
     position: fixed;
     left: 30px;
-    top: 30px;
+    top: 20px;
     z-index: 4;
+
+    @include bp(min-width, $bp-small) {
+      top:30px;
+    }
   }
 
-  
+  /* Layered block */
   &::before{
     content: '';
     width: 100%;
@@ -22,6 +26,5 @@ header {
     transform: translateX(-50%);
     pointer-events: none;
   }
-
 
 }

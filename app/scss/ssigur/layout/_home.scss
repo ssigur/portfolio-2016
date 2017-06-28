@@ -3,78 +3,43 @@
 
 .home{
 
-  @include bp(min-width, $bp-small) {
-    height: 100vh;
-  }
-
   .overlay {
-    align-items: center;
-    background: rgba($c-site,.9);
     @include display(flex);
     @include flex-direction(column);
-    @include justify-content(center);
-    height: 100vh;
-    left: 0;
-    opacity: .8;
-    position: fixed;
+    @include justify-content(flex-end);
+    align-items: center;
+    background: rgba($c-site,.9);
+    height: 270px;
+
     top: 0;
-    visibility: visible;
     width: 100%;
     z-index: 3;
     visibility: visible;
-    /*display: none;*/
 
     @include transition-property(all);
     @include transition-duration(.4s);
     @include transition-timing-function(ease-in-out);
     @include transition-delay(.1s);
 
-
-    &::before{
-      content: '';
-      width: 100%;
-      height:500px;
-      opacity: 0.2;
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      pointer-events: none;
-
-      /*
-      bottom: 10px;
-      background: url("../images/illus.svg") no-repeat 50% 100%;
-
-      background-size: auto;
-
-      @include bp(min-width, $bp-medium) {
-        opacity: 0.1;
-        background-size: 104% auto;
-      }
-      */
-    }
-
-
-    .hide-overlay &{
-      opacity: 0;
-      z-index: -1;
-      visibility: hidden;
-    }
-
     img{
       padding: 1em;
+
+      @include bp(max-width, $bp-small) {
+        transform: scale(.5);
+        margin-bottom: -25px;
+      }
     }
 
     ul{
-      padding: 20px 0;
+      padding: 0 0 40px;
+      margin: 0;
 
       @include transition-property(all);
       @include transition-duration(.4s);
       @include transition-timing-function(ease-in-out);
       @include transition-delay(.1s);
 
-      .hide-overlay &{
-        margin-top: 50%;
-      }
+
     }
 
     li{
@@ -93,16 +58,42 @@
 
     button{
       @extend %btn-phantom;
+      display: none;
+    }
 
-      @include bp(max-width, $bp-small) {
-        padding: 1.5em 2.5em;
-        margin-top:50px;
+  }
+
+  @include bp(min-width, $bp-small) {
+    height: 100vh;
+
+    .overlay{
+      @include justify-content(center);
+      height: 100vh;
+      left: 0;
+      opacity: .8;
+      position: fixed;
+
+      .hide-overlay &{
+        opacity: 0;
+        visibility: hidden;
       }
 
-      &:hover,
-      &:focus{
-        background-color: $c-secondary;
-        border-color: $c-secondary;
+      ul{
+        .hide-overlay &{
+          margin-top: 50%;
+        }
+      }
+
+
+      button{
+        display: block;
+
+        &:hover,
+        &:focus{
+          background-color: $c-secondary;
+          border-color: $c-secondary;
+        }
+
       }
 
     }
