@@ -12,7 +12,18 @@ $(document).ready(function(){
         $('html').addClass('hide-overlay');
     });
 
+    // Keybord Nav
+    $(this).bind('keyup', function(e){
+        switch(e.keyCode){
+            case 37 :
+                $('.projects-prev').click();
+                break;
 
+            case 39 :
+                $('.projects-next').click();
+                break;
+        }
+    });
 
 });
 
