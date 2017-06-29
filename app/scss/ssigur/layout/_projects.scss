@@ -288,7 +288,7 @@
         visibility: visible;
 
         &.turn-up{
-          @include animate-css(pulse, $duration: 2s, $repeat: infinite, $delay: 0s);
+          @include animate-css(rollIn, $duration: 3.5s, $repeat: infinite, $delay: 1.5s);
         }
       }
 
