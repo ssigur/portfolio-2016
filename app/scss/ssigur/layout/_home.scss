@@ -35,7 +35,7 @@
       margin: 0;
 
       @include transition-property(all);
-      @include transition-duration(.4s);
+      @include transition-duration(.5s);
       @include transition-timing-function(ease-in-out);
       @include transition-delay(.1s);
 
@@ -80,7 +80,7 @@
 
       ul{
         .hide-overlay &{
-          margin-top: 50%;
+          margin-top: 100vh;
         }
       }
 

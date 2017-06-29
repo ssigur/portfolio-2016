@@ -75,7 +75,7 @@
             display: block;
             background: $c-secondary;
             opacity: .7;
-            margin-top: 6px;
+            margin-top: 14px;
             margin-bottom: 6px;
 
             @include transition(margin .3s ease-out 0);
@@ -101,25 +101,30 @@
             }
           }
         }
+
+
       }
 
       &:hover,
-      &:focus{
-        cursor: pointer;
+      &:focus,
+      .touchevents &{
+        @include bp(min-width, $bp-small) {
+          cursor: pointer;
 
-        &::before {
-          opacity: .6;
-          @include linear-gradient(rgba($c-site, .1) 40%,rgba($c-site, .6) 60%, $c-site 70%);
-        }
+          &::before {
+            opacity: .6;
+            @include linear-gradient(rgba($c-site, .1) 40%, rgba($c-site, .6) 60%, $c-site 70%);
+          }
 
-        .legend{
-          bottom:10%;
-          opacity:1;
+          .legend {
+            bottom: 10%;
+            opacity: 1;
 
-          .title{
-            &::after{
-              margin-top: 14px;
-              margin-bottom: 6px;
+            .title {
+              &::after {
+                margin-top: 14px;
+                margin-bottom: 6px;
+              }
             }
           }
         }
