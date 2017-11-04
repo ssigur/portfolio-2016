@@ -72,6 +72,11 @@ exports.config = {
 
     "overrides": {
         "DEV": {
+            server:{
+                run: 'yes',
+                command: 'php -S localhost:8000 -t kirby-2',
+            },
+
             "optimize": false,
             "sourceMaps": true,
 

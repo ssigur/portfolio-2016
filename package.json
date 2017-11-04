@@ -2,6 +2,10 @@
   "name": "simple-brunch",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "brunch watch -e DEV",
+    "build": "brunch build --production"
+  },
   "devDependencies": {
     "javascript-brunch": "^1.8.0",
     "imageoptmizer-brunch": "0.0.4",
