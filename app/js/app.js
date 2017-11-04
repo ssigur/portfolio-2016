@@ -9,7 +9,7 @@ $(document).ready(function(){
 
     // home Overlay
     $('.overlay button').on('click', function () {
-        $('html').addClass('hide-overlay');
+        $('main.home').addClass('hide-overlay');
     });
 
     // Keybord Nav
@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 var init = function() {
     // hide / display navigation & home overlay
-    $('html').addClass('hide-navigation').removeClass('show-navigation', 'hide-overlay');
+    $('html').addClass('hide-navigation').removeClass('show-navigation');
 
     // HOME NAVIGATION SLIDE PROJECTS
     var workList    = document.querySelector('.projects-list');
@@ -257,10 +257,10 @@ $(function(){
 
                 // home Overlay
                 $('.overlay button').on('click', function () {
-                    $('html').addClass('hide-overlay');
+                    $('main.home').addClass('hide-overlay');
                 });
 
-                $('html').removeClass('hide-overlay');
+                //$('main.home').removeClass('hide-overlay');
                 $(window).trigger('resize');
 
                 ga('set', { 'page': document.location.pathname, 'title': document.title });

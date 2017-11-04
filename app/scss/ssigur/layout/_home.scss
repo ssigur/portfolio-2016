@@ -66,6 +66,16 @@
   @include bp(min-width, $bp-small) {
     height: 100vh;
 
+    + .footer{
+      display: none;
+    }
+
+    &.hide-overlay{
+      + .footer{
+        display: block;
+      }
+    }
+
     .overlay{
       @include justify-content(center);
       height: 100vh;
@@ -78,13 +88,6 @@
         visibility: hidden;
       }
 
-      ul{
-        .hide-overlay &{
-          margin-top: 100vh;
-        }
-      }
-
-
       button{
         display: block;
 
@@ -96,6 +99,17 @@
 
       }
 
+    }
+
+    &.hide-overlay{
+      .overlay{
+        opacity: 0;
+        visibility: hidden;
+
+        ul{
+          margin-top: 100vh;
+        }
+      }
     }
   }
 }
