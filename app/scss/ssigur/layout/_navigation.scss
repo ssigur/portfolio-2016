@@ -52,13 +52,16 @@
 
 
 .menu{
-  @extend %vertical-align;
+  align-content: center;
+  display: grid;
+  height: 100vh;
 
   a {
     display: block;
     color: $c-white;
     font-weight: 900;
     letter-spacing: 3px;
+    margin: 1rem 0;
     @include transition(all .2s ease-out .1s);
     opacity: .7;
 

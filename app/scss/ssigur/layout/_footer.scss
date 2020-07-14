@@ -19,6 +19,7 @@ footer {
   .desc{
     font-size: em(20,16);
     font-weight: 300;
+    line-height: 1.75rem;
   }
 
   .copyright{
@@ -46,9 +47,14 @@ footer {
 
     a{
       font-size: em(12,16);
-      display: block;
+      display: inline-block;
       line-height: 1.6em;
       opacity: .7;
+      padding: 1rem;
+
+      &:first-of-type {
+        padding-left: 0;
+      }
 
       &:hover,
       &:focus{
@@ -77,15 +83,14 @@ footer {
       }
 
       .contact{
+        border-left: 1px solid white;
         width: 32%;
         float: left;
         margin-top: 20px;
+        padding-left: 20px;
 
         &::before{
-          height: 80px;
-          width: 1px;
-          float: left;
-          margin-right: 20px;
+          content: none;
         }
       }
     }
